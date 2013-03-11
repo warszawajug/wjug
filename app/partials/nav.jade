@@ -1,0 +1,9 @@
+mixin menuEl(url, text)
+  li(attributes, ng-class="getClass('#{url}')")
+    a(ng-href="##{url}") #{text}
+
+ul
+  +menuEl('/first', 'First parallax background')
+  +menuEl('/second', 'Half page section')
+  +menuEl('/third', 'Another background')
+  +menuEl('/test2' , 'Markdown example')

@@ -1,0 +1,10 @@
+
+_public
+
+.DS_Store
+
+node_modules
+
+*.iml
+
+.idea
