@@ -20,7 +20,6 @@ App.config([
 		$routeProvider
 
 			.when('/about', action: 'page1.about')
-			.when('/second', action: 'page1.second')
       .when('/meetings', action: 'page1.meetings')
       .when('/liders', action: 'page1.liders')
       .when('/cooperation', action: 'page1.cooperation')
