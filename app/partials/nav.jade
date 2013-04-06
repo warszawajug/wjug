@@ -2,8 +2,18 @@ mixin menuEl(url, text)
   li(attributes, ng-class="getClass('#{url}')")
     a(ng-href="##{url}") #{text}
 
+mixin menuElOut(url, text)
+    li(attributes, ng-class="getClass('#{url}')")
+        a(ng-href="#{url}") #{text}
 ul
-  +menuEl('/first', 'First parallax background')
-  +menuEl('/second', 'Half page section')
-  +menuEl('/third', 'Another background')
-  +menuEl('/test2' , 'Markdown example')
+  +menuEl('/about', 'o grupie')
+  +menuEl('/meetings', 'spotkania')
+  +menuEl('/liders' , 'liderzy')
+  +menuEl('/cooperation' , 'współpraca')
+  +menuEl('/library' , 'biblioteka')
+  +menuEl('/companies' , 'firmy')
+  +menuElOut('http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com', 'kalendarz')
+  +menuElOut('http://groups.google.com/forum/?fromgroups#!forum/warszawa-jug', 'forum')
+  +menuElOut('http://groups.google.com/group/warszawa-jug/post?sendowner=1&hl=pl&pli=1' , 'kontakt')
+
+//+menuEl('/dlaprelegenta', 'Dla Prelegenta')

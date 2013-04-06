@@ -13,7 +13,7 @@
     <script>
       window.brunch = window.brunch || {};
       window.brunch['auto-reload'] = {
-       enabled: true
+          enabled: true
       };
     </script>
     <script src="js/vendor.js"></script>
@@ -32,7 +32,8 @@
             <p>loading...</p>
           </div>
           <div ng-switch-when="page1" ng-include=" 'partials/partial1.html' " ui-animate></div>
-          <div ng-switch-when="page2" ng-include=" 'partials/partial2.html' " ui-animate></div>
+          <div ng-switch-when="page2" ng-include=" 'partials/page2.html' " ui-animate></div>
+          <!--div(ng-switch-when="contact", ng-include=" 'partials/contact.html' ", ui-animate)-->
         </div>
       </div>
       <div class="push"></div>

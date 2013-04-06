@@ -19,13 +19,17 @@ App.config([
 	($routeProvider, $locationProvider, config) ->
 		$routeProvider
 
-			.when('/first', action: 'page1.first')
+			.when('/about', action: 'page1.about')
 			.when('/second', action: 'page1.second')
-			.when('/third', action: 'page1.third')
-			.when('/test2', action: 'page2')
+      .when('/meetings', action: 'page1.meetings')
+      .when('/liders', action: 'page1.liders')
+      .when('/cooperation', action: 'page1.cooperation')
+      .when('/library', action: 'page1.library')
+      .when('/companies', action: 'page1.companies')
+      .when('/contact', action: 'contact')
 
 		# Catch all
-			.otherwise({redirectTo: '/first'})
+			.otherwise({redirectTo: '/about'})
 
 		# Without server side support html5 must be disabled.
 		$locationProvider.html5Mode(false)

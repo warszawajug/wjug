@@ -1,32 +1,289 @@
 div(ng-controller="PageCtrl")
-	#first.section.background1(scroll-spy, parallax="0.3", page='1')
-		.centered
-			.container
-				.row
-					.span6
-						h1 Nulla nec pede
-						p Suspendisse diam. Fusce aliquam ac, laoreet nisl nulla quam accumsan sit amet, consectetuer pede, at velit nec eros. Nullam justo a nunc. Ut sodales quam. Aliquam pharetra sit amet neque eu dui turpis risus facilisis eget, aliquam euismod pulvinar diam sodales in.
-						p Ut laoreet luctus, purus et magnis dis parturient montes, nascetur ridiculus mus. Nunc placerat tempus, urna ligula sed elit ornare laoreet. Donec mauris sed est. Aliquam gravida vitae, imperdiet vel, purus. Quisque et fringilla gravida. Donec a enim non sem. Quisque lobortis, massa.
-					.span6
-						h1 Mauris in nulla a diam
-						p Quisque lobortis, nibh quis mauris. Nam sit amet risus. Sed orci consequat id, congue risus. Suspendisse potenti. Cras egestas ac, suscipit faucibus mollis. Nulla massa. Vestibulum vitae ante. In gravida at, enim.
-	#second.section.background2(scroll-spy, page='0.5')
-		.centered
-			.container
-				.row
-					.span12
-						h3#test1 Mauris in nulla a diam
-						p Sed adipiscing sollicitudin. Nullam semper semper risus eu venenatis interdum, lacus. Nulla nec pede. Morbi felis enim, sagittis ipsum.
-	#third.section.background3(scroll-spy, parallax="0.3", page='1')
-		.centered
-			.container
-				.row
-					.span4
-						h1 Nulla nec pede
-						p Ut laoreet luctus, purus et magnis dis parturient montes, nascetur ridiculus mus. Nunc placerat tempus, urna ligula sed elit ornare laoreet. Donec mauris sed est. Aliquam gravida vitae, imperdiet vel, purus. Quisque et fringilla gravida. Donec a enim non sem. Quisque lobortis, massa.
-					.span4
-						h1 Mauris in nulla a diam
-						p Aenean pellentesque leo. Cras ut tortor. Mauris in nulla a diam. Donec mi. Pellentesque facilisis diam iaculis arcu nunc venenatis pede. Donec vitae erat ac lacinia id, adipiscing at, mauris. Pellentesque at lacus at sagittis leo, cursus non, tristique ullamcorper. Nam tempor auctor, urna mattis egestas, nunc hendrerit nunc ut lorem. In laoreet ante nec erat ac.
-					.span4
-						h1 Nulla nec pede
-						p Aenean pellentesque leo. Cras ut tortor. Mauris in nulla a diam. Donec mi. Pellentesque facilisis diam iaculis arcu nunc venenatis pede. Donec vitae erat ac lacinia id, adipiscing at, mauris. Pellentesque at lacus at sagittis leo, cursus non, tristique ullamcorper. Nam tempor auctor, urna mattis egestas, nunc hendrerit nunc ut lorem. In laoreet ante nec erat ac.
+    #about.section.background1(scroll-spy, parallax="0.3", page='1')
+        .centered
+            .container
+                .row
+                    .span4
+                        h1 spotkania
+                        p Grupa spotyka się cyklicznie (zwykle co dwa tygodnie) we wtorki,
+                            b  w sali 5440 budynku Wydziału MIMUW na ulicy Banacha 2 w Warszawie, w godzinach 18:00-20:15
+                            | . Prowadzimy tam wykłady, warsztaty i rozmawiamy o najciekawszych technologiach
+                    .span4
+                        h1 on-line
+                        p Dyskutujemy na
+                            a(href='mailto:warszawa-jug@googlegroups.com')  grupie dyskusyjnej
+                            |  którą możesz także śledzić przez
+                            a(href='https://groups.google.com/forum/?fromgroups#!forum/warszawa-jug', title='web')  weba
+                            p Nasze spotkania są często nagrywane i udostępniamy je na naszym kanale
+                                a(href='http://www.youtube.com/channel/UC2coGyxf5x_CzJ3l4F-N-Sw', title='Youtube WJUGa')  Youtube
+                    .span4
+                        h1 konferencje
+                        p Organizujemy dwie, cykliczne, duże konferencje w Warszawie:
+                            a(href='http://confitura.pl', title='confitura')  Confitura
+                            |  oraz
+                            a(href='http://warsjawa.pl', title='warsjava')  Warsjava
+                            | , spotykamy się na hackathonach i warsztatach, recenzujemy książki w interesującej nas tematyce
+                .row
+                    .span6
+                        h1 kim jesteśmy
+                        p Warszawa JUG (albo po prostu WJUG) jest grupą pasjonatów technologii Java. Nasza fascynacja przekłada się na chęć poznawania technologii, frameworków, i metod tworzenia aplikacji na platformie JVM, oraz podnoszenia naszego rzemiosła programistycznego. W tym celu organizujemy cykliczne spotkania. Jest nas ponad 700 osób
+                        h1 dołącz do nas
+                        p Po prosu przyjdź na spotkanie i/lub dopisz się do grupy dyskusyjnej. Grupa jest otwarta i wita zarówno początkujących studentów jak i wymiataczy
+                        p Jeśli chcesz poprowadzić wykład, napisz na
+                            a(href='mailto:warszawa-jug@googlegroups.com')  grupę
+                            |  lub do
+                            a(href='mailto:wjug-regular-meetings@googlegroups.com')  organizatorów
+                            | . To nic trudnego! Z przyjemnością pomagamy początkującym prelegentom
+                    .span6
+                        h1 najbliższe spotkanie
+                        h3 sześć smaków testowania (flashtalks)
+                        p Termin: 09.04.2013 godz. 18:00, Lokalizacja: MIMUW, sala 3180, Sponsor: brak
+                        P Testowanie asynchronicznych operacji z Awaitility - Marcin Zajączkowski
+                        P Spock, czyli czemu zrezygnowaliśmy z JUnita i Mockito - Jakub Nabrdalik
+                        P Testowanie poprzez moduły Guice - Paweł Cesar Sanjuan Szklarz
+                        P Parametryzowane testy w JUnit - Paweł Lipiński
+                        P Czytelne testy dzięki Fest Assert - Michał Lewandowski
+                        P Geb Tomasz Kalkosiński
+
+
+    #meetings.section.background2(scroll-spy, page='1')
+        .centered
+            .container
+                .row
+                    .span12
+                        h1 spotkania
+                        p Aby być na bierząco, zasubskrybuj nasz
+                            a(href='http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com')  kalendarz
+
+                        h3 Przed nami:
+
+                        p 09.04.2013
+                            b  Sześć smaków testowania - flashtalks
+                        p 23.04.2013
+                            b  Garbage collection w low latency Java
+                            |  - Wojciech Kudła | sponsor AppOne
+                        p 07.05.2013
+                            b  Riak: the most powerful open-source, distributed database you'll ever put into production
+                            |  - Paweł Sidoryk
+                        p 14.05.2013
+                            b  TBA Simon Maple
+                        p 28.05.2013
+                            b  Metaprogramowanie przy pomocy InvokeDynamic
+                            |  - Waldek Kot | sponsor: Decerto
+
+                        h3 Za nami:
+
+                        p 26.03.2013 Arquillian - Twój własny kombajn testowy - Jakub Kubryński | sponsor: Grupa Allegro | slajdy
+                        p 12.03.2013 Usability Mateusz Kaczmarek - nagranie
+                        p 26.02.2013 Rozmowy kwalifikacyjne - Jakub Kubryński, Jakub Nabrdalik, Tomek Szymański
+                        p 05.02.2013 Praktyczne wprowadzenie do OSGi i Enterprise OSGi Jacek Laskowski | strona wykładu | sponsor: ATM Systemy Informatyczne S.A. | nagranie
+                        p 22.01.2013 Byteman "fault injection" w praktyce strona wykładu
+                        p 08.01.2013 Metaprogramowanie w Javie strona wykładu | sponsor Polidea
+                        p 18.12.2012 Przyszłość Warszawa JUG Wszyscy zainteresowani
+                        p 11.12.2012 Apache Cassandra w praktyce Tomek Kuprowski | sponsor: FoxCode | kod tu i tu | nagranie - cz.1 | nagranie - cz.2 | slajdy
+                        p 27.11.2012 Apache Cassandra: scalability, performance and fault tolerance in distributed databases Kamil Szymański | slajdy | video
+                        p 13.11.2012 Microbenchmarki z zastosowaniem Calipera Kuba Kubryński | zapowiedź | video | slajdy | kod | sponsor: eConsulting
+                        p 30.10.2012 jQuery + Twitter Bootstrap Bartek Zdanowski | video
+                        p 27.10.2012 Warsjawa 2012
+                        p 16.10.2012 Qooxdoo - framework RIA, który warto polubić Tomek Kuprowski zapowiedź slajdy video
+                        p 02.10.2012 Zrob to sam: STM w Javie Adam Lider zapowiedź slajdy nagranie kod
+                        p 19.06.2012 Java jada RAM. Ile pamięci zjada Java? Michał Kosmulski zapowiedź slajdy (pdf | odp) Sponsor spotkania: NetSprint Nagranie: youtube
+                        p 05.06.2012 Implementacja architektury usługowej - od specifikacji do kodu Paweł Cesar Sanjuan Szklarz | sponsor: Outbox Nagranie: youtube Slajdy: github
+                        p 22.05.2012 Budowanie aplikacji (Java EE 6) z Clojure Jacek Laskowski
+                        p 12.05.2012 (sobota, 10:00-18:00) Warsztaty z języka Scala Grzegorz Balcerek - zapowiedź
+                        p 08.05.2012 Nie utknijcie na Maven2 Wojtek Erbetowski - zapowiedź
+                        p 17.04.2012 Inauguracja WHUG: Quick Start with Hadoop, czyli chciałbym, ale się boję Paweł Brach, Adam Kawa i Tomasz Uliński | sponsor: Taptera
+                        p 03.04.2012 Guava Vs. LambdaJ - kolekcje na sterydach Krzysztof Nielepkowicz
+                        p 27.03.2012 Ameba: mobilny dewelopment na sterydach Jarek Potiuk
+                        p 06.03.2012 Funkcyjny Clojure z Javą, Leiningen, Counterclockwise, Midje i Compojure Jacek Laskowski
+                        p 21.02.2012 Scala - co w tym fajnego i czy da się łączyć z Javą na co dzień? Maciej Jaśkowski | Krótko i zwięźle o Clojure Jacek Laskowski | sponsor: SMT Software S.A.
+                        p 03.01.2012 Koncepcje Guice Bartek Kuczyński oraz Wojtek Erbetowski
+                        p 13.12.2011 Koncepcje Spring Framework Jakub Nabrdalik | sponsor: SoftwareMill
+                        p 29.11.2011 Zmiany JVM w Java 7 Adam Michalik (30 minut), java.util.concurrent.Phaser praktycznie Jacek Laskowski (30 minut)
+                        p 08.11.2011 Eclipse DemoCamp Piotr Chmielewski, Paweł Cesar Sanjuan Szklarz, Jacek Laskowski zapowiedź
+                        p 15.10.2011 Warsjawa
+                        p 11.06.2011 Konferencja Confitura 2011
+                        p 24.05.2011 Koziołek o Vaadin. Bartek Kuczyński zapowiedź
+                        p 19.04.2011 JDK7 - czy na pewno nic nowego? Maciej Próchniak  zapowiedź
+                        p 22.03.2011 Torquebox & CDI - czyli jak napisaliśmy JBisona Adam Warski, Tomek Szymański  zapowiedź
+                        p 15.03.2011 Google z Facebookiem w Twojej aplikacji webowej, czyli co będę pisał sam integrację: THIS IS JAVA!!!! Spring security dla bardzo NIEzaawansowanych Jakub Nabrdalik - zapowiedź
+                        p 22.02.2011 Apache Hadoop i okolice Marcin Cylke - zapowiedź | prezentacja | nagranie - cz.1 | nagranie - cz.2
+                        p 25.01.2011 Tworzenie procesów biznesowych z Activiti i IBM WebSphere BPM (WPS/WID/WLE) Maciek Próchniak, Jakub Krzemień i Jacek Laskowski - zapowiedź | nagranie – Jacek z WID7 | nagranie – Kuba z WLE7
+                        p 11.01.2011 Activiti – BPMN 2.0 nadchodzi Maciek Próchniak - zapowiedź
+                        p 21.12.2010 Jak Clojure koloruje mapy Daniel Janus – zapowiedź | nagranie | nagranie | wpis na blogu | slajdy
+                        p 07.12.2010 O obiektach aktywnych, obcym wołaniu metod takich obiektów i problemie otwartym? Andrzej Salwicki - zapowiedź
+                        p 23.11.2010 Clojure praktyczniej: REPL, Eclipse CCW, Eclipse Mylyn, monady i defrecord Jacek Laskowski - zapowiedź
+                        p 9.11.2010 Sztuczki w językach programowania Cezary Bartoszuk – zapowiedź | nagranie
+                        p 23.10.2010 Konferencja warsjawa 2010
+                        p 19.10.2010 Wstęp do programowania funkcyjnego z Clojure Jacek Laskowski - zapowiedź
+
+    #liders.section.background3(scroll-spy, parallax="0.3", page='1')
+        .centered
+            .container
+                .row
+                    .span12
+                        h1 liderzy
+                        p Jak we wszystkich dobrych projektach Open Source, w organizację eventów grupy zaangażowane jest sporo osób. Poniżej lista z namiarami i zakresami odppowiedzialności
+
+                .row
+                    .span4
+                        h3 organizatorzy spotkań
+                        p Odpowiadają za cykliczne spotkania grupy, ich program, zapraszanie/akceptowanie prelegentów, obsługę/szukanie sponsorów i zapewnienie odpowiedniego poziomu papu intelektualnego
+                        p Wojtek Erbetowski
+                        p Paweł Cesar Sanjuan Szklarz
+                        p Jakub Nabrdalik
+                        p Michał Lewandowski
+                        p Kuba Kubryński
+                        p Kamil Szymański
+                        p Sebastian
+                        p Jacek Laskowski
+
+                    .span4
+                        h3 kapituła confitury
+                        p Odpowiada za organizację największej, darmowej konferencji w Polsce, sponsorów, prelegentów, i masę innych rzeczy
+                        p Michał Margiel
+                        p Krzysztof Kozioł
+                        p Łukasz Lenart
+                        p Bartek Zdanowski
+                        p Tomasz Dziurko
+                        p Kuba Kubryński
+                    .span4
+                        h3 kapituła warsjawy
+                        p Odpowiada za organizację drugiej największej, darmowej konferencji.
+                        p Bolesław Dawidowicz
+                        p Wojciech Erbetowski
+                        p Jakub Koperwas
+                        p Jacek Laskowski
+                        p Kamil Szymański
+                        p Marcin Zajączkowski
+                .row
+                    .span12
+                        h3 zasłużeni w stanie spoczynku
+                        p Grupa chcąc uchonorować osoby, które miały istotny wpływ na jej kształt i prace, brały udział w jej tworzeniu, odznaczyła następujące osoby tytułem honorowego lidera
+                        p Bolesław Dawidowicz
+                        p Paweł Wrzeszcz
+
+
+    #cooperation.section.background4(scroll-spy, page='1')
+        .centered
+            .container
+                .row
+                    .span12
+                        h1 Oferty pracy
+                        p Istnieje możliwość wysłania oferty pracy na forum grupy Warszawa JUG w zamian za pewne wsparcie naszych aktywności, np. przekazanie książek branżowych, pokrycie kosztów kateringu/pizzy/wyżywienia na spotkaniu grupy, opłacenie kosztów wyjazdu członka grupy na konferencję i inne prospołeczne aktywności.
+                        p Każdy mail z ofertą pracy powinien zawierać w tytule [OFERTA] z podaniem nazwy stanowiska, miastem oraz widełkami płacowymi - podobnie jak oferty na grupie oferty-pracy-java. Wiadomość podlega moderacji.
+                        p Wszelkie odstępstwa od tej reguły wiążą się z usunięciem nadawcy z grupy.
+                        p Prosimy o kontakt z nami korzystając z formularza na stronie Wyślij e-maila do właściciela.
+
+                        h1 Sponsorowanie spotkania
+                        p Przewidujemy możliwość prezentacji firmy-sponsora zainteresowanego reklamą siebie, np. w celach rekrutacyjnych, przy otwarciu spotkania.  Sądzimy, że krótkie wprowadzenie o obszarach działalności firmy i jej oczekiwaniach rynkowych oraz ofert pracy znacząco zwiększa możliwości pozyskania wartościowych pracowników z szeregów naszej grupy i później, po opublikowaniu nagrania ze spotkania.
+                        p Zakładamy czas 10 minut, który w naszej ocenie jest wystarczający, aby przekazać właściwą dawkę wiedzy nt. firmy przy jednoczesnym utrzymaniu zainteresowania słuchaczy (którzy przede wszystkim przychodzą na spotkanie techniczne i mogliby źle wspominać je wyłącznie po przedłużającym się wstępie firmy).
+                        p Samo otwarcie spotkania jest częścią "pakietu" sponsorskiego. Udział sponsora jest ponadto nagradzany umieszczeniem jego logo i linka do strony domowej sponsora przy zapowiedzi spotkania, wliczając w to późniejsze archiwum spotkań.
+                        p Istnieje również możliwość rozdania ulotek firmowych sponsora podczas spotkania.
+                        p Zwracamy uwagę na tzw. "gęstość informacji". Z przyjemnością poświęcimy kilkanaście minut, żeby dowiedzieć się, czy w danej firmie warto pracować. Nie interesują nas roczne obroty firmy, ale czy ta informacja przekłada sie jakkolwiek na warunki pracy? Ważne są stawki, nadgodziny, czy w okolicy jest dobre jedzenie, czy w godzinach pracy mogę pójść do lekarza lub odebrac dziecko z przedszkola, jaki jest "WTF factor", narzędzia i metodologia pracy, czy mogę pracować z domu, ścieżka kariery, itp.
+                        p Zachęcamy do delegowania osób technicznych na nasze spotkania z czasem wystąpienia nie przekraczającym 10 minut.
+
+                        h1 Grupa oferty-praca-java
+                        p Zwracamy uwagę na grupę odbiorców oferty, w której znajdują się wyłącznie osoby z Warszawy i okolic (z pewnymi wyjątkami). Istnieje grupa ogólnopolska, która powstała właśnie, aby uprościć komunikację z osobami zainteresowanymi ofertami pracy wokół Javy w Polsce. Zachęcamy do skorzystania z grupy oferty-pracy-java, na której można znaleźć wiele osób spoza naszego WJUGa.
+
+    #library.section.background5(scroll-spy, page='1')
+        .centered
+            .container
+                .row
+                    .span12
+                        h1 Biblioteka Warszawskiego JUGa
+                        p Na półkach Biblioteki Warszawskiego JUGa znajdują się pozycje, jak wymieniono poniżej. Przy pozycjach jest wyświetlona informacja o aktualnie czytającym, dacie wypożyczenia oraz o recenzjach. Zakłada się, że książka wraca tak szybko jak się tylko da, czyli po 1 miesiącu od wypożyczenia z recenzją. Recenzja jest warunkiem koniecznym do otrzymania książki (no cóż, takie życie - nikt nie mówił, że będzie łatwo ;-)).
+                        p Książki do wypożyczenia znajdują się w zasobach innych JUGów. Wystarczy napisać z prośbą o wypożyczenie i w najgorszym (czasowo - konieczność odstania swojego w kolejkach) wypadku książka nadejdzie pocztą:
+
+                .row
+                    .span6
+                        p    RESTful Web Services - Leonard Richardson & Sam Ruby - u Jacka Laskowskiego
+                        p    Learning Ruby - Michael Fitzgerald
+                        p        Book review: Learning Ruby Jacka Laskowskiego
+                        p    Beginning JBoss Seam: From Novice to Professional - Joseph Faisal Nusairat - u Tomka Bujoka
+                        p        JBoss Seam. From novice to proffesional, Appress - recenzja (review) Andrzeja Szczodraka
+                        p    Pro Wicket (eBook) - Karthik Gurumurthy
+                        p    Facelets (eBook) - Robert Swarr
+                        p        Book review: Facelets Jacka Laskowskiego
+                        p    Enterprise JavaBeans 3.0, Fifth Edition - Bill Burke, Richard Monson-Haefel
+                        p    Java EE 5 Development using GlassFish Application Server - David R. Heffelfinger - u Mateusza Zięby
+                        p        Book review: Java EE 5 Development using GlassFish Application Server Jacka Laskowskiego
+                        p        Book review: Java EE 5 Development using GlassFish Application Server Mateusza Zięby
+                        p    Java Concurrency in Practice - Brian Goetz (polski tytuł: Java. Współbieżność dla praktyków) - u Hubert Jankowski
+                        p    Filthy Rich Clients: Developing Animated and Graphical Effects for Desktop Java Applications - Chet Haase, Romain Guy - u Huberta Jankowskiego
+                        p        jest także druga kopia: Wiktor Gworek
+                        p    An Introduction to Testing Web Applications with twill and Selenium by C. Titus Brown, Gheorghe Gheorghiu, Jason Huggins (O'Reilly, June 2007) - wersja PDF - u Jacka Laskowskiego
+                        p        Not a "web-app-testing-bible", but still worth to read - recenzja Tomka Kaczanowskiego
+                        p    Core Servlets and Javaserver Pages: Advanced Technologies, Vol. 2: Advanced Technologies - Marty Hall, Larry Brown, Yaakov Chaikin - u Wiktora Gworka
+                        p    Business Process Management with JBoss jBPM - Matt Cumberlidge (Packt, July 2007) - u Michała Margiela
+                        p    Tapestry 5: Building Web Applications - Alexander Kolesnikov (Packt, January 2008) - u Jacka Laskowskiego
+                        p        only if you don't like online tutorial Piotra Turskiego
+                        p    Wicket in Action - Martijn Dashorst oraz Eelco Hillenius (Manning, Sierpień 2008) - wersja PDF - u Jacka Laskowskiego
+                        p        Must-read as a very fresh and outstanding book about Apache Wicket - recenzja Piotra Przybylaka
+                        p        "Wicket in action? book review recenzja Michała Karolika
+                        p    Book review: Service Oriented Architecture with Java Jacka Laskowskiego
+                        p    Spring in Action, wydanie 2 - Craig Walls oraz Ryan Breidenbach (Manning, Sierpien 2007) - wersja PDF - u Jacka Laskowskiego
+                        p    GWT in Action - Robert Hanson oraz Adam Tacy (Manning, Czerwiec 2007) - wersja PDF - u Jacka Laskowskiego
+                        p    Service Oriented Architecture with Java - Vincenzo Caselli, Binildas A. Christudas, Malhar Barai (Packt, June 2008) - u Bartka Chrabskiego
+                        p        Book review: Service Oriented Architecture with Java Jacka Laskowskiego
+                        p    Facelets Essentials: Guide to JavaServer Faces View Definition Framework - Bruno Aranda, Zubin Wadia (Apress, May 2008) - wersja PDF - u Jacka Laskowskiego
+                        p    Pro Spring 2.5 - Jan Machacek, Jessica Ditt, Aleksa Vukotic, Anirvan Chakraborty (Apress, Aug 2008) - wersja PDF - u Jacka Laskowskiego
+                        p    NetBeans Platform 6 Rich-Client-Entwicklung mit Java Heiko Bock (Galileo Computing, 2008) - u Jacka Laskowskiego
+                        p    The Definitive Guide to Grails, Second Edition Graeme Rocher, Jeff Brown (Apress, Jan 2009) - u Jacka Laskowskiego
+                        p        Book review: The Definitive Guide to Grails, Second Edition Jacka Laskowskiego
+                        p    JBoss Drools Business Rules Paul Browne (Packt, April, 2009) - u Jarka Kijanowskiego
+                        p        Book review: JBoss Drools Business Rules Jarka Kijanowskiego
+                        p    Grails in Action Glen Smith oraz Peter Ledbrook (Manning, Maj 2009) - wersja PDF - u Jacka Laskowskiego
+                        p        Book review: Grails in Action Jacka Laskowskiego
+                        p    Becoming Agile Greg Smith, Ahmed Sidky (Manning, Maj 2009) - PDF - u Jacka Laskowskiego
+                        p    AspectJ in Action, Second Edition Ramnivas Laddad (Manning, Wrzesień 2009) - PDF - u Jacka Laskowskiego
+
+
+                    .span6
+                        p        AspectJ in Action - Review Bartek "Koziołek" Kuczyński
+                        p    Programming Clojure Stuart Halloway (The Pragmatic Programmers, Maj 2009) - PDF - u Jacka Laskowskiego
+                        p    Beginning Java EE 6 Platform with GlassFish 3: From Novice to Professional (Apress, Maj 2009) - PDF - u Jacka Laskowskiego
+                        p    Beginning JSF 2 APIs and JBoss Seam (Apress, Maj 2009) - PDF - u Jacka Laskowskiego
+                        p    Grails A Quick-Start Guide (Pragmatic Bookshelf, Październik 2009) - u Michał Margiel
+                        p        Book review: Grails A Quick-Start Guide Jacka Laskowskiego
+                        p    Spring Enterprise Recipes: A Problem-Solution Approach (Apress, Listopad 2009) - u Jacka Laskowskiego
+                        p        Spring core covered in depth, but the enterprise side not that much - worth reading nevertheless Sebastiana Stolarczyka
+                        p        Tame yet fine to brush up on enterprise Spring Jacka Laskowskiego
+                        p    Dependency Injection Dhanji R. Prasanna (Manning, Sierpień 2009) - PDF - u Jacka Laskowskiego
+                        p        Suddenly turned myself into Guice advocate Jacka Laskowskiego
+                        p    Open Source SOA Jeff Davis (Manning, Maj 2009) - PDF - u Jacka Laskowskiego
+                        p        "Open Source SOA" book review Michał "Freakman" Karolik
+                        p        An immense, well-thought-of book about what, when and how to use Open Source solutions for successful SOA - Jacek Laskowski
+                        p    GlassFish Administration Xuekun Kou (Packt, Grudzień 2009) - u Jacek Laskowski
+                        p        The book should've been titled "Review of available GlassFish v2 features for administrators" Jacka Laskowskiego
+                        p        Book for newbies Anity Karbowskiej
+                        p    WebSphere Application Server 7.0 Administration Guide Steve Robinson (Packt, Sierpień 2009) - u Jacek Laskowski
+                        p        I seemed to have been convinced to build knowledge about WASv7 administration elsewhere Jacka Laskowskiego
+                        p    A Programmer's Guide to Java SCJP Certification: A Comprehensive Primer, 3rd Edition Khalid Mughal, Rolf Rasmussen (Addison-Wesley, Grudzień 2009) u Andrzej Szczodrak
+                        p    Pro JPA 2: Mastering the Java Persistence API Mike Keith, Merrick Schincariol (Apress, December 2009) u Michał Januszewski i Adama Warskiego
+                        p        By no stretch of the imagination could you believe the JPA 2.0 specification goes into detail better Jacka Laskowskiego
+                        p    Professional Oracle WebLogic Server Robert Patrick, Gregory Nyberg, Philip Aston, and Josh Bregman (dzięki Waldkowi Kotowi) - u Piotra Pietrzaka
+                        p    Real-World Functional Programming (With examples in F# and C#) Tomas Petricek with Jon Skeet (Manning, December 2009) - PDF - u Jacek Laskowski
+                        p    Pro SpringSource dm Server Gary Mark, Daniel Rubio (Apress, 2009) - u Tomka Szymańskiego (szimano)
+                        p    Apache CXF Web Service Development Naveen Balani, Rajeev Hathi (Packt, December 2009) u Michała Karolika
+                        p    Growing Object-Oriented Software, Guided by Tests By Steve Freeman, Nat Pryce (Addison-Wesley, October 2009) - u Michała Karolika
+                        p        Challenge your thoughts on growing your software with tests, constantly Jacka Laskowskiego
+                        p        Growing object-oriented software, guided by tests - book review Michała Karolika
+                        p    RESTful Java Web Services by Jose Sandoval (Packt, November 2009) - u Jacka Laskowskiego
+                        p        No match for its title and below my expectations - half the book would make it better Jacka Laskowskiego
+                        p    Practical Clojure by Luke VanderHart, Stuart Sierra (Apress, June 2010) - u Jacka Laskowskiego
+                        p        Kind of Definitive Guide or Reference to the Clojure language - lots of how but not much where and why Jacka Laskowskiego
+                        p            Z Helionu (po polsku):
+                        p                UML 2.1. Ćwiczenia - u Wiktora Gworka
+                        p        Recencja książki: UML 2.1 Ćwiczenia Mateusza Zięby
+                        p    J2ME. Tworzenie gier  - u Wiktora Gworka
+                        p    Struktury danych i techniki obiektowe na przykładzie Javy 5.0  - u Wiktora Gworka
+
+    #companies.section.background6(scroll-spy, parallax="0.3", page='1')
+        .centered
+            .container
+                .row
+                    .span12
+                        h1 najlepsze firmy dla wjugowiczów
+                        p Grupa chciałaby podziękować wszystkim sponsorom i wyróżnić firmy, które się szczególnie zasłużyły
+
