@@ -8,8 +8,6 @@ App.config([
   '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider, config) {
     $routeProvider.when('/about', {
       action: 'page1.about'
-    }).when('/second', {
-      action: 'page1.second'
     }).when('/meetings', {
       action: 'page1.meetings'
     }).when('/liders', {
