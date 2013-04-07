@@ -18,8 +18,12 @@ App.config([
       action: 'page1.library'
     }).when('/companies', {
       action: 'page1.companies'
+    }).when('/partners', {
+      action: 'page1.partners'
     }).when('/contact', {
       action: 'contact'
+    }).when('/meeting/112', {
+      action: 'meeting112'
     }).otherwise({
       redirectTo: '/about'
     });
