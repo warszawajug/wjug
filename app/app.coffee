@@ -25,6 +25,7 @@ App.config([
       .when('/cooperation', action: 'page1.cooperation')
       .when('/library', action: 'page1.library')
       .when('/companies', action: 'page1.companies')
+      .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
 
 		# Catch all
