@@ -210,88 +210,74 @@ div(ng-controller="PageCtrl")
                         p Książki do wypożyczenia znajdują się w zasobach innych JUGów. Wystarczy napisać z prośbą o wypożyczenie i w najgorszym (czasowo - konieczność odstania swojego w kolejkach) wypadku książka nadejdzie pocztą:
 
                 .row
-                    .span6
-                        p    RESTful Web Services - Leonard Richardson & Sam Ruby - u Jacka Laskowskiego
-                        p    Learning Ruby - Michael Fitzgerald
-                        p        Book review: Learning Ruby Jacka Laskowskiego
-                        p    Beginning JBoss Seam: From Novice to Professional - Joseph Faisal Nusairat - u Tomka Bujoka
-                        p        JBoss Seam. From novice to proffesional, Appress - recenzja (review) Andrzeja Szczodraka
-                        p    Pro Wicket (eBook) - Karthik Gurumurthy
-                        p    Facelets (eBook) - Robert Swarr
-                        p        Book review: Facelets Jacka Laskowskiego
-                        p    Enterprise JavaBeans 3.0, Fifth Edition - Bill Burke, Richard Monson-Haefel
-                        p    Java EE 5 Development using GlassFish Application Server - David R. Heffelfinger - u Mateusza Zięby
-                        p        Book review: Java EE 5 Development using GlassFish Application Server Jacka Laskowskiego
-                        p        Book review: Java EE 5 Development using GlassFish Application Server Mateusza Zięby
-                        p    Java Concurrency in Practice - Brian Goetz (polski tytuł: Java. Współbieżność dla praktyków) - u Hubert Jankowski
-                        p    Filthy Rich Clients: Developing Animated and Graphical Effects for Desktop Java Applications - Chet Haase, Romain Guy - u Huberta Jankowskiego
-                        p        jest także druga kopia: Wiktor Gworek
-                        p    An Introduction to Testing Web Applications with twill and Selenium by C. Titus Brown, Gheorghe Gheorghiu, Jason Huggins (O'Reilly, June 2007) - wersja PDF - u Jacka Laskowskiego
-                        p        Not a "web-app-testing-bible", but still worth to read - recenzja Tomka Kaczanowskiego
-                        p    Core Servlets and Javaserver Pages: Advanced Technologies, Vol. 2: Advanced Technologies - Marty Hall, Larry Brown, Yaakov Chaikin - u Wiktora Gworka
-                        p    Business Process Management with JBoss jBPM - Matt Cumberlidge (Packt, July 2007) - u Michała Margiela
-                        p    Tapestry 5: Building Web Applications - Alexander Kolesnikov (Packt, January 2008) - u Jacka Laskowskiego
-                        p        only if you don't like online tutorial Piotra Turskiego
-                        p    Wicket in Action - Martijn Dashorst oraz Eelco Hillenius (Manning, Sierpień 2008) - wersja PDF - u Jacka Laskowskiego
-                        p        Must-read as a very fresh and outstanding book about Apache Wicket - recenzja Piotra Przybylaka
-                        p        "Wicket in action? book review recenzja Michała Karolika
-                        p    Book review: Service Oriented Architecture with Java Jacka Laskowskiego
-                        p    Spring in Action, wydanie 2 - Craig Walls oraz Ryan Breidenbach (Manning, Sierpien 2007) - wersja PDF - u Jacka Laskowskiego
-                        p    GWT in Action - Robert Hanson oraz Adam Tacy (Manning, Czerwiec 2007) - wersja PDF - u Jacka Laskowskiego
-                        p    Service Oriented Architecture with Java - Vincenzo Caselli, Binildas A. Christudas, Malhar Barai (Packt, June 2008) - u Bartka Chrabskiego
-                        p        Book review: Service Oriented Architecture with Java Jacka Laskowskiego
-                        p    Facelets Essentials: Guide to JavaServer Faces View Definition Framework - Bruno Aranda, Zubin Wadia (Apress, May 2008) - wersja PDF - u Jacka Laskowskiego
-                        p    Pro Spring 2.5 - Jan Machacek, Jessica Ditt, Aleksa Vukotic, Anirvan Chakraborty (Apress, Aug 2008) - wersja PDF - u Jacka Laskowskiego
-                        p    NetBeans Platform 6 Rich-Client-Entwicklung mit Java Heiko Bock (Galileo Computing, 2008) - u Jacka Laskowskiego
-                        p    The Definitive Guide to Grails, Second Edition Graeme Rocher, Jeff Brown (Apress, Jan 2009) - u Jacka Laskowskiego
-                        p        Book review: The Definitive Guide to Grails, Second Edition Jacka Laskowskiego
-                        p    JBoss Drools Business Rules Paul Browne (Packt, April, 2009) - u Jarka Kijanowskiego
-                        p        Book review: JBoss Drools Business Rules Jarka Kijanowskiego
-                        p    Grails in Action Glen Smith oraz Peter Ledbrook (Manning, Maj 2009) - wersja PDF - u Jacka Laskowskiego
-                        p        Book review: Grails in Action Jacka Laskowskiego
-                        p    Becoming Agile Greg Smith, Ahmed Sidky (Manning, Maj 2009) - PDF - u Jacka Laskowskiego
-                        p    AspectJ in Action, Second Edition Ramnivas Laddad (Manning, Wrzesień 2009) - PDF - u Jacka Laskowskiego
+                    table
+                        thead
+                            tr
+                                td Lp
+                                td Tytuł
+                                td Autor
+                                td Format
+                                td Gdzie
+                        tbody
+                            - var items= []
+                            - items.push({title:'RESTful Web Services',link:'http://www.oreilly.com/catalog/9780596529260/',author:'Leonard Richardson &amp; Sam Ruby',who:'Jacek Laskowski'})
+                            - items.push({title:'Learning Ruby',link:'http://www.oreilly.com/catalog/9780596529864/',author:'Michael Fitzgerald',who:'Jacek Laskowski'})
+                            - items.push({link:'http://apress.com/book/bookDisplay.html?bID=10234', title:'Beginning JBoss Seam: From Novice to Professional', author:'Joseph Faisal Nusairat',who:'u Tomka Bujoka'})
+                            - items.push({link:'http://apress.com/book/bookDisplay.html?bID=10189', title:'Pro Wicket', author:'Karthik Gurumurthy', format:'eBook'})
+                            - items.push({link:'http://www.oreilly.com/catalog/9780596529246/', title:'Facelets', author:'Robert Swarr', format:'eBook'})
+                            - items.push({link:'http://www.oreilly.com/catalog/entjbeans5/', title:'Enterprise JavaBeans 3.0, Fifth Edition', author:'Bill Burke, Richard Monson-Haefel'})
+                            - items.push({link:'http://www.packtpub.com/Java-EE-5-GlassFish-Application-Servers/book', title:'Java EE 5 Development using GlassFish Application Server', author:'David R. Heffelfinger',who:'u Mateusza Zięby'})
+                            - items.push({link:'http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1199889375&amp;sr=8-1', title:'Java Concurrency in Practice', author:'Brian Goetz',who:'Hubert Jankowski'})
+                            - items.push({link:'http://www.amazon.com/Filthy-Rich-Clients-Developing-Applications/dp/0132413930/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1199889518&amp;sr=1-1', title:'Filthy Rich Clients: Developing Animated and Graphical Effects for Desktop Java Applications', author:'Chet Haase, Romain Guy',who:'u Huberta Jankowskiego i Wiktor Gworek'})
+                            - items.push({link:'http://www.oreilly.com/catalog/functionalwt/', title:'An Introduction to Testing Web Applications with twill and Selenium', author:'C. Titus Brown, Gheorghe Gheorghiu, Jason Huggins',who:'Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://www.amazon.com/Core-Servlets-Javaserver-Pages-Technologies/dp/0131482602/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1205873256&amp;sr=1-1', title:'Core Servlets and Javaserver Pages: Advanced Technologies, Vol. 2: Advanced Technologies', author:'Marty Hall, Larry Brown, Yaakov Chaikin',who:'u Wiktora Gworka'})
+                            - items.push({link:'http://www.packtpub.com/jboss-jbpm/book', title:'Business Process Management with JBoss jBPM', author:'Matt Cumberlidge',who:'Michała Margiela'})
+                            - items.push({link:'http://www.packtpub.com/tapestry-5/book', title:'Tapestry 5: Building Web Applications', author:'Alexander Kolesnikov',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://www.manning.com/dashorst/', title:'Wicket in Action', author:'Martijn Dashorst oraz Eelco Hillenius',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://manning.com/walls3/', title:'Spring in Action', author:'Craig Walls oraz Ryan Breidenbach',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://manning.com/hanson/', title:'GWT in Action', author:'Robert Hanson oraz Adam Tacy',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://www.packtpub.com/service-oriented-architecture-for-java-applications', title:'Service Oriented Architecture with Java', author:'Vincenzo Caselli, Binildas A. Christudas, Malhar Barai (Packt, June 2008)',who:'Bartka Chrabskiego'})
+                            - items.push({link:'http://www.apress.com/book/view/1430210494', title:'Facelets Essentials: Guide to JavaServer Faces View Definition Framework', author:'Bruno Aranda, Zubin Wadia',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://www.apress.com/book/view/1590599217', title:'Pro Spring 2.5', author:'Jan Machacek, Jessica Ditt, Aleksa Vukotic, Anirvan Chakraborty',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://www.galileocomputing.de/katalog/buecher/titel/gp/titelID-1542', title:'NetBeans Platform 6 Rich-Client-Entwicklung mit Java', author:'Heiko Bock',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://www.apress.com/book/view/1590599950', title:'The Definitive Guide to Grails, Second Edition', author:'Graeme Rocher, Jeff Brown',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://www.packtpub.com/jboss-drools-business-rules', title:'JBoss Drools Business Rules', author:'Paul Browne',who:'u Jarka Kijanowskiego'})
+                            - items.push({link:'http://www.manning.com/gsmith/', title:'Grails in Action', author:'Glen Smith oraz Peter Ledbrook',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://www.manning.com/smith/', title:'Becoming Agile', author:'Greg Smith, Ahmed Sidky',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://www.manning.com/laddad2/', title:'AspectJ in Action, Second Edition', author:'Ramnivas Laddad',who:'u Jacka Laskowskiego',format:'PDF'})
+                            - items.push({link:'http://www.pragprog.com/titles/shcloj/programming-clojure', title:'Programming Clojure', author:'Stuart Halloway',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://apress.com/book/view/1430219548', title:'Beginning Java EE 6 Platform with GlassFish 3: From Novice to Professional',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://apress.com/book/view/143021922x', title:'Beginning JSF 2 APIs and JBoss Seam',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://oreilly.com/catalog/9781934356463/', title:'Grails A Quick-Start Guide',who:'u Michał Margiel'})
+                            - items.push({link:'http://www.apress.com/book/view/9781430224976', title:'Spring Enterprise Recipes: A Problem-Solution Approach',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://manning.com/prasanna/', title:'Dependency Injection', author:'Dhanji R. Prasanna',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://manning.com/davis/', title:'Open Source SOA', author:'Jeff Davis',who:'u Jacka Laskowskiego', format:'PDF'})
+                            - items.push({link:'http://www.packtpub.com/glassfish-v2-application-server-administration/book',title:'GlassFish Administration', author:'Xuekun Kou',who:'u Jacek Laskowski'})
+                            - items.push({link:'http://www.packtpub.com/webSphere-application-server-7-0-administration-guide/book',title:'WebSphere Application Server 7.0 Administration Guide', author:'Steve Robinson',who:'u Jacek Laskowski'})
+                            - items.push({link:'http://www.informit.com/store/product.aspx?isbn=0321556054', title:'A Programmer\'s Guide to Java SCJP Certification: A Comprehensive Primer, 3rd Edition', author:'Khalid Mughal, Rolf Rasmussen',who:'u Andrzej Szczodrak'})
+                            - items.push({link:'http://apress.com/book/view/1430219564',title:'Pro JPA 2: Mastering the Java Persistence API', author:'Mike Keith, Merrick Schincariol',who:'u Michał Januszewski i Adama Warskiego'})
+                            - items.push({link:'http://www.amazon.com/Professional-Oracle-WebLogic-Server-Programmer/dp/0470484306/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1270500955&amp;sr=8-1', title:'Professional Oracle WebLogic Server', author:'Robert Patrick, Gregory Nyberg, Philip Aston, and Josh Bregman',who:'Piotra Pietrzaka'})
+                            - items.push({link:'http://www.manning.com/petricek/', title:'Real-World Functional Programming (With examples in F# and C#)', author:'Tomas Petricek with Jon Skeet',who:'u Jacek Laskowski', format:'PDF'})
+                            - items.push({link:'http://apress.com/book/view/1430216409', title:'Pro SpringSource dm Server', author:'Gary Mark, Daniel Rubio',who:'u Tomka Szymańskiego (szimano)'})
+                            - items.push({link:'https://www.packtpub.com/apache-cxf-web-service-development/book', title:'Apache CXF Web Service Development', author:'Naveen Balani, Rajeev Hathi',who:'u Michała Karolika'})
+                            - items.push({link:'http://www.informit.com/store/product.aspx?isbn=0321503627', title:'Growing Object-Oriented Software, Guided by Tests', author:'Steve Freeman, Nat Pryce',who:'u Michała Karolika'})
+                            - items.push({link:'http://www.packtpub.com/restful-java-web-services/book', title:'RESTful Java Web Services', author:'Jose Sandoval',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://apress.com/book/view/9781430272311', title:'Practical Clojure', author:'Luke VanderHart, Stuart Sierra ',who:'u Jacka Laskowskiego'})
+                            - items.push({link:'http://helion.pl/ksiazki/cwuml.htm', title:'UML 2.1. Ćwiczenia', who:'u Wiktora Gworka'})
+                            - items.push({link:'http://na-jawie.wikidot.com/uml-2-1-cwiczenia', title:'Recencja książki: UML 2.1 Ćwiczenia', who:'u Mateusza Zięby'})
+                            - items.push({link:'http://helion.pl/ksiazki/j2metg.htm', title:'J2ME. Tworzenie gier', who:'u Wiktora Gworka '})
+                            - items.push({link:'http://helion.pl/ksiazki/struda.htm', title:'Struktury danych i techniki obiektowe na przykładzie Javy 5.0', who:'u Wiktora Gworka'})
 
+                            - each item, i in items
+                                tr
+                                    td #{i+1}
+                                    td
+                                        a(href= item.link, target='_blank') #{item.title}
+                                    td #{item.author}
+                                    td #{item.format}
+                                    td #{item.who}
+                                    td #{item.remark}
 
-                    .span6
-                        p        AspectJ in Action - Review Bartek "Koziołek" Kuczyński
-                        p    Programming Clojure Stuart Halloway (The Pragmatic Programmers, Maj 2009) - PDF - u Jacka Laskowskiego
-                        p    Beginning Java EE 6 Platform with GlassFish 3: From Novice to Professional (Apress, Maj 2009) - PDF - u Jacka Laskowskiego
-                        p    Beginning JSF 2 APIs and JBoss Seam (Apress, Maj 2009) - PDF - u Jacka Laskowskiego
-                        p    Grails A Quick-Start Guide (Pragmatic Bookshelf, Październik 2009) - u Michał Margiel
-                        p        Book review: Grails A Quick-Start Guide Jacka Laskowskiego
-                        p    Spring Enterprise Recipes: A Problem-Solution Approach (Apress, Listopad 2009) - u Jacka Laskowskiego
-                        p        Spring core covered in depth, but the enterprise side not that much - worth reading nevertheless Sebastiana Stolarczyka
-                        p        Tame yet fine to brush up on enterprise Spring Jacka Laskowskiego
-                        p    Dependency Injection Dhanji R. Prasanna (Manning, Sierpień 2009) - PDF - u Jacka Laskowskiego
-                        p        Suddenly turned myself into Guice advocate Jacka Laskowskiego
-                        p    Open Source SOA Jeff Davis (Manning, Maj 2009) - PDF - u Jacka Laskowskiego
-                        p        "Open Source SOA" book review Michał "Freakman" Karolik
-                        p        An immense, well-thought-of book about what, when and how to use Open Source solutions for successful SOA - Jacek Laskowski
-                        p    GlassFish Administration Xuekun Kou (Packt, Grudzień 2009) - u Jacek Laskowski
-                        p        The book should've been titled "Review of available GlassFish v2 features for administrators" Jacka Laskowskiego
-                        p        Book for newbies Anity Karbowskiej
-                        p    WebSphere Application Server 7.0 Administration Guide Steve Robinson (Packt, Sierpień 2009) - u Jacek Laskowski
-                        p        I seemed to have been convinced to build knowledge about WASv7 administration elsewhere Jacka Laskowskiego
-                        p    A Programmer's Guide to Java SCJP Certification: A Comprehensive Primer, 3rd Edition Khalid Mughal, Rolf Rasmussen (Addison-Wesley, Grudzień 2009) u Andrzej Szczodrak
-                        p    Pro JPA 2: Mastering the Java Persistence API Mike Keith, Merrick Schincariol (Apress, December 2009) u Michał Januszewski i Adama Warskiego
-                        p        By no stretch of the imagination could you believe the JPA 2.0 specification goes into detail better Jacka Laskowskiego
-                        p    Professional Oracle WebLogic Server Robert Patrick, Gregory Nyberg, Philip Aston, and Josh Bregman (dzięki Waldkowi Kotowi) - u Piotra Pietrzaka
-                        p    Real-World Functional Programming (With examples in F# and C#) Tomas Petricek with Jon Skeet (Manning, December 2009) - PDF - u Jacek Laskowski
-                        p    Pro SpringSource dm Server Gary Mark, Daniel Rubio (Apress, 2009) - u Tomka Szymańskiego (szimano)
-                        p    Apache CXF Web Service Development Naveen Balani, Rajeev Hathi (Packt, December 2009) u Michała Karolika
-                        p    Growing Object-Oriented Software, Guided by Tests By Steve Freeman, Nat Pryce (Addison-Wesley, October 2009) - u Michała Karolika
-                        p        Challenge your thoughts on growing your software with tests, constantly Jacka Laskowskiego
-                        p        Growing object-oriented software, guided by tests - book review Michała Karolika
-                        p    RESTful Java Web Services by Jose Sandoval (Packt, November 2009) - u Jacka Laskowskiego
-                        p        No match for its title and below my expectations - half the book would make it better Jacka Laskowskiego
-                        p    Practical Clojure by Luke VanderHart, Stuart Sierra (Apress, June 2010) - u Jacka Laskowskiego
-                        p        Kind of Definitive Guide or Reference to the Clojure language - lots of how but not much where and why Jacka Laskowskiego
-                        p            Z Helionu (po polsku):
-                        p                UML 2.1. Ćwiczenia - u Wiktora Gworka
-                        p        Recencja książki: UML 2.1 Ćwiczenia Mateusza Zięby
-                        p    J2ME. Tworzenie gier  - u Wiktora Gworka
-                        p    Struktury danych i techniki obiektowe na przykładzie Javy 5.0  - u Wiktora Gworka
 
     #companies.section.background6(scroll-spy, parallax="0.3", page='1')
         .centered
