@@ -27,12 +27,14 @@ App.config([
       .when('/companies', action: 'page1.companies')
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
+      .when('/meeting/112', action: 'meeting112')
 
 		# Catch all
 			.otherwise({redirectTo: '/about'})
 
 		# Without server side support html5 must be disabled.
 		$locationProvider.html5Mode(false)
+
 
 
 
