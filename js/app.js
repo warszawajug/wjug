@@ -15,7 +15,7 @@ App.config([
     }).when('/cooperation', {
       action: 'page1.cooperation'
     }).when('/library', {
-      action: 'page1.library'
+      action: 'library'
     }).when('/companies', {
       action: 'page1.companies'
     }).when('/partners', {
