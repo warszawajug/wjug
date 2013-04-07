@@ -23,7 +23,7 @@ App.config([
       .when('/meetings', action: 'page1.meetings')
       .when('/liders', action: 'page1.liders')
       .when('/cooperation', action: 'page1.cooperation')
-      .when('/library', action: 'page1.library')
+      .when('/library', action: 'library')
       .when('/companies', action: 'page1.companies')
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
