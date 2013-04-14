@@ -24,6 +24,8 @@ App.config([
       action: 'contact'
     }).when('/meeting/112', {
       action: 'meeting112'
+    }).when('/meeting/113', {
+      action: 'meeting113'
     }).otherwise({
       redirectTo: '/about'
     });
