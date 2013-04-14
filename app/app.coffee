@@ -28,6 +28,7 @@ App.config([
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
       .when('/meeting/112', action: 'meeting112')
+      .when('/meeting/113', action: 'meeting113')
 
 		# Catch all
 			.otherwise({redirectTo: '/about'})
