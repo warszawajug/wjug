@@ -27,6 +27,11 @@ App.config([
       .when('/companies', action: 'page1.companies')
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
+      .when('/meeting/106', action: 'meeting106')
+      .when('/meeting/107', action: 'meeting107')
+      .when('/meeting/108', action: 'meeting108')
+      .when('/meeting/110', action: 'meeting110')
+      .when('/meeting/111', action: 'meeting111')
       .when('/meeting/112', action: 'meeting112')
       .when('/meeting/113', action: 'meeting113')
 
