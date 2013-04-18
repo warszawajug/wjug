@@ -4,7 +4,7 @@ mixin menuEl(url, text)
 
 mixin menuElOut(url, text)
     li(attributes, ng-class="getClass('#{url}')")
-        a(ng-href="#{url}", target='_blank') #{text}
+        a(ng-href="#{url}") #{text}
 ul
   +menuEl('/about', 'o grupie')
   +menuEl('/meetings', 'spotkania')
