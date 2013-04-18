@@ -185,7 +185,7 @@ buf.push.apply(buf, __indent);
 buf.push('<li');
 buf.push(attrs(merge({ 'ng-class':("getClass('" + (url) + "')") }, attributes), merge({"ng-class":true}, escaped, true)));
 buf.push('><a');
-buf.push(attrs({ 'ng-href':("" + (url) + ""), 'target':('_blank') }, {"ng-href":true,"target":true}));
+buf.push(attrs({ 'ng-href':("" + (url) + "") }, {"ng-href":true}));
 buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a></li>');
 };
 buf.push('\n<ul>');
