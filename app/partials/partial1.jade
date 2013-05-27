@@ -37,11 +37,11 @@ div(ng-controller="PageCtrl")
                     .span6
                         h1 najbliższe spotkanie
                         h3
-                            a(href='http://test.kata.org.pl')  Test kata
-                        p Termin: 25.05.2013 godz. 10:00, Zapisy i dyskusja:
-                            a(href="http://www.meetup.com/Warszawa-Java-User-Group-Warszawa-JUG/events/120249322/")  Meetup
-                        p Test kata jest kontynuacją wykłądu 6 smaków testowania, w formie warsztatów. Podczas całodniowego warsztatu, zostaną przedstawione i wypróbowane różne sposoby testowania kodu w wielu różnych językach i frameworkach.
-                        p: a(href="http://test.kata.org.pl")  więcej...
+                            a(href="#/meeting/117")  Type Driven Development
+                        p Termin: 4.06.2013 godz. 18:00; Prelegent: Maciej Próchniak
+                        p W językach z odpowiednio silnym systemem typów - takich jak Scala lub Haskell kompilator może wykonywać część testów za nas. Często można usłyszeć argumenty w stylu: "nie jestem w stanie wymyślić żadnych sensownych bugów, które mogą być wykryte przez kompilator".
+                        p Chciałbym przedstawić kilka przykładów w Scali które (mam nadzieję) pokażą że to stwierdzenie nie jest prawdą - zaczynając od najprostszych, takich jak unikanie NullPointerException, a kończąc na eksperymentalnych próbach definiowania dość złożonych kontraktów jakie możemy znaleźć w takich biblitotekach jak Scalaz i Shapeless.
+                        p: a(href="#/meeting/117")  więcej...
 
     #meetings.section.background2(scroll-spy, page='1')
         .centered
@@ -52,11 +52,12 @@ div(ng-controller="PageCtrl")
                         p Aby być na bieżąco, zasubskrybuj nasz
                             a(href='http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com')  kalendarz
                         h3 Przed nami:
-                        p 25.05.2013
-                            a(href="#/meeting/116")  Test kata   
-                            | - Wielu prelegentów
-                        p 18.06.2013 
-                            a(href="#/meeting/117") Java Memory Model 
+                        p 04.06.2013
+                            a(href="#/meeting/117")  Type Driven Development
+                            | - Maciej Próchniak
+
+                        p 18.06.2013
+                            a(href="#/meeting/118")  Java Memory Model
                             | - Michał Warecki
                         p ?
                             b  Metaprogramowanie przy pomocy InvokeDynamic
@@ -65,20 +66,23 @@ div(ng-controller="PageCtrl")
                         p Sezon 2013/14
                             b  Serwer w Javie   
                             | - Adam Lider
-                        h3 Za nami:
                 .row
                     .span12
+                        h3 Za nami:
+                        p 25.05.2013
+                            a(href="#/meeting/116")  Test kata
+                            |  - Wielu prelegentów
                         p 21.05.2013
                             a(href="#/meeting/115")  Moje pierwsze kroki w programowaniu funkcyjnym w Scali
-                            | - Jacek Laskowski | sponsor:
+                            |  - Jacek Laskowski | sponsor:
                             a(href='http://www.decerto.pl/', target='_blank')  Decerto
                         p 07.05.2013
                             a(href="#/meeting/114")  Redis, Riak, MongoDB - 3 smaki NoSQL
-                            | - Jakub Nabrdalik, Paweł Cesar Sanjuan Szklarz, Paweł Sidoryk | sponsor:
+                            |  - Jakub Nabrdalik, Paweł Cesar Sanjuan Szklarz, Paweł Sidoryk | sponsor:
                             a(href='http://pl.adpilot.com/', target='_blank')  AdPilot
                         p 23.04.2013
                             a(href="#/meeting/113")  HotSpot w low latency Java
-                            | - Wojciech Kudła | sponsor:
+                            |  - Wojciech Kudła | sponsor:
                             a(href='http://appone.pl/', target='_blank')  AppOne
                         p 09.04.2013
                             a(href="#/meeting/112")  Sześć smaków testowania - flashtalks
