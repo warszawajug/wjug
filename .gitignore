@@ -2,3 +2,5 @@ _public
 node_modules
 scripts
 *.iml
+.DS_Store
+.idea
