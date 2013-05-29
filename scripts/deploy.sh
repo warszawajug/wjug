@@ -107,7 +107,7 @@ cp -r -v ./_public/* ./
 
 # if anything new
 git add .
-verifyAnyChangesAreToBeCommitted
+# verifyAnyChangesAreToBeCommitted # this part is problematic
 
 # add & commit & push
 echo "'autoupdate to $currentHashOnMaster '"
