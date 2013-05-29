@@ -29,12 +29,13 @@ verifyAnyChangesAreToBeCommitted() {
 
     startPrintingYellow
         echo "Found changes to be committed."
-        git status
     stopColloringEcho
+    git status
 }
 
 cleanAndReturnToMaster() {
     git reset --hard
+    git clean -f -x
     git checkout master
 }
 
@@ -64,9 +65,21 @@ verifyEverythingIsPushedToOrigin() {
     fi
 }
 
+printRules() {
+    echo "-----------------------------------------------------------------------------------------------------------------"
+    echo "RULES:"
+    echo "1. You need to be in main git dir and on master."
+    echo "2. You need to be up-to-date for master."
+    echo "3. Commit, PULL and PUSH your changes before you deploy."
+    echo "4. Enjoy. Or pray."
+    echo "-----------------------------------------------------------------------------------------------------------------"
+}
+
 ###############################################################
 # work starts here
 ###############################################################
+
+printRules
 
 # sanity check
 verifyEverythingIsCommited
@@ -87,16 +100,16 @@ stopColloringEcho
 
 # checkout gh-pages
 git checkout gh-pages
+git pull origin gh-pages
 
 # override content
-cp -r _public/*
+cp -r -v ./_public/* ./
 
 # if anything new
+git add .
 verifyAnyChangesAreToBeCommitted
 
 # add & commit & push
-
-git add .
 echo "'autoupdate to $currentHashOnMaster '"
 git commit -m "'autoupdate to $currentHashOnMaster '"
 git push origin gh-pages
