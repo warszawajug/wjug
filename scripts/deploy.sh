@@ -69,8 +69,8 @@ stopColloringEcho() {
 ###############################################################
 
 # sanity check
-#verifyEverythingIsCommited
-#verifyEverythingIsPushedToOrigin
+verifyEverythingIsCommited
+verifyEverythingIsPushedToOrigin
 
 # pull from master
 git checkout master
