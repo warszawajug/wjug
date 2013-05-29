@@ -29,6 +29,7 @@ verifyAnyChangesAreToBeCommitted() {
 
     startPrintingYellow
         echo "Found changes to be committed."
+        git status
     stopColloringEcho
 }
 
