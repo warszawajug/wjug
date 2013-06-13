@@ -37,11 +37,11 @@ div(ng-controller="PageCtrl")
                     .span6
                         h1 najbliższe spotkanie
                         h3
-                            a(href="#/meeting/117")  Type Driven Development
-                        p Termin: 4.06.2013 godz. 18:00; Prelegent: Maciej Próchniak
-                        p W językach z odpowiednio silnym systemem typów - takich jak Scala lub Haskell kompilator może wykonywać część testów za nas. Często można usłyszeć argumenty w stylu: "nie jestem w stanie wymyślić żadnych sensownych bugów, które mogą być wykryte przez kompilator".
-                        p Chciałbym przedstawić kilka przykładów w Scali które (mam nadzieję) pokażą że to stwierdzenie nie jest prawdą - zaczynając od najprostszych, takich jak unikanie NullPointerException, a kończąc na eksperymentalnych próbach definiowania dość złożonych kontraktów jakie możemy znaleźć w takich bibliotekach jak Scalaz i Shapeless.
-                        p: a(href="#/meeting/117")  więcej...
+                            a(href="#/meeting/118")  Java Memory Model
+                        p Termin: 18.06.2013 godz. 18:00; Prelegent: Michał Warecki
+                        p Java Memory Model (JMM) opisuje jak wątki współdziałają ze sobą poprzez pamięć. Czy wiesz, że instrukcje Twojego kodu mogą się wykonać w innej kolejności niż je napisałeś? Czy wiesz, że kilka wątków może widzieć zupełnie inną wartość tej samej zmiennej? Czy wiesz, że możesz mieć na to wpływ?
+                        p Głównymi pojęciami wchodzącymi w skład JMM są: zmiana kolejności instrukcji, niepodzielność (atomowość) oraz widzialność. Aby pokazać jak to wszystko działa, sięgnę aż do instrukcji maszynowych generowanych przez HotSpot JVM.
+                        p: a(href="#/meeting/118")  więcej...
 
     #meetings.section.background2(scroll-spy, page='1')
         .centered
@@ -52,23 +52,22 @@ div(ng-controller="PageCtrl")
                         p Aby być na bieżąco, zasubskrybuj nasz
                             a(href='http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com')  kalendarz
                         h3 Przed nami:
-                        p 04.06.2013
-                            a(href="#/meeting/117")  Type Driven Development
-                            | - Maciej Próchniak
-
                         p 18.06.2013
                             a(href="#/meeting/118")  Java Memory Model
                             | - Michał Warecki
-                        p ?
-                            b  Metaprogramowanie przy pomocy InvokeDynamic
-                            | - Waldek Kot | sponsor:
-                            a(href='http://decerto.pl/')  Decerto
+                        p 06.07.2013
+                            a(href='http://2013.confitura.pl/', target='_blank')  Confitura 2013
                         p Sezon 2013/14
                             b  Serwer w Javie   
                             | - Adam Lider
+                        p 12.10.2013
+                            a(href='http://warsjawa.pl/', target='_blank')  Warsjawa 2013
                 .row
                     .span12
                         h3 Za nami:
+                        p 04.06.2013
+                            a(href="#/meeting/117")  Type Driven Development
+                            | - Maciej Próchniak
                         p 25.05.2013
                             a(href="#/meeting/116")  Test kata
                             |  - Wielu prelegentów
@@ -117,9 +116,12 @@ div(ng-controller="PageCtrl")
                         p 27.11.2012 Apache Cassandra: scalability, performance and fault tolerance in distributed databases Kamil Szymański | slajdy | video
                         p 13.11.2012 Microbenchmarki z zastosowaniem Calipera Kuba Kubryński | zapowiedź | video | slajdy | kod | sponsor: eConsulting
                         p 30.10.2012 jQuery + Twitter Bootstrap Bartek Zdanowski | video
-                        p 27.10.2012 Warsjawa 2012
+                        p 27.10.2012
+                            a(href='https://sites.google.com/site/warszawajug/warsjawa-2012', target='_blank')  Warsjawa 2012
                         p 16.10.2012 Qooxdoo - framework RIA, który warto polubić Tomek Kuprowski zapowiedź slajdy video
                         p 02.10.2012 Zrob to sam: STM w Javie Adam Lider zapowiedź slajdy nagranie kod
+                        p 30.06.2012
+                            a(href='http://2012.confitura.pl/', target='_blank')  Confitura 2012
                         p 19.06.2012 Java jada RAM. Ile pamięci zjada Java? Michał Kosmulski zapowiedź slajdy (pdf | odp) Sponsor spotkania: NetSprint Nagranie: youtube
                         p 05.06.2012 Implementacja architektury usługowej - od specifikacji do kodu Paweł Cesar Sanjuan Szklarz | sponsor: Outbox Nagranie: youtube Slajdy: github
                         p 22.05.2012 Budowanie aplikacji (Java EE 6) z Clojure Jacek Laskowski
@@ -134,8 +136,10 @@ div(ng-controller="PageCtrl")
                         p 13.12.2011 Koncepcje Spring Framework Jakub Nabrdalik | sponsor: SoftwareMill
                         p 29.11.2011 Zmiany JVM w Java 7 Adam Michalik (30 minut), java.util.concurrent.Phaser praktycznie Jacek Laskowski (30 minut)
                         p 08.11.2011 Eclipse DemoCamp Piotr Chmielewski, Paweł Cesar Sanjuan Szklarz, Jacek Laskowski zapowiedź
-                        p 15.10.2011 Warsjawa
-                        p 11.06.2011 Konferencja Confitura 2011
+                        p 15.10.2011
+                            a(href='https://github.com/warszawajug/warsjawa2011/wiki/Konferencja-warsjawa-2011', target='_blank')  Warsjawa 2011
+                        p 11.06.2011
+                            a(href='http://2011.confitura.pl/', target='_blank')  Confitura 2011
                         p 24.05.2011 Koziołek o Vaadin. Bartek Kuczyński zapowiedź
                         p 19.04.2011 JDK7 - czy na pewno nic nowego? Maciej Próchniak  zapowiedź
                         p 22.03.2011 Torquebox & CDI - czyli jak napisaliśmy JBisona Adam Warski, Tomek Szymański  zapowiedź
@@ -147,7 +151,8 @@ div(ng-controller="PageCtrl")
                         p 07.12.2010 O obiektach aktywnych, obcym wołaniu metod takich obiektów i problemie otwartym? Andrzej Salwicki - zapowiedź
                         p 23.11.2010 Clojure praktyczniej: REPL, Eclipse CCW, Eclipse Mylyn, monady i defrecord Jacek Laskowski - zapowiedź
                         p 9.11.2010 Sztuczki w językach programowania Cezary Bartoszuk – zapowiedź | nagranie
-                        p 23.10.2010 Konferencja warsjawa 2010
+                        p 23.10.2010
+                            a(href='https://github.com/warszawajug/warsjawa2010/wiki/Konferencja-Warsjawa-2010', target='_blank')  Warsjawa 2010
                         p 19.10.2010 Wstęp do programowania funkcyjnego z Clojure Jacek Laskowski - zapowiedź
 
     #liders.section.background3(scroll-spy, parallax="0.3", page='1')
