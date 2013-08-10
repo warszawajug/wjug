@@ -12,8 +12,43 @@ div
                         p Sponsor:
                             a(href='http://pl.adpilot.com/', target='_blank')  AdPilot
                         p Zapisy i dyskusja
-                            a(href="http://www.meetup.com/Warszawa-Java-User-Group-Warszawa-JUG/", target='_blank')  Meetup
-                        h3 O prezentacji:
-                        p Na wykładzie zostaną przedstawione trzy NoSQL'owe bazy danych. Riak zaprezentuje Paweł Sidoryk, MongoDB zaprezentuje Jakub Narbdalik, Redis zaprezentuje Paweł Cesar Sanjuan Szklarz.
+                        ul 
+                            li 
+                                a(href="http://www.meetup.com/Warszawa-Java-User-Group-Warszawa-JUG/", target='_blank')  Meetup
+                            li 
+                                a(href="https://groups.google.com/forum/#!topic/warszawa-jug/OQtouw4D_50", target='_blank')  grupa
+                            li 
+                                a(href="https://docs.google.com/file/d/0B8d787eZJXI_YlNSZmdJcERrSkE/edit?usp=sharing", target='_blank')  plakat
                         p
                             <iframe width="853" height="480" src="http://www.youtube.com/embed/r3wIYOggWmU" frameborder="0" allowfullscreen></iframe>
+                        h3 Temat pierwszy: RIAK
+                        p Riak jest skalowalną oraz odporną na awarie rozproszoną bazą danych. Jest rozwijany jako projekt open source. Riak oferuje wiele cennych i unikalnych funkcji:
+                        ul 
+                            li jest stworzony do pracy w rozproszonych środowiskach (również w chmurze)
+                            li działa na zasadzie równorzędnych węzłów i nie występuje w nim problem "single point of failure"
+                            li jest odporny na awarie nawet wielu węzłów jednocześnie, gwarantuje że nigdy nie utracimy naszych danych
+                            li oferuje wysoką dostępność danych w aplikacjach wymagających bardzo dużego poziomu odczytu i zapisu danych
+                            li skaluje się w prosty i inteligentny sposób , bez przerywania pracy systemu
+                            li jest  bardzo stabilny, świetnie sprawdza się jako fundament infrastruktury chmurowej 
+                            li oferuje funkcje MapReduce, wbudowane rozproszone wyszukiwanie pełnotekstowe
+                        p W trakcie wykładu będą zaprezentowane następujące rzeczy:
+                        ul
+                            li klaster zbudowany na bazie kilku komputerów Raspberry PI. Będziemy np. próbowali "zepsuć" taki klaster wyciągając wtyczki LAN
+                            li lokalne środowisko deweloperskie z 4 węzłami
+                            li wprowadzenie do podstawowych funkcji Riak-a: mechanizm replikacji, wybór trybu spójności, indeksy pomocnicze, MapReduce, wyszukiwanie pełnotekstowe
+                            li obsługa współbieżności operacji na danych za pomocą mechanizmu zegara logicznego ("vector clock")
+                            li komunikacja z bazą Riak za pomocą wywołań REST
+                            li komunikacja z bazą Riak z poziomu Javy
+                            li zalecany model danych
+                            li wady Riak-a (jest ich bardzo mało)
+                        h3 O prelegencie: Paweł Sidoryk
+                        p Paweł Sidoryk od 15 lat zawodowo zajmuje się rozwojem oprogramowania jako architekt, lider techniczny oraz programista. Lubi łączyć teorię z praktyką. Obecnie interesuje się systemami rozproszonymi (głównie Riak) oraz matematycznym modelowaniem systemów (z użyciem języka Alloy).
+                        h3 Temat drugi: Redis
+                        p Redis to bardzo prosta baza w pamięci zainspirowana przez memcache. Do struktury klucz-> wartość nakłada dodatkowe struktury danych i operacje atomowe na nich. Pokażę jak mechanizmy transakcji i atomowość pomagają przekładać ciężar niektórych algorytmów do Redisa.
+                        h3 O prelegencie: Paweł Cesar Sanjuan Szklarz
+                        p Matematyk, 8 lat doświadczenie jako programista/architekt. Praca głównie w javie, ale coraz częściej Scala i node.js (javascript). Mocna angażowany w działaniu Warszawa Java User Group (WJUG). Specjalizuję się w implementacji architektur usługowych i wdrażam własny pomysł na realizacji injektowania zdalnego. Mąż, Ojciec, Polak-Meksykanin. 
+                        h3 Temat trzeci: MongoDB
+                        p MongoDB jest najpopularniejszą NoSQLową bazą danych. Prawdopodobnie głównie dlatego, że posiada większość mechanizmów do których przyzwyczailiśmy się w relacyjnych bazach danych (ad hoc queries, secondary indexes, atomowość), a jednocześnie daje wiele, których próżno szukać w RDBMSach (automatyczne shardowanie, load balancing i replikacja, map-reduce). Przede wszystkich, MongoDB jest jedną z niewielu baz dokumentowych, co dramatycznie zmienia sposób naszej pracy z nią.
+                        p Używam MongoDB od pół roku produkcyjnie w projektach dla banku. Postaram się krótko przedstawić, jakie MongoDB ma feature'y, po co i jak się z tego korzysta. Czasu jest mało, więc nie liczcie na szczegóły, a bardziej na informacje co MongoDB może wam dać i dlaczego warto się nią zainteresować. 
+                        h3 O prelegencie: Jakub Nabrdalik
+                        p Solution Architect @ TouK. 10 lat Groovy, Java, C#, PHP | PostgreSQL, Oracle, MS SQL, MySQL i w końcu MongoDB. Nie znosi kiepskiego kodu, stąd sporą część życia zawodowego skupił na Test Driven Development, Domain Driven Design i Software Craftsmanship movement. Team leader i project manager, programista, analityk, etc. Bloguje na blog.solidcraft.eu.
