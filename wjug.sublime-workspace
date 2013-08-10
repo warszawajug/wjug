@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"toUpperCase"
+			],
+			[
+				"ato",
+				"atomic-clock"
+			],
+			[
+				"at",
+				"atomic-clock"
+			],
+			[
+				"the",
+				"the-world"
+			],
+			[
+				"ref",
+				"ref-set"
+			],
+			[
+				"st",
+				"street"
+			],
+			[
+				"firs",
+				"first-name"
+			],
+			[
+				"la",
+				"last"
+			],
+			[
+				"fir",
+				"first-name"
+			],
+			[
+				"full",
+				"full-name"
+			],
+			[
+				"ls",
+				"last-name"
+			],
+			[
+				"las",
+				"last-name"
+			],
+			[
+				"c",
+				"comes"
+			],
+			[
+				"cons",
+				"cons-iter"
+			],
+			[
+				"your",
+				"your-road"
+			],
+			[
+				"key",
+				"key-not-found"
+			],
+			[
+				"a",
+				"and"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"he",
+				"header_font"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "div\n    .section(page='1')\n        .centered\n            .container\n                .row\n                    .span12\n                        h4 104 spotkanie WJUGa\n                        h2 Apache Cassandra w praktyce\n                        h3 Maciej Jankowski, Wojtek Erbetowski\n                        p Termin: 08.01.2013 godz. 18:00\n                        p Lokalizacja: MIMUW, sala 3180\n                        p Sponsor:\n                            a(href='http://polidea.pl/', target='_blank')  Polidea\n                        p Zapisy i dyskusja\n                            a(href=\"http://www.meetup.com/Warszawa-Java-User-Group-Warszawa-JUG/events/97869552/\", target='_blank')  Meetup\n                        strong Materiały:\n                        ul \n                            li \n                                a(href='https://docs.google.com/file/d/0B3sikUV-sttFU2JiY3FEZnhVYWs/edit', target='_blank')  slajdy Maćka\n                            li\n                                a(href='https://github.com/wojtekerbetowski/metaprogramming-in-java-slides', target='_blank')  slajdy Wojtka\n                        h3 O prezentacji:\n                        p Ten wykład to absolutny \"must\" dla wszystkich developerów związanych z Javą (i w ogóle JVM). Początkujący w temacie dowiedzą się podstaw działania większości Javowych frameworków, czyli o manipulacjach na bytecode. Dowiecie się jak narzędzia są w stanie m. in. utworzyć mocki nagrywające wywołania w testach, czy założyć transakcje na naszą logikę biznesową. Mimo, że zaczniemy od podstaw w prezentacji będzie też kilka ciekawostek i uzupełnień wiedzy dla wytrawnych programistów. Zaczniemy od wprowadzenia do generowania bytecodu, łącznie z pokazaniem, jak zrobić prostą klasę z niczego w czasie działania aplikacji. Następnie zobaczycie jak opakowują to najpopularniejsze biblioteki w używalny kod, oraz kto (jakie popularne frameworki) z tych narzędzi korzysta. Później już bardzo konkretnie opowiemy o CGLib, który w tej dziedzinie jest de facto standardem, a na sam koniec narzędzie, które powstało stosunkowo niedawno, czyli Plastic.\n                        h3 O prelegentach: \n                        p Maciej od ośmiu lat programuje w Javie. Od pięciu lat komercyjnie. Nie lubi przetartych szlaków. Pasjonat nietypowych rozwiązań. Obecnie pracuje jako programista Java.\n                        p Wojtek jest Wam znany jako jeden z organizatorów warszawskiego JUG. W pracy programuje w Groovym, Scali i Javie, a także w Pythonie. Ostatnio stworzył bibliotekę RoboSpock, przy okazji której podszkolił się z tematu ładowania klas w Javie. Po godzinach już rozgląda się za nowym językiem/technologią.\n                        p\n                            <iframe width=\"853\" height=\"480\" src=\"http://www.youtube.com/embed/XgDWF5iTnKo\" frameborder=\"0\" allowfullscreen></iframe>\n",
+			"file": "app/partials/meetings/104.jade",
+			"file_size": 2948,
+			"file_write_time": 1376053699000000,
+			"settings":
+			{
+				"buffer_size": 2858,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"cloj",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"clojure",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"repl",
+				"SublimeREPL: Shell"
+			],
+			[
+				"rel",
+				"SublimeREPL: Shell"
+			],
+			[
+				"term",
+				"Open in terminal"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"load",
+				"SublimeREPL: Load current file"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/assets/partials/meetings.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/20_partition.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/19_java_interop.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/11_sequence_comprehensions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/18_datatypes.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/17_macros.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/16_atoms.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/15_refs.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/14_destructuring.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/12_creating_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/13_recursion.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/10_lazy_sequences.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/09_runtime_polymorphism.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/08_higher_order_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/07_conditionals.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/06_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/04_sets.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/05_maps.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/03_vectors.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/02_lists.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/01_equalities.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/_layouts/layout.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/_includes/content.html",
+		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/MacTerminal/MacTerminal.sublime-settings",
+		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.net.sublime-project",
+		"/Users/krzysztofsiejkowski/.bashrc",
+		"/Users/krzysztofsiejkowski/.gitconfig",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/index.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/css/style.css",
+		"/Users/krzysztofsiejkowski/eclipses/eclipse_functional/eclipse.ini"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"m",
+			"           (",
+			"li",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/partials/meetings/104.jade",
+					"settings":
+					{
+						"buffer_size": 2858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"_includes/content.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 121.0,
+	"status_bar_visible": true
+}
