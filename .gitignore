@@ -8,3 +8,7 @@ node_modules
 *.iml
 
 .idea
+
+wjug.sublime-project
+
+wjug.sublime-workspace  
