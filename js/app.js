@@ -23,6 +23,8 @@ App.config([
       action: 'page1.partners'
     }).when('/contact', {
       action: 'contact'
+    }).when('/by-you', {
+      action: 'by-you'
     });
     for (num = _i = 1; _i <= 200; num = ++_i) {
       $routeProvider.when("/meeting/" + num, {
