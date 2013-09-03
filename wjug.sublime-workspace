@@ -1,0 +1,527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"toUpperCase"
+			],
+			[
+				"ato",
+				"atomic-clock"
+			],
+			[
+				"at",
+				"atomic-clock"
+			],
+			[
+				"the",
+				"the-world"
+			],
+			[
+				"ref",
+				"ref-set"
+			],
+			[
+				"st",
+				"street"
+			],
+			[
+				"firs",
+				"first-name"
+			],
+			[
+				"la",
+				"last"
+			],
+			[
+				"fir",
+				"first-name"
+			],
+			[
+				"full",
+				"full-name"
+			],
+			[
+				"ls",
+				"last-name"
+			],
+			[
+				"las",
+				"last-name"
+			],
+			[
+				"c",
+				"comes"
+			],
+			[
+				"cons",
+				"cons-iter"
+			],
+			[
+				"your",
+				"your-road"
+			],
+			[
+				"key",
+				"key-not-found"
+			],
+			[
+				"a",
+				"and"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"he",
+				"header_font"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"cloj",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"clojure",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"repl",
+				"SublimeREPL: Shell"
+			],
+			[
+				"rel",
+				"SublimeREPL: Shell"
+			],
+			[
+				"term",
+				"Open in terminal"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"load",
+				"SublimeREPL: Load current file"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/README.md",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/wjug.sublime-workspace",
+		"/Users/krzysztofsiejkowski/ToukProjects/stratus-mobile/sign_and_deploy.sh",
+		"/Users/krzysztofsiejkowski/ToukProjects/stratus-mobile/build.xml",
+		"/Applications/J2ME-Polish2.3/global.properties",
+		"/Volumes/97C807C1-22B8-4459-BC21-5D0887411106-68202-0000C214C522C4D0/additions/compatibility",
+		"/Volumes/EBA2A489-0DC7-4D4B-BDFF-6CFC87B61EA7-67919-0000C0592A913507/system/lib/hw/sensors.exDroid.so",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/106.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/107.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/108.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/109.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/103.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/102.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/117.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/118.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/113.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/114.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/112.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/111.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/110.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/104.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/101.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/97.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/78.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/79.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/by-you.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/app.coffee",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/nav.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/by-you.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/74.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/72.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/70.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/76.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/71.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/73.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/75.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/115.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/80.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/81.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/82.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/84.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/86.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/85.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/87.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/88.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/89.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/92.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/96.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/90.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/91.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/93.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/95.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/98.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/99.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/assets/partials/meetings.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/20_partition.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/19_java_interop.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/11_sequence_comprehensions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/18_datatypes.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/17_macros.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/16_atoms.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/15_refs.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/14_destructuring.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/12_creating_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/13_recursion.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/10_lazy_sequences.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/09_runtime_polymorphism.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/08_higher_order_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/07_conditionals.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/06_functions.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/04_sets.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/05_maps.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/03_vectors.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/02_lists.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/clojure-koans/src/koans/01_equalities.clj",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/_layouts/layout.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/_includes/content.html",
+		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/MacTerminal/MacTerminal.sublime-settings",
+		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.net.sublime-project",
+		"/Users/krzysztofsiejkowski/.bashrc",
+		"/Users/krzysztofsiejkowski/.gitconfig",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/index.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/css/style.css",
+		"/Users/krzysztofsiejkowski/eclipses/eclipse_functional/eclipse.ini"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")\n",
+			"m",
+			"           (",
+			"li",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"109",
+				"app/partials/meetings/109.jade"
+			],
+			[
+				"108",
+				"app/partials/meetings/108.jade"
+			],
+			[
+				"107",
+				"app/partials/meetings/107.jade"
+			],
+			[
+				"106",
+				"app/partials/meetings/106.jade"
+			],
+			[
+				"103",
+				"app/partials/meetings/103.jade"
+			],
+			[
+				"102",
+				"app/partials/meetings/102.jade"
+			],
+			[
+				"118",
+				"app/partials/meetings/118.jade"
+			],
+			[
+				"117",
+				"app/partials/meetings/117.jade"
+			],
+			[
+				"114",
+				"app/partials/meetings/114.jade"
+			],
+			[
+				"113",
+				"app/partials/meetings/113.jade"
+			],
+			[
+				"112",
+				"app/partials/meetings/112.jade"
+			],
+			[
+				"111",
+				"app/partials/meetings/111.jade"
+			],
+			[
+				"110",
+				"app/partials/meetings/110.jade"
+			],
+			[
+				"104",
+				"app/partials/meetings/104.jade"
+			],
+			[
+				"101",
+				"app/partials/meetings/101.jade"
+			],
+			[
+				"97",
+				"app/partials/meetings/97.jade"
+			],
+			[
+				"78",
+				"app/partials/meetings/78.jade"
+			],
+			[
+				"79",
+				"app/partials/meetings/79.jade"
+			],
+			[
+				"index",
+				"app/index.jade"
+			],
+			[
+				"by",
+				"app/partials/by-you.jade"
+			],
+			[
+				"nav",
+				"app/partials/nav.jade"
+			],
+			[
+				"74",
+				"app/partials/meetings/74.jade"
+			],
+			[
+				"72",
+				"app/partials/meetings/72.jade"
+			],
+			[
+				"76",
+				"app/partials/meetings/76.jade"
+			],
+			[
+				"115",
+				"app/partials/meetings/115.jade"
+			],
+			[
+				"86",
+				"app/partials/meetings/86.jade"
+			],
+			[
+				"92",
+				"app/partials/meetings/92.jade"
+			],
+			[
+				"96",
+				"app/partials/meetings/96.jade"
+			],
+			[
+				"partial",
+				"app/partials/partial1.jade"
+			],
+			[
+				"con",
+				"_includes/content.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true
+}
