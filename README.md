@@ -1,3 +1,22 @@
+# Poniżej jest README z oryginalnego projektu na podstawie którego jest strona, a tutaj jest szybki crash-course jak to odpalić.
+
+* Wejdź na http://nodejs.org/ i ściągnij nodejs, rozpakuj, uruchom
+
+  ./configure
+
+  make
+
+  sudo make install
+
+
+* teraz zainstaluj markdownanpm
+
+  install marked --save
+
+3. wróć do katalogu projektu i odpal
+
+  ./scripts/server.sh
+
 # angular-brunch-seed
 ### A starter project for AngularJS using Brunch.io
 
