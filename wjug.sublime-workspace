@@ -87,14 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
-			"settings":
-			{
-				"buffer_size": 58,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -184,6 +176,18 @@
 	},
 	"file_history":
 	[
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/package.json",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/65.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/66.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/67.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/68.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/69.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/70.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/assets/index.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/app.coffee",
+		"/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/README.md",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/wjug.sublime-workspace",
 		"/Users/krzysztofsiejkowski/ToukProjects/stratus-mobile/sign_and_deploy.sh",
@@ -197,8 +201,6 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/109.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/103.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/102.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/117.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/118.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/113.jade",
@@ -212,12 +214,10 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/78.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/79.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/by-you.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/app.coffee",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/nav.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/by-you.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/74.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/72.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/70.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/76.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/71.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/73.jade",
@@ -288,6 +288,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"devoxx",
 			")\n",
 			"m",
 			"           (",
@@ -310,35 +311,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
-					"settings":
-					{
-						"buffer_size": 58,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54,
-								54
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -383,6 +357,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"parta",
+				"app/partials/partial1.jade"
+			],
 			[
 				"read",
 				"README.md"
