@@ -1,14 +1,12 @@
-
-_public
-
 .DS_Store
-
-node_modules
-
 *.iml
-
 .idea
-
 wjug.sublime-project
-
-wjug.sublime-workspace  
+wjug.sublime-workspace
+#NodeJS modules
+node_modules/
+#generated content
+_public/
+app/assets/index.html
+app/assets/partials/*.html
+app/assets/partials/meetings/*.html
