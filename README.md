@@ -17,6 +17,10 @@
 
   ./scripts/server.sh
 
+### Jak dodać link do relacji ze spotkania?
+
+Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326] (https://github.com/jakubnabrdalik/wjug/commit/7edcf87aba4d7733f3c3f2362c0239ce28d37326)
+
 # angular-brunch-seed
 ### A starter project for AngularJS using Brunch.io
 
