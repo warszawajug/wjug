@@ -87,6 +87,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.jade",
+			"settings":
+			{
+				"buffer_size": 8186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/partial1.jade",
+			"settings":
+			{
+				"buffer_size": 32190,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -176,14 +192,18 @@
 	},
 	"file_history":
 	[
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/69.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/68.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/67.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/66.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/65.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/64.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/63.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/62.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/_public/partials/meetings/68.html",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/package.json",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/65.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/66.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/67.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/68.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/69.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/70.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/assets/index.html",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/app.coffee",
@@ -311,8 +331,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.jade",
+					"settings":
+					{
+						"buffer_size": 8186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2313,
+								2313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 502.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/partials/partial1.jade",
+					"settings":
+					{
+						"buffer_size": 32190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22228,
+								22228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6475.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -357,6 +434,46 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"69",
+				"app/partials/meetings/69.jade"
+			],
+			[
+				"68",
+				"app/partials/meetings/68.jade"
+			],
+			[
+				"67",
+				"app/partials/meetings/67.jade"
+			],
+			[
+				"66",
+				"app/partials/meetings/66.jade"
+			],
+			[
+				"65",
+				"app/partials/meetings/65.jade"
+			],
+			[
+				"64",
+				"app/partials/meetings/64.jade"
+			],
+			[
+				"63",
+				"app/partials/meetings/63.jade"
+			],
+			[
+				"part",
+				"app/partials/partial1.jade"
+			],
+			[
+				"partia",
+				"app/partials/partial1.jade"
+			],
+			[
+				"in",
+				"app/index.jade"
+			],
 			[
 				"parta",
 				"app/partials/partial1.jade"
