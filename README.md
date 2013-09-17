@@ -1,4 +1,4 @@
-# Poniżej jest README z oryginalnego projektu na podstawie którego jest strona, a tutaj jest szybki crash-course jak to odpalić.
+# Crash-course jak to odpalić
 
 * Wejdź na http://nodejs.org/ i ściągnij nodejs, rozpakuj, uruchom
 
@@ -9,43 +9,21 @@
   sudo make install
 
 
-* teraz zainstaluj markdownanpm
+* teraz zainstaluj markdowna
 
-  install marked --save
+  npm install marked --save
 
-3. wróć do katalogu projektu i odpal
+* wróć do katalogu projektu i odpal
 
   ./scripts/server.sh
 
-# angular-brunch-seed
-### A starter project for AngularJS using Brunch.io
+### Jak dodać link do relacji ze spotkania?
 
-[AngularJS](http://angularjs.org) + [Brunch](http://brunch.io)
+Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326](https://github.com/jakubnabrdalik/wjug/commit/7edcf87aba4d7733f3c3f2362c0239ce28d37326)
 
-Features:
-* Coffeescript / Jade / Less / SASS / SCSS / Stylus automatically compiled on save
-* auto-reload during development saves you from manually refreshing the page
-* Javascript / CSS minification for production
-* [testacular](https://github.com/vojtajina/testacular) integration for
-  unit tests
-* Bootstrap integration with themes.
+# Co ja kodzę, czyli czego używamy tak naprawdę:
 
-## Alternate Versions
-
-- [Livescript](https://github.com/clkao/angular-brunch-seed-livescript) by [@clkao](https://github.com/clkao) - Uses [Livescript](http://livescript.net/) instead of [Coffeescript](http://coffeescript.org/)
-- [True North](https://github.com/scoarescoare/angular-brunch-true-north) by [@scoarescoare](https://github.com/scoarescoare) - Uses [SASS](http://sass-lang.com/) instead of [LESS](http://lesscss.org/)
-- [Bower Support](https://github.com/GulinSS/angular-brunch-seed) by [@GulinSS](https://github.com/GulinSS) - Uses [Bower](https://github.com/twitter/bower) for package management
-
-## How to use angular-brunch-seed
-
-* `git clone https://github.com/scotch/angular-brunch-seed.git` to clone the **angular-brunch-seed** repository
-* `cd angular-brunch-seed`
-* `./scripts/init.sh` to install node packages
-
-or if you have **Brunch** installed run:
-
-`brunch new myapp --skeleton https://github.com/scotch/angular-brunch-seed`
-
+[angular-brunch-seed](https://github.com/scotch/angular-brunch-seed)
 
 ### Using Jade
 
@@ -79,41 +57,6 @@ correctly.
 * `./scripts/production.sh` to minify javascript and css files.
 
 Please be aware of the caveats regarding Angular JS and minification, take a look at [Dependency Injection](http://docs.angularjs.org/guide/di) for information.
-
-### Running unit tests
-
-* `./scripts/test.sh` to run unit tests with [testacular](https://github.com/vojtajina/testacular)
-* Open the browser you would like to test to [http://localhost:3334](http://localhost:3334)
-
-Notes:
-
-- Testacular will run tests on save. To insure that changes are
-saved be sure to have `./script/server.sh` or `./script/development.sh` running in the console.
-- If you are on OS X you set the browsers that you would like to target
-  in the `/test/testacular_conf.js` file E.g. `browser = ["ChromeCanary", "Firefox"]`
-
-### End to end testing
-
-* run the app in development mode as described above using a separate terminal
-* `./scripts/test-e2e.sh` to run e2e tests with [testacular](https://github.com/vojtajina/testacular) using angular's scenario runner
-
-### Common issues
-
-Initial load does not render correctly; scripts are not loading. 
-- Occasionally the scripts will not load properly on the initial 
-  load. If this occurs, refresh the page. Subsequent refresh will render
-  correctly.
-
-`EMFILE` error
-- EMFILE means there are too many open files. Brunch watches all your project files and it's usually a pretty big number. You can fix this error with setting max opened file count to bigger number with command ulimit -n <number> (10000 should be enough).
-
-The compelete [Brunch FAQ](https://github.com/brunch/brunch/blob/master/docs/faq.rst)
-### Receiving updates from upstream
-
-When we upgrade angular-seed's repo with newer angular or testing library code, you can just
-fetch the changes and merge them into your project with git.
-
-`git pull origin master`
 
 ## Directory Layout
 
@@ -199,9 +142,5 @@ fetch the changes and merge them into your project with git.
           sapling             --> supplemental theme
             _overrides.less
             _variables.less
-
-## Contributers
-
-[Complete list of code contributers](https://github.com/scotch/angular-brunch-seed/graphs/contributors)
 
 For more information on angular please check out <http://angularjs.org>
