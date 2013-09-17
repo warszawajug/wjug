@@ -87,22 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/index.jade",
-			"settings":
-			{
-				"buffer_size": 8186,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/partials/partial1.jade",
-			"settings":
-			{
-				"buffer_size": 32190,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -192,23 +176,60 @@
 	},
 	"file_history":
 	[
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/119.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/114.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/30.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/31.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/33.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/_public/partials/meetings/33.html",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/32.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/34.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/35.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/36.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/37.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/38.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/39.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/40.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/41.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/42.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/43.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/44.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/45.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/46.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/47.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/48.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/49.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/50.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/51.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/52.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/53.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/54.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/55.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/56.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/57.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/58.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/59.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/63.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/61.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/60.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/79.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/88.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/62.jade",
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/README.md",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/69.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/68.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/67.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/66.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/65.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/64.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/63.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/62.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/partial1.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/_public/partials/meetings/68.html",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/package.json",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/index.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/70.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/assets/index.html",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/app.coffee",
 		"/Users/krzysztofsiejkowski/ToukProjects/haboob/zenithBank/eaZymoney/build.gradle",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/README.md",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/wjug.sublime-workspace",
 		"/Users/krzysztofsiejkowski/ToukProjects/stratus-mobile/sign_and_deploy.sh",
 		"/Users/krzysztofsiejkowski/ToukProjects/stratus-mobile/build.xml",
@@ -224,7 +245,6 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/117.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/118.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/113.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/114.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/112.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/111.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/110.jade",
@@ -232,7 +252,6 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/101.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/97.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/78.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/79.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/by-you.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/nav.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/by-you.jade",
@@ -250,7 +269,6 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/86.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/85.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/87.jade",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/88.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/89.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/92.jade",
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/wjug/app/partials/meetings/96.jade",
@@ -285,12 +303,7 @@
 		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/_includes/content.html",
 		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/MacTerminal/MacTerminal.sublime-settings",
 		"/Users/krzysztofsiejkowski/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.net.sublime-project",
-		"/Users/krzysztofsiejkowski/.bashrc",
-		"/Users/krzysztofsiejkowski/.gitconfig",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/index.html",
-		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.github.com/css/style.css",
-		"/Users/krzysztofsiejkowski/eclipses/eclipse_functional/eclipse.ini"
+		"/Users/krzysztofsiejkowski/Dropbox/projekty/siejkowski.net/siejkowski.net.sublime-project"
 	],
 	"find":
 	{
@@ -308,6 +321,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"erbetows",
+			"clojure",
+			"61",
 			"devoxx",
 			")\n",
 			"m",
@@ -331,65 +347,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/index.jade",
-					"settings":
-					{
-						"buffer_size": 8186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2313,
-								2313
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 502.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/partials/partial1.jade",
-					"settings":
-					{
-						"buffer_size": 32190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22228,
-								22228
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6475.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -435,6 +394,70 @@
 		"selected_items":
 		[
 			[
+				"114",
+				"app/partials/meetings/114.jade"
+			],
+			[
+				"inde",
+				"app/index.jade"
+			],
+			[
+				"31",
+				"app/partials/meetings/31.jade"
+			],
+			[
+				"33",
+				"app/partials/meetings/33.jade"
+			],
+			[
+				"34",
+				"app/partials/meetings/34.jade"
+			],
+			[
+				"35",
+				"app/partials/meetings/35.jade"
+			],
+			[
+				"index",
+				"app/index.jade"
+			],
+			[
+				"41",
+				"app/partials/meetings/41.jade"
+			],
+			[
+				"46",
+				"app/partials/meetings/46.jade"
+			],
+			[
+				"51",
+				"app/partials/meetings/51.jade"
+			],
+			[
+				"53",
+				"app/partials/meetings/53.jade"
+			],
+			[
+				"63",
+				"app/partials/meetings/63.jade"
+			],
+			[
+				"61",
+				"app/partials/meetings/61.jade"
+			],
+			[
+				"79",
+				"app/partials/meetings/79.jade"
+			],
+			[
+				"88",
+				"app/partials/meetings/88.jade"
+			],
+			[
+				"62",
+				"app/partials/meetings/62.jade"
+			],
+			[
 				"69",
 				"app/partials/meetings/69.jade"
 			],
@@ -457,10 +480,6 @@
 			[
 				"64",
 				"app/partials/meetings/64.jade"
-			],
-			[
-				"63",
-				"app/partials/meetings/63.jade"
 			],
 			[
 				"part",
@@ -515,10 +534,6 @@
 				"app/partials/meetings/117.jade"
 			],
 			[
-				"114",
-				"app/partials/meetings/114.jade"
-			],
-			[
 				"113",
 				"app/partials/meetings/113.jade"
 			],
@@ -549,14 +564,6 @@
 			[
 				"78",
 				"app/partials/meetings/78.jade"
-			],
-			[
-				"79",
-				"app/partials/meetings/79.jade"
-			],
-			[
-				"index",
-				"app/index.jade"
 			],
 			[
 				"by",
