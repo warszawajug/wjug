@@ -9,10 +9,13 @@
             <h2>O obiektach aktywnych, obcym wołaniu metod takich obiektów i problemie otwartym?</h2>
             <h3> <a href="http://www.mimuw.edu.pl/~salwicki/" target="_blank">prof. dr hab. Andrzej Salwicki</a></h3>
             <p>Termin: 07.12.2010 godz. 18:00</p>
-            <p>Lokalizacja: MIMUW, sala 5440</p><strong>Dyskusja <a href="https://groups.google.com/forum/#!topic/warszawa-jug/EzYKsF7zFuE" target="_blank">dyskusja</a></strong>
+            <p>Lokalizacja: MIMUW, sala 5440</p><strong>Dyskusja </strong>
+            <ul>
+              <li><a href="https://groups.google.com/forum/#!topic/warszawa-jug/EzYKsF7zFuE" target="_blank">dyskusja</a></li>
+            </ul>
             <h3>O prezentacji:</h3>
-            <p> </p>Podczas prezentacji omówię obiekty aktywne (rodzaj wątków) i oryginalną, obiektową koncepcję komunikacji/synchronizacji obiektów aktywnych zaproponowaną przez Bolka Ciesielskiego w 1988. Metody obiektu aktywnego mogą dynamicznie zmieniać swój status:
-            <p> </p>prywatny -> publiczny -> prywatny -> publiczny -> ...
+            <p>Podczas prezentacji omówię obiekty aktywne (rodzaj wątków) i oryginalną, obiektową koncepcję komunikacji/synchronizacji obiektów aktywnych zaproponowaną przez Bolka Ciesielskiego w 1988. Metody obiektu aktywnego mogą dynamicznie zmieniać swój status:</p>
+            <p>prywatny -> publiczny -> prywatny -> publiczny -> ...</p>
             <p>------ enable m --- disable m ----- ....</p>
             <p>Wywołanie z obiektu Y metody m w obiekcie X wygląda zwyczajnie (*call*) X.m(...). Różnice sprowadzają się do kilku punktów:</p>
             <ul>
@@ -20,8 +23,8 @@
               <li>aby mogło do tego dojść, metoda m obiektu X musi być publiczna (ang. enabled),</li>
               <li>takie obce wołanie metody może być zrealizowane w sposób synchroniczny, spotkanie instrukcji wywołania (w Y) z instrukcją accept (w X), lub w sposób asynchroniczny (wywołanie metody PRZERYWA wykonywanie wątku X'a - X wykonuje metodę m - i wraca do dalszego ciągu swego wątku).</li>
             </ul>
-            <p> Odczyt przedstawi szczegóły i omówi zalety takiego rozwiazania. Pomysł ten jest wykonalny (sprawdzono w Loglanie'82).</p>
-            <p> Na zakończenie przedstawimy interfejs AO (obiekt aktywny) i sformułujemy wyzwanie: zaimplementować ten interfejs w Javie lub udowodnić, że nie mozna tego zrobić bez modyfikacji JVM. Za rozwiązanie problemu przysługuje nagroda!</p>
+            <p>Odczyt przedstawi szczegóły i omówi zalety takiego rozwiazania. Pomysł ten jest wykonalny (sprawdzono w Loglanie'82).</p>
+            <p>Na zakończenie przedstawimy interfejs AO (obiekt aktywny) i sformułujemy wyzwanie: zaimplementować ten interfejs w Javie lub udowodnić, że nie mozna tego zrobić bez modyfikacji JVM. Za rozwiązanie problemu przysługuje nagroda!</p>
           </div>
         </div>
       </div>
