@@ -41,23 +41,26 @@ div(ng-controller="PageCtrl")
                             | .
                     .span6
                         h1 najbliższe spotkanie
-                        h3 Server w Javie
-                        p Prelegent: Adam Lider
-                        p Termin: 24.09.2013 godz. 18:00
+                        h3 
+                            a(href='#/meeting/121') AngularJS 101
+                        p Prelegent: Marek Lewandowski
+                        p Termin: 08.10.2013 godz. 18:00
+                        p Sponsor: 
+                            a(href="http://icompass.pl/", target='_blank'): img(src='img/sponsors/icompass-logo.png')
                 .row
                     .span12
                         h3 nadal Ci mało? spotkajmy się też tutaj:
                 .row
                     .span2
-                        a(href='http://jdd.org.pl'): img(src='img/partners/jdd.png')
+                        a(href='http://jdd.org.pl', target='_blank'): img(src='img/partners/jdd.png')
                     .span2
-                        a(href='http://2013.agilebyexample.com/'): img(src='img/partners/abe.png')
+                        a(href='http://2013.agilebyexample.com/', target='_blank'): img(src='img/partners/abe.png')
                     .span2
-                        a(href='https://regbe.devoxx.com'): img(src='img/partners/Devoxx2013-125x125.gif', width=120)
+                        a(href='https://regbe.devoxx.com', target='_blank'): img(src='img/partners/Devoxx2013-125x125.gif', width=120)
                     .span2
-                        a(href='http://mobilecentraleurope.com/'): img(src='img/partners/mce.png')
+                        a(href='http://mobilecentraleurope.com/', target='_blank'): img(src='img/partners/mce.png')
                     .span2
-                        a(href='http://warsjawa.pl', title='warsjawa'):  img(src='img/partners/warsjawa2.png') Warsjawa
+                        a(href='http://warsjawa.pl', title='warsjawa', target='_blank'):  img(src='img/partners/warsjawa2.png') Warsjawa
 
 
 
@@ -70,10 +73,10 @@ div(ng-controller="PageCtrl")
                         p Aby być na bieżąco, zasubskrybuj nasz
                             a(href='http://www.google.com/calendar/render?cid=7dmp09fjl82d57m3dgu4gj020g@group.calendar.google.com')  kalendarz
                         h3 Przed nami:
-                        p 24.09.2013 
-                            a(href='#/meeting/120') Serwer w Javie 
-                            | - Adam Lider
-                        p 08.10.2013 AngularJS - Marek Lewandowski
+                        p 08.10.2013 
+                            a(href='#/meeting/121') AngularJS 101 
+                            | - Marek Lewandowski | sponsor: 
+                            a(href="http://icompass.pl/", target='_blank') iCompass
                         p 12.10.2013
                             a(href='http://warsjawa.pl/', target='_blank')  Warsjawa 2013
                         p 22.10.2013 Spring Data - Kuba Kubryński
@@ -81,6 +84,9 @@ div(ng-controller="PageCtrl")
                 .row
                     .span12
                         h3 Za nami:
+                        p 24.09.2013 
+                            a(href='#/meeting/120') Serwer w Javie 
+                            | - Adam Lider
                         p 10.09.2013
                             a(href='#/meeting/119')  Flash-talks: Tig, Fish shell, jOOX, Togglz
                             |  - Mariusz Smykuła, Mateusz Grzechociński,
@@ -691,16 +697,16 @@ div(ng-controller="PageCtrl")
                         h1 licencje sponsorują
                     .span3
                         p
-                            a(href='http://zeroturnaround.com/software/jrebel/'): img(src='img/partners/JRebel_logo.png', width=200)
+                            a(href='http://zeroturnaround.com/software/jrebel/', target='_blank'): img(src='img/partners/JRebel_logo.png', width=200)
                     .span3
                         p
-                            a(href='http://www.jetbrains.com/idea'): img(src='img/partners/jetbrains.gif', width=200)
+                            a(href='http://www.jetbrains.com/idea', target='_blank'): img(src='img/partners/jetbrains.gif', width=200)
                     .span3
                         p
-                            a(href='http://www.ej-technologies.com/products/jprofiler/overview.html'): img(src='img/partners/jprofiler.png', width=200)
+                            a(href='http://www.ej-technologies.com/products/jprofiler/overview.html', target='_blank'): img(src='img/partners/jprofiler.png', width=200)
                     .span3
                         p
-                            a(href='http://www.retrospective.centeractive.com/?wjug'): img(src='img/partners/retrospective.png', width=200)
+                            a(href='http://www.retrospective.centeractive.com/?wjug', target='_blank'): img(src='img/partners/retrospective.png', width=200)
 
                     //biblioteka
                 .row
@@ -708,16 +714,16 @@ div(ng-controller="PageCtrl")
                         h1 książki sponsorują
                     .span2
                         p
-                            a(href='http://www.manning.com/'): img(src='img/partners/manning.jpg', width=200)
+                            a(href='http://www.manning.com/', target='_blank'): img(src='img/partners/manning.jpg', width=200)
                     .span2
                         p
-                            a(href='http://www.informit.com'): img(src='img/partners/pearson.jpg', width=200)
+                            a(href='http://www.informit.com', target='_blank'): img(src='img/partners/pearson.jpg', width=200)
                     .span2
                         p
-                            a(href='http://www.packtpub.com/index'): img(src='img/partners/packt_logo.png', width=200)
+                            a(href='http://www.packtpub.com/index', target='_blank'): img(src='img/partners/packt_logo.png', width=200)
                     .span2
                         p
-                            a(href='http://apress.com'): img(src='img/partners/apress-logo.png', width=200)
+                            a(href='http://apress.com', target='_blank'): img(src='img/partners/apress-logo.png', width=200)
                     .span3
                         p
-                            a(href='http://www.oreilly.com'): img(src='img/partners/oraily.gif', width=200)
+                            a(href='http://www.oreilly.com', target='_blank'): img(src='img/partners/oraily.gif', width=200)
