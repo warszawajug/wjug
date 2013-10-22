@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .DS_Store
 *.iml
 .idea
@@ -11,11 +10,3 @@ _public/
 app/assets/index.html
 app/assets/partials/*.html
 app/assets/partials/meetings/*.html
-=======
-_public
-node_modules
-scripts
-*.iml
-.DS_Store
-.idea
->>>>>>> f405007e6e3f5852bdaf784554a592379007f80e
