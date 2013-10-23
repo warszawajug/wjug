@@ -8,18 +8,46 @@
 
   sudo make install
 
-
 * teraz zainstaluj markdowna
 
   npm install marked --save
 
 * wróć do katalogu projektu i odpal
 
+  ./scripts/init.sh
+
+to ściągnie wszystkie zależności strony
+
+* wróć do katalogu projektu i odpal
+
   ./scripts/server.sh
+
+to odpali generowanie strony i wystawi ją na localhost:3333
+
 
 ### Jak dodać link do relacji ze spotkania?
 
 Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326](https://github.com/jakubnabrdalik/wjug/commit/7edcf87aba4d7733f3c3f2362c0239ce28d37326)
+
+### Jak deployować?
+
+* musisz mieć dostęp do repo (pisz do kuby nabrdalika)
+
+* lokalnie musisz mieć brancha gh-pages:
+
+    git fetch origin
+
+    git checkout -b gh-pages origin/gh-pages 
+
+* musisz być na branchu master
+
+* musisz mieć wszystkie zmiany wrzucone, pull i push do mastera
+
+* odpalasz skrypt:
+
+   ./scripts/deploy.sh
+
+* powinno działać
 
 # Co ja kodzę, czyli czego używamy tak naprawdę:
 
