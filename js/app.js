@@ -17,8 +17,6 @@ App.config([
       action: 'page1.cooperation'
     }).when('/library', {
       action: 'library'
-    }).when('/companies', {
-      action: 'page1.companies'
     }).when('/partners', {
       action: 'page1.partners'
     }).when('/contact', {
