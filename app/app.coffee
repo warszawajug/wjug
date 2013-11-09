@@ -24,7 +24,6 @@ App.config([
       .when('/liders', action: 'page1.liders')
       .when('/cooperation', action: 'page1.cooperation')
       .when('/library', action: 'library')
-      .when('/companies', action: 'page1.companies')
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
       .when('/by-you', action: 'by-you')
@@ -37,8 +36,4 @@ App.config([
 
     # Without server side support html5 must be disabled.
     $locationProvider.html5Mode(false)
-
-
-
-
 ])
