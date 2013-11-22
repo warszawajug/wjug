@@ -31,7 +31,7 @@ Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326
 
 ### Jak deployować?
 
-* musisz mieć dostęp do repo (pisz do kuby nabrdalika)
+* musisz mieć dostęp do repo (pisz do Kuby Nabrdalika)
 
 * lokalnie musisz mieć brancha gh-pages:
 
