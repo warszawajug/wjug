@@ -8,10 +8,12 @@
     <meta name="author" content="">
     <title ng-bind-template="Warsaw Java User Group"></title>
     <link rel="stylesheet" href="css/app.css">
-    <!--if lte IE 7script(src='http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js')
-    -->
-    <!--if lte IE 8script(src='//html5shiv.googlecode.com/svn/trunk/html5.js')
-    -->
+    <!--[if lte IE 7]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <script>
       window.brunch = window.brunch || {};
       window.brunch['auto-reload'] = {
@@ -171,6 +173,7 @@
           <div ng-switch-when="meeting126" ng-include=" 'partials/meetings/126.html' " ui-animate></div>
           <div ng-switch-when="meeting127" ng-include=" 'partials/meetings/127.html' " ui-animate></div>
           <div ng-switch-when="meeting128" ng-include=" 'partials/meetings/128.html' " ui-animate></div>
+          <div ng-switch-when="meeting129" ng-include=" 'partials/meetings/129.html' " ui-animate></div>
           <!--div(ng-switch-when="contact", ng-include=" 'partials/contact.html' ", ui-animate)-->
         </div>
       </div>
