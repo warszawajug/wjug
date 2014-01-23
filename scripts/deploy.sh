@@ -110,8 +110,8 @@ git add .
 # verifyAnyChangesAreToBeCommitted # this part is problematic
 
 # add & commit & push
-echo "'autoupdate to $currentHashOnMaster '"
-git commit -m "'autoupdate to $currentHashOnMaster '"
+echo "autoupdate to $currentHashOnMaster"
+git commit -m "autoupdate to $currentHashOnMaster"
 git push origin gh-pages
 
 # checkout master
