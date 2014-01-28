@@ -1,5 +1,5 @@
 div(ng-controller="PageCtrl")
-    #about.section.background1(scroll-spy, parallax="0.3", page='1')
+    #about.section.about_background(scroll-spy, parallax="0.3", page='1')
         .centered
             .container
                 .row
@@ -62,7 +62,7 @@ div(ng-controller="PageCtrl")
                         p O spotkaniu: 130 spotkanie WJUG w wydaniu flash.
                             a(href='#/meeting/130')  Więcej...
 
-    #meetings.section.background2(scroll-spy, page='1')
+    #meetings.section.simple_background(scroll-spy, page='1')
         .centered
             .container
                 .row
@@ -627,7 +627,7 @@ div(ng-controller="PageCtrl")
                             | - 
                             a(href='http://www.jaceklaskowski.pl/', target='_blank') Jacek Laskowski
 
-    #liders.section.background3(scroll-spy, parallax="0.3", page='1')
+    #liders.section.liders_background(scroll-spy, parallax="0.3", page='1')
         .centered
             .container
                 .row
@@ -648,7 +648,8 @@ div(ng-controller="PageCtrl")
                         p Michał Lewandowski
                         p Wojtek Erbetowski
                     .span4
-                        h3 kapituła Confitury
+                        h3 kapituła
+                            a(href='http://confitura.pl', title='Confitura', target='_blank')  Confitury
                         p kontakt:
                             a(href='mailto:confitura@confitura.pl')  confitura@confitura.pl
                         p Odpowiada za organizację największej, bezpłatnej konferencji w Polsce, sponsorów, prelegentów, i masę innych rzeczy
@@ -659,7 +660,8 @@ div(ng-controller="PageCtrl")
                         p Tomasz Dziurko
                         p Jakub Kubryński
                     .span4
-                        h3 kapituła Warsjawy
+                        h3 kapituła
+                            a(href='http://warsjawa.pl', title='Warsjawa', target='_blank')  Warsjawy
                         p kontakt:
                             a(href='mailto:warsjawa-2014@googlegroups.com')  warsjawa-2014@googlegroups.com
                         p Odpowiada za organizację największych, bezpłatnych warsztatów w Europie, prelegentów, sponsorów i masę innych rzeczy
@@ -685,8 +687,7 @@ div(ng-controller="PageCtrl")
                     .span4
                         p Łukasz Lenart
 
-
-    #cooperation.section.background4(scroll-spy, page='1')
+    #cooperation.section.simple_background(scroll-spy, page='1')
         .centered
             .container
                 .row
@@ -714,7 +715,7 @@ div(ng-controller="PageCtrl")
                             a(href='https://groups.google.com/forum/?fromgroups#!forum/oferty-pracy-java', title='oferty-pracy-java', target='_blank')  oferty-pracy-java
                             |, na której można znaleźć wiele osób spoza naszego WJUGa.
 
-    #partners.section.background5(scroll-spy, parallax="0.3", page='1')
+    #partners.section.partners_background(scroll-spy, parallax="0.3", page='1')
         .centered
             .container
                 .row
