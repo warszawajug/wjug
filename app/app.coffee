@@ -21,6 +21,7 @@ App.config([
 
       .when('/about', action: 'page1.about')
       .when('/meetings', action: 'page1.meetings')
+      .when('/jcp', action: 'page1.jcp')
       .when('/liders', action: 'page1.liders')
       .when('/cooperation', action: 'page1.cooperation')
       .when('/library', action: 'library')
