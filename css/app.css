@@ -7490,20 +7490,16 @@ bootstrap, so the may override it's behavior.
   display: table-cell;
   vertical-align: middle;
 }
-.background1 {
+.about_background {
   background-image: url("../img/tlo13.jpg");
   color: #eeeeee;
 }
-.background3 {
+.liders_background {
   background-image: url("../img/tlo8.jpg");
   color: #eeeeee;
 }
-.background5 {
+.partners_background {
   background-image: url("../img/tlo14.jpg");
-  color: #eeeeee;
-}
-.background7 {
-  background-image: url("../img/tlo15.jpg");
   color: #eeeeee;
 }
 .subview > div {
