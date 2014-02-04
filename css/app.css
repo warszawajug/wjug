@@ -7502,6 +7502,10 @@ bootstrap, so the may override it's behavior.
   background-image: url("../img/tlo14.jpg");
   color: #eeeeee;
 }
+.jcp_background {
+  background-image: url("../img/tlo11.jpg");
+  color: #eeeeee;
+}
 .subview > div {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
