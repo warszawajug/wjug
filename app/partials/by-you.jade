@@ -4,35 +4,36 @@ div
             .container
                 .row
                     .span12
-                        h4 ?? spotkanie WJUG
-                        h2 Twój temat
-                        h3 Ty - prelegent
-                        p Termin: ???
-                        p Lokalizacja: ???
-                        h3 O prezentacji i prelegencie:
-                        p 
-                        | Z pewnością nie raz zastanawiałeś/-aś się, z czym wiąże się przyjemność wystąpienia publicznego podczas naszych spotkań.
-                        p
-                        | Poniżej znajdują się wybrane uwagi, komentarze, sugestie i podpowiedzi, w których należałoby szukać odpowiedzi na własne rozterki związane z publicznymi wystąpieniami.
-                        p
-                        | Liderzy Warszawa JUG gorąco zachęcają i służą pomocą w przejściu "Rubikonu prezentacyjnego".
-                        p
-                        | 2011/11/18 Marcin Pieciukiewicz:
-                        div > Podejrzewałbym, że jednym z problemów, dla których nowe osoby nie chcą
-                        div > wygłaszać prezentacji wynika z tego, że nie chcą się powtarzać, a większość
-                        div > ciekawych technologii już się na spotkaniach WJUGowych pojawiała.
-                        div ...
-                        div > Tutaj ważne byłoby dotarcie z informacją na jakim poziomie przydałyby się
-                        div > prezentacje, i że wcale nie musi ich wygłaszać ktoś mający co 3 lata
-                        div > doświadczenia w danej technologii, znający wszystkie kruczki itp..
-                        div > Mi osobiście odpowiadała formuła 3 krótkich prezentacji na ostatnim
-                        div > spotkaniu i gdyby coś takiego utrzymać (np. co drugie spotkanie) może 
-                        div > zachęciłoby to osoby o mniejszym doświadczeniu, które chciałyby opowiedzieć 
-                        div > o tym czego się ostatnio nauczyły.
-                        p
-                        | 2011/11/18 Jakub Nabrdalik:
-                        div > Gdyby każdy z członków raz opowiedział przez 20 minut o jednej
-                        div > bibliotece/technologii/whatever, którą się bawi, mielibyśmy materiałów na 5
-                        div > lat :)
-                        p 
-                        | Pytaj na grupie, jeśli nie jesteś pewny/-a, czy dany temat lub formuła jego przestawienia jest właściwa. W 99% z pewnością jedynym mankamentem prezentacji jest... jej brak! Reszta jest mniejszego znaczenia i na pewno znajdzie się wśród nas kilku napaleńców, którzy nie tylko, że przyjdą, ale i podzielą się swoimi spostrzeżeniami w temacie. Spróbuj!
+
+                    h2 Poradnik prelegenta
+
+                    p Jeżeli wzmaga się w Tobie chęć przejścia na “drugą stronę sali” to trafiłeś we właściwe miejsce. Poniżej zamieszczamy kilka porad dotyczących tego jak ze słuchacza przejść w fazę prelegenta :)
+
+                    h4 1. Zgłoszenie tematu
+                    p Pierwszym krokiem do własnej prelekcji na WJUG jest zgłoszenie tematu - możesz to zrobić wysłając maila na adres wjug-regular-meetings@googlegroups.com. Powinieneś tam zamieścić, temat, abstrakt (krótki opis), co powinni wiedzieć już słuchacze by temat zrozumieć, a także informację o preferowanym terminie i czasie trwania prelekcji, która niekoniecznie musi zająć całe spotkanie - przy mniejszych tematach możesz przygotować godzinną prezentację lub nawet wystąpić w ramach organizowanych co jakiś czas flash-talków (5-15 minut na temat). Te ostatnie są dobrym wyborem jeżeli nie czujesz się jeszcze pewnie stojąc przed dziesiątkami wygłodniałych wiedzy geek’ów :) Z reguły już na tym etapie grupa organizująca spotkania stara się podawać numer sali, których podstawowa z Twojego punktu widzenia różnica polega na rozdzielczości projektora:
+                    ul
+                        li 3180 - 1600x1200
+                        li 5440 - 1024x768
+
+                    h4 2. Przygotowanie
+                    p Przygotowanie. Jeżeli już potwierdziłeś termin należy zabrać się za przygotowanie prezentacji. W pierwszej kolejności musisz zdecydować w jaki rodzaj prelekcji celujesz - slajdy czy live-coding.
+
+                    p a. W pierwszym przypadku dobrze jest zacząć od tzw. zrzutu pamięci, który polega na tym, że zapisujesz na wszelkiej masci kartkach, karteczkach, mailach, plikach i dokumentach wszystko co przychodzi Ci do głowy w zakresie Twojego tematu. Z dużym prawdopodobieństwem można stwierdzić, że po kilku dniach takiej praktyki będą one zawierały praktycznie wszystko co chcesz przekazać słuchaczom. Pozostaje zebrać je w jednym miejscu i spróbować ułożyć w logicznej kolejności. Teraz nadszedł moment, w którym możesz zacząć przelewać przygotowaną wiedzę na slajdy. Kolorystycznie możesz popuścić wodze wyobraźni, jednak musisz pamiętać o zapewnieniu jak najwyższego kontrastu między tekstem a tłem - inaczej osoby siedzące na końcu sali nie będą przejawiały uczucia zachwytu :)
+                    p b. Live-coding - przede wszystkim przygotuj IDE do prezentacji. Zwiększ odpowiednio czcionkę (okolice wielkośći 20-22 - pamiętaj, że osobno ustawia się rozmiary dla edytora i konsoli), ustaw jasną kolorystykę. Dobrą praktyką jest przygotowanie sobie dedykowanego do prezentacji ustawienia IDE, które w szybkim czasie możesz przywrócić kilkoma kliknięciami. Upewnij się, że przy powyższych ustawieniach Twój kod dalej mieści się na ekranie, lub jeżeli nie poukładaj go tak, żeby zminimalizować potrzebę scrollowania. Jeżeli pracujesz z IntelliJ 13 możesz wykorzystać wbudowany mechanizm prezentacji (View -> Enter Presentation Mode). Dobrze jest także wykorzystać dobrodziejstwa GIT’a i zapisać poszczególne kroki developmentu w odpowiednich commitach bądź tagach - jeżeli pogubisz się w ogniu pytań będzie Ci łatwo wrócić na bezpieczne wody.
+
+                    h4 3. Utrwalenie
+                    p Warto przećwiczyć prezentację. Po pierwsze po to, by poukładać sobie ją dobrze w głowie, po drugie po to by przetestować jej czas. Można to zrobić samemu, można przedstawić ją znajomym (np. w pracy). Prezentacja to nie tylko slajdy i kod, to także pewnego rodzaju opowieść, narracja. Jeśli ją przed spotkaniem spróbujesz opowiedzieć, mierząc sobie czas, ułatwi Ci to bardzo wystąpienie. Oczywiśćie wystąpienie na WJUGu nie jest tak rygorystyczne jak na konferencjach i za rozminięcie się z planowanym czasem o 10% nikt nikogo nie zlinczuje (chyba, że przedłużysz a po prezentacji będzie darmowe piwo ;))
+
+                    h4 4. Tuż przed
+                    p Tuż przed. Przede wszystkim absolutnie nie warto się stresować! Domyślam się, że to zdanie brzmi banalnie, ale pamiętaj, że “rynek” zwalcza nieprzygotowanych a nie nieśmiałych. Są trzy podstawowe zasady dobrej prezentacji:
+                    ol
+                        li Przygotowanie
+                        li Przygotowanie
+                        li Przygotowanie
+
+                    p Jeżeli je sumiennie wypełniłeś to nie masz się czym przejmować! Nawet jak będziesz mówił cicho, ze zlanymi zimnym potem rękoma trzymanymi w kieszeni i przestępując z nogi na nogę dwa razy w ciągu sekundy, to prezentacja będzie odebrana bardzo dobrze i zapewni słuchaczom fun spijania z uwagą słów z Twoich ust, bo mówisz wartościowe rzeczy poukładane w logicznym porządku :)
+
+                    h4 5. Wystąpienie
+                    p Staraj się mówić głośno i wyraźnie - to zdecydowanie ułatwi odbiór Twojej prezentacji. Dobrą praktyką jest także powtarzanie pytań z sali, żeby każdy mógł wiedzieć do czego się odnosisz w swojej odpowiedzi.
+
+                    h4 Jeżeli po przeczytaniu powyższych wskazówek masz jakiekolwiek pytania, wątpliwości lub po prostu potrzebujesz wsparcia zwróć się do Kuby Kubryńskiego (jkubrynski@gmail.com) lub dowolnego innego lidera WJUG.

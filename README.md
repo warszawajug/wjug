@@ -8,6 +8,8 @@
 
   sudo make install
 
+  - druga opcja to instalacja z pakietow systemu operacyjnego - np $ sudo yum install npm
+  
 * teraz zainstaluj markdowna
 
   npm install marked --save

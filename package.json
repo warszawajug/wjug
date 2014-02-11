@@ -28,7 +28,7 @@
     "clean-css-brunch": ">= 1.0 < 1.5",
     "jade-brunch": ">= 1.4.1 < 1.5",
     "static-jade-brunch": ">= 1.4.0 <= 1.4.5 || >= 1.4.8 < 1.5",
-    "marked": "~0.2.9"
+    "marked": "~0.2.10"
   },
   "devDependencies": {
     "jade": ">= 0.27.7",
