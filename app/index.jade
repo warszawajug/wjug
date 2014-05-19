@@ -43,7 +43,7 @@ html(lang='en', ng-app='app')
                     div(ng-switch-when="jcp", ng-include=" 'partials/jcp.html' ", ui-animate)
                     div(ng-switch-when="library", ng-include=" 'partials/library.html' ", ui-animate)
                     div(ng-switch-when="by-you", ng-include=" 'partials/by-you.html' ", ui-animate)
-                    - for (var meeting_id = 1; meeting_id <= 137; meeting_id++)
+                    - for (var meeting_id = 1; meeting_id <= 138; meeting_id++)
                        div(ng-switch-when="meeting" + meeting_id, ng-include!="'partials/meetings/".concat(meeting_id, ".html'"), ui-animate)
             .push
 
