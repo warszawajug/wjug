@@ -24,7 +24,7 @@ to ściągnie wszystkie zależności strony
 
   ./scripts/server.sh
 
-to odpali generowanie strony i wystawi ją na localhost:3333
+to odpali generowanie strony i wystawi ją na [localhost:3333](http://localhost:3333)
 
 
 ### Jak dodać link do relacji ze spotkania?
