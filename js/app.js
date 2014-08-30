@@ -25,6 +25,8 @@ App.config([
       action: 'contact'
     }).when('/by-you', {
       action: 'by-you'
+    }).when('/newsletter', {
+      action: 'newsletter'
     });
     for (num = _i = 1; _i <= 200; num = ++_i) {
       $routeProvider.when("/meeting/" + num, {
