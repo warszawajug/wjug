@@ -10,3 +10,4 @@ _public/
 app/assets/index.html
 app/assets/partials/*.html
 app/assets/partials/meetings/*.html
+app/assets/partials/newsletter/*.html
