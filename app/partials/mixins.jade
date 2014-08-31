@@ -1,0 +1,5 @@
+mixin externalLink(url, text)
+  a(href="#{url}", target='_blank') #{text}
+
+mixin mailLink(mail, text)
+  a(href='mailto:#{mail}') #{text}
