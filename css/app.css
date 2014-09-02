@@ -7517,6 +7517,6 @@ bootstrap, so the may override it's behavior.
 .subview > div.ui-animate {
   opacity: 0;
 }
-.newsletter {
-  margin-bottom: 2em;
+.noborder {
+  border: none;
 }

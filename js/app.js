@@ -6,7 +6,7 @@ App = angular.module('app', ['ngCookies', 'ngResource', 'app.controllers', 'app.
 
 App.config([
   '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider, config) {
-    var num, _i;
+    var num, _i, _j;
     $routeProvider.when('/about', {
       action: 'page1.about'
     }).when('/meetings', {
@@ -26,11 +26,16 @@ App.config([
     }).when('/by-you', {
       action: 'by-you'
     }).when('/newsletter', {
-      action: 'newsletter'
+      action: 'newsletter4'
     });
     for (num = _i = 1; _i <= 200; num = ++_i) {
       $routeProvider.when("/meeting/" + num, {
         action: "meeting" + num
+      });
+    }
+    for (num = _j = 1; _j <= 4; num = ++_j) {
+      $routeProvider.when("/newsletter/" + num, {
+        action: "newsletter" + num
       });
     }
     $routeProvider.otherwise({
