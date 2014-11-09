@@ -1,0 +1,99 @@
+include ../mixins
+
+div
+  .section(page='1')
+    .centered
+      .container
+        .row
+          .span12
+            h2 Newsletter warszawskiego JUG #5
+            p
+              +externalLink('#/newsletter/5', '16.11.2014')
+            p Cześć WJUGowicze!
+            p Sezon w pełni, a na naszej&nbsp
+              +externalLink('https://groups.google.com/forum/#!forum/warszawa-jug', 'grupie')
+              | &nbspdyskusja równie gorąca.
+              br
+              | Najbardziej aktywną dyskusją w ostatnim czasie jest&nbsp
+              +externalLink('https://groups.google.com/forum/#!msg/warszawa-jug/ncolJKXbaEM/Ni6-DSp8pbcJ', 'Wymagania pracodawców na Juniora')
+              | . Niepozorny temat a porusza sporo wątków. Przeczytasz w nim o tym kto jest juniorem, przestaje się być juniorem,
+              | przez dyskusje o przyszłości programistów, czy też co powinno stanowić CV programisty. Ponad 120 odpowiedzi, więc interesująca lektura :-)
+              br
+              | Poza tym:
+              ul
+                li
+                  +externalLink('https://groups.google.com/d/msg/warszawa-jug/dGPv1U2rC8g/vKjCrGN798IJ','event store')
+                li
+                  +externalLink('https://groups.google.com/d/msg/warszawa-jug/udlCPL7jYL4/4YdtFIn4ZKAJ','narzędziach do analizy kodu')
+                li
+                  +externalLink('https://groups.google.com/d/msg/warszawa-jug/xLhW1sh-aAI/1K1DWpEERigJ', 'własności kodu programisty')
+            p Przy okazji przypominamy o naszych profilach na&nbsp
+              +externalLink('https://twitter.com/WarszawaJUG', 'Twitterze')
+              | &nbsp
+              | i
+              | &nbsp
+              +externalLink('https://plus.google.com/107616814384149131589','Google+')
+
+            h4 Spotkania cykliczne
+            p U nas sezon w pełni, za nami już sześć spotkań, a do końca roku planujemy jeszcze dwa lub trzy.
+              | Z już potwierdzonych prezentacji na listopad i grudzień jedna będzie bardziej miękka: o tym&nbsp
+              +externalLink('#/meeting/148', 'jak się rozwijać i planować swoją karierę')
+              |, natomiast druga to samo mięsko, czyli&nbsp
+              +externalLink('#/meeting/149','Apache Spark')
+              | &nbspi gościnny występ
+              | Pawła Szulca z Wrocławia, autora zdania “Encja na twarz i pchasz”.
+              br
+              |Tradycyjnie już zachęcamy do zgłaszania prezentacji poprzez&nbsp
+              +externalLink('https://docs.google.com/forms/d/1YUUJ68qFOiMJBhhL8Ll434vAopf_juynPb1KReVa3uE/viewform','formularz')
+              | , mamy sporo wolnych miejsc w
+              | kalendarzu spotkań 2015, więc każdy chętny do podzielenia się wiedzą jest mile widziany.
+
+            h4 Jinkubator
+            p Do tej pory odbyły się dwa spotkania w tym sezonie - pierwsze o mavenie i gradle, a drugie o TDD. Dzięki
+              | uprzejmości&nbsp
+              +externalLink('http://kni.mini.pw.edu.pl/','KNI')
+              | &nbspJinkubator gości w nowej lokalizacji -
+              | na Wydziale Matematyki I Nauk Informatycznych Politechniki Warszawskiej. Frekwencja na spotkaniach
+              | zaskoczyła nawet nas!
+              br
+              | W planach mamy już następne spotkania wprowadzające do technologii i praktyk potrzebnych każdemu
+              | programiście takich jak git, guava, Spring, Agile i wiele innych,
+
+            h4 Warsjawa
+            p Dziękujemy Wam za liczne uczestnictwo i zrobienie z Warsjawy zajebistej imprezy!
+              br
+              | Pozamykaliśmy tematy związane z Warsjawą 2014. Przed nami retrospektywa i ułożenie składu, który stworzy edycję 2015.
+              | Wszystkich, którzy się zastanawiają, czy chcieliby wziąć udział w organizacji Warsjawy (a w tym roku będzie kilka otwartych miejsc)
+              | prosimy o kontakt na&nbsp
+              +mailLink('contact@warsjawa.pl', 'contact@warsjawa.pl')
+
+            h4 Warsaw Groovy User Group
+            p
+              + externalLink('http://www.meetup.com/Warsaw-Groovy-User-Group/events/209713092/', '16 października')
+              | &nbspArtur Gajowy opowiedział o współbieżnych kolekcjach, agentach i komponowalnych funkcjach asynchronicznych w&nbsp
+              +externalLink('http://gpars.codehaus.org/','GPARS')
+              | .
+              | W planach  mamy kolejne spotkanie z tą biblioteką (bo sporo tematów z niej jeszcze zostało), oraz mały hackathon z Groovym na czele.
+              br
+              | Newsy będą tutaj:&nbsp
+              +externalLink('http://www.meetup.com/Warsaw-Groovy-User-Group/', 'http://www.meetup.com/Warsaw-Groovy-User-Group/')
+              |.
+
+            h4 Confitura
+            p Mimo zbliżającej się zimy, organizatorzy Confitury nie zapadną w sen zimowy.
+              | W naszych głowach kotłują już się myśli związane z Confiturą 2015.
+              | Przyszłoroczna edycja będzie jeszcze fajniejsza. Jak zwykle :)
+
+            h4 Partnerzy
+            p Do grona naszych partenrów dołączył portal&nbsp
+              +externalLink('https://www.nofluffjobs.com/', 'nofluffjobs.com')
+              | . Będzie on informował o nowych ofertach pracy i będzie je równiez na naszej grupie&nbsp
+              +externalLink('https://groups.google.com/forum/#!forum/oferty-pracy-java', 'oferty-pracy-java')
+              | . Wkrótce powinniście zauważyc tam większą aktywność.
+
+            .row
+              .span12
+                //.pull-left
+                  a(href='#/newsletter/6') Następny
+                .pull-right
+                  a.float-right(href='#/newsletter/4') Poprzedni

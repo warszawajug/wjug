@@ -26,12 +26,12 @@ App.config([
       .when('/partners', action: 'page1.partners')
       .when('/contact', action: 'contact')
       .when('/by-you', action: 'by-you')
-      .when('/newsletter', action: 'newsletter4')
+      .when('/newsletter', action: 'newsletter5')
 
     for num in [1..200]
       $routeProvider.when("/meeting/#{num}", action: "meeting#{num}")
 
-    for num in [1..4]
+    for num in [1..5]
       $routeProvider.when("/newsletter/#{num}", action: "newsletter#{num}")
 
     # Catch all
