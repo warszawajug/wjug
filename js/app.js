@@ -22,14 +22,14 @@ App.config([
     }).when('/by-you', {
       action: 'by-you'
     }).when('/newsletter', {
-      action: 'newsletter4'
+      action: 'newsletter5'
     });
     for (num = _i = 1; _i <= 200; num = ++_i) {
       $routeProvider.when("/meeting/" + num, {
         action: "meeting" + num
       });
     }
-    for (num = _j = 1; _j <= 4; num = ++_j) {
+    for (num = _j = 1; _j <= 5; num = ++_j) {
       $routeProvider.when("/newsletter/" + num, {
         action: "newsletter" + num
       });

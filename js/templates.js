@@ -11,8 +11,8 @@ buf.push('\n          <div');
 buf.push(attrs({ terse: true, 'ng-switch-when':("meeting" + meeting_id), 'ng-include':("'partials/meetings/".concat(meeting_id, ".html'")), 'ui-animate':(true) }, {"ng-switch-when":true,"ng-include":false,"ui-animate":false}));
 buf.push('></div>');
 }
-buf.push('\n          <div ng-switch-when="newsletter" ng-include=" \'partials/newsletter/4.html\' " ui-animate></div>');
- for (var newsletter_id = 1; newsletter_id <= 4; newsletter_id++)
+buf.push('\n          <div ng-switch-when="newsletter" ng-include=" \'partials/newsletter/5.html\' " ui-animate></div>');
+ for (var newsletter_id = 1; newsletter_id <= 5; newsletter_id++)
 {
 buf.push('\n          <div');
 buf.push(attrs({ terse: true, 'ng-switch-when':("newsletter" + newsletter_id), 'ng-include':("'partials/newsletter/".concat(newsletter_id, ".html'")), 'ui-animate':(true) }, {"ng-switch-when":true,"ng-include":false,"ui-animate":false}));
@@ -1510,7 +1510,7 @@ externalLink_mixin('http://www.meetup.com/Warszawa-Java-User-Group-Warszawa-JUG/
 __indent.pop();
 buf.push('&nbspgrupy warszawskiej JUG.\n            </p>\n            <p>Do zobaczenia już w październiku!</p>\n            <h4>Spring Labs</h4>\n            <p>Spring Labs powróci już w październiku. Stay tuned!</p>\n            <h4>Koduj.com (dawniej Devoxx4Kids)</h4>\n            <p>Z końcem czerwca rozpoczęły się prace nad witryną&nbsp');
 __indent.push('              ');
-externalLink_mixin('https://koduj.com', 'koduj.com');
+externalLink_mixin('http://koduj.com', 'koduj.com');
 __indent.pop();
 buf.push('(jeszcze niewiele widać :-)), której celem jest promocja nauki programowania. Adresatem strony są zarówno\n              początkujący adepci programowania ze szkół czy uczelni, jak i ludzie, którzy chcą pomagać innym prowadząc cykliczne kluby kodowania\n              lub kilkugodzinne, jednorazowe warsztaty. Tworzymy wiki kursów online i zajęć w realu, a samo Koduj.com chce być “hubem” zbierającym\n              inicjatywy z całej Polski.\n            </p>\n            <p>\n              Do końca 2014 planujemy zorganizować kilka warsztatów weekendowych (takich małych Devoxów) w szkołach w Warszawie. Jeśli macie jakieś\n              zaprzyjaźnione szkoły, gdzie moglibysmy wystartować prosimy o kontakt&nbsp');
 __indent.push('              ');
@@ -1520,7 +1520,96 @@ buf.push('\n            </p>\n            <p>Na dniach pojawi się oficjalna wit
 __indent.push('              ');
 externalLink_mixin('http://koduj.com', 'koduj.com');
 __indent.pop();
-buf.push('!\n            </p>\n            <div class="row">\n              <div class="span12"><!--.pull-left<a href="#/newsletter/5">Następny</a>-->\n                <div class="pull-right"><a href="#/newsletter/3" class="float-right">Poprzedni</a></div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
+buf.push('!\n            </p>\n            <div class="row">\n              <div class="span12">\n                <div class="pull-left"><a href="#/newsletter/5">Następny</a></div>\n                <div class="pull-right"><a href="#/newsletter/3" class="float-right">Poprzedni</a></div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
+}
+return buf.join("");
+};module.exports = function anonymous(locals, attrs, escape, rethrow, merge) {
+attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
+var buf = [];
+with (locals || {}) {
+var interp;
+var __indent = [];
+var externalLink_mixin = function(url, text){
+var block = this.block, attributes = this.attributes || {}, escaped = this.escaped || {};
+buf.push('<a');
+buf.push(attrs({ 'href':("" + (url) + ""), 'target':('_blank') }, {"href":true,"target":true}));
+buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a>');
+};
+var mailLink_mixin = function(mail, text){
+var block = this.block, attributes = this.attributes || {}, escaped = this.escaped || {};
+buf.push('<a');
+buf.push(attrs({ 'href':('mailto:' + (mail) + '') }, {"href":true}));
+buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a>');
+};
+buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h2>Newsletter warszawskiego JUG #5</h2>\n            <p>');
+__indent.push('              ');
+externalLink_mixin('#/newsletter/5', '16.11.2014');
+__indent.pop();
+buf.push('\n            </p>\n            <p>Cześć WJUGowicze!</p>\n            <p>Sezon w pełni, a na naszej&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://groups.google.com/forum/#!forum/warszawa-jug', 'grupie');
+__indent.pop();
+buf.push('&nbspdyskusja równie gorąca.<br/>Najbardziej aktywną dyskusją w ostatnim czasie jest&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://groups.google.com/forum/#!msg/warszawa-jug/ncolJKXbaEM/Ni6-DSp8pbcJ', 'Wymagania pracodawców na Juniora');
+__indent.pop();
+buf.push('. Niepozorny temat a porusza sporo wątków. Przeczytasz w nim o tym kto jest juniorem, przestaje się być juniorem,\n              przez dyskusje o przyszłości programistów, czy też co powinno stanowić CV programisty. Ponad 120 odpowiedzi, więc interesująca lektura :-)<br/>Poza tym:\n              <ul>\n                <li>');
+__indent.push('                  ');
+externalLink_mixin('https://groups.google.com/d/msg/warszawa-jug/dGPv1U2rC8g/vKjCrGN798IJ','event store');
+__indent.pop();
+buf.push('\n                </li>\n                <li>');
+__indent.push('                  ');
+externalLink_mixin('https://groups.google.com/d/msg/warszawa-jug/udlCPL7jYL4/4YdtFIn4ZKAJ','narzędziach do analizy kodu');
+__indent.pop();
+buf.push('\n                </li>\n                <li>');
+__indent.push('                  ');
+externalLink_mixin('https://groups.google.com/d/msg/warszawa-jug/xLhW1sh-aAI/1K1DWpEERigJ', 'własności kodu programisty');
+__indent.pop();
+buf.push('\n                </li>\n              </ul>\n            </p>\n            <p>Przy okazji przypominamy o naszych profilach na&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://twitter.com/WarszawaJUG', 'Twitterze');
+__indent.pop();
+buf.push('&nbsp\n              i\n              &nbsp');
+__indent.push('              ');
+externalLink_mixin('https://plus.google.com/107616814384149131589','Google+');
+__indent.pop();
+buf.push('\n            </p>\n            <h4>Spotkania cykliczne</h4>\n            <p>\n              U nas sezon w pełni, za nami już sześć spotkań, a do końca roku planujemy jeszcze dwa lub trzy.\n              Z już potwierdzonych prezentacji na listopad i grudzień jedna będzie bardziej miękka: o tym&nbsp');
+__indent.push('              ');
+externalLink_mixin('#/meeting/148', 'jak się rozwijać i planować swoją karierę');
+__indent.pop();
+buf.push(', natomiast druga to samo mięsko, czyli&nbsp');
+__indent.push('              ');
+externalLink_mixin('#/meeting/149','Apache Spark');
+__indent.pop();
+buf.push('&nbspi gościnny występ\n              Pawła Szulca z Wrocławia, autora zdania “Encja na twarz i pchasz”.<br/>Tradycyjnie już zachęcamy do zgłaszania prezentacji poprzez&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://docs.google.com/forms/d/1YUUJ68qFOiMJBhhL8Ll434vAopf_juynPb1KReVa3uE/viewform','formularz');
+__indent.pop();
+buf.push(', mamy sporo wolnych miejsc w\n              kalendarzu spotkań 2015, więc każdy chętny do podzielenia się wiedzą jest mile widziany.\n            </p>\n            <h4>Jinkubator</h4>\n            <p>\n              Do tej pory odbyły się dwa spotkania w tym sezonie - pierwsze o mavenie i gradle, a drugie o TDD. Dzięki\n              uprzejmości&nbsp');
+__indent.push('              ');
+externalLink_mixin('http://kni.mini.pw.edu.pl/','KNI');
+__indent.pop();
+buf.push('&nbspJinkubator gości w nowej lokalizacji -\n              na Wydziale Matematyki I Nauk Informatycznych Politechniki Warszawskiej. Frekwencja na spotkaniach\n              zaskoczyła nawet nas!<br/>W planach mamy już następne spotkania wprowadzające do technologii i praktyk potrzebnych każdemu\n              programiście takich jak git, guava, Spring, Agile i wiele innych,\n            </p>\n            <h4>Warsjawa</h4>\n            <p>Dziękujemy Wam za liczne uczestnictwo i zrobienie z Warsjawy zajebistej imprezy!<br/>Pozamykaliśmy tematy związane z Warsjawą 2014. Przed nami retrospektywa i ułożenie składu, który stworzy edycję 2015.\n              Wszystkich, którzy się zastanawiają, czy chcieliby wziąć udział w organizacji Warsjawy (a w tym roku będzie kilka otwartych miejsc)\n              prosimy o kontakt na&nbsp');
+__indent.push('              ');
+mailLink_mixin('contact@warsjawa.pl', 'contact@warsjawa.pl');
+__indent.pop();
+buf.push('\n            </p>\n            <h4>Warsaw Groovy User Group</h4>\n            <p>\n              + externalLink(\'http://www.meetup.com/Warsaw-Groovy-User-Group/events/209713092/\', \'16 października\')\n              &nbspArtur Gajowy opowiedział o współbieżnych kolekcjach, agentach i komponowalnych funkcjach asynchronicznych w&nbsp');
+__indent.push('              ');
+externalLink_mixin('http://gpars.codehaus.org/','GPARS');
+__indent.pop();
+buf.push('.\n              W planach  mamy kolejne spotkanie z tą biblioteką (bo sporo tematów z niej jeszcze zostało), oraz mały hackathon z Groovym na czele.<br/>Newsy będą tutaj:&nbsp');
+__indent.push('              ');
+externalLink_mixin('http://www.meetup.com/Warsaw-Groovy-User-Group/', 'http://www.meetup.com/Warsaw-Groovy-User-Group/');
+__indent.pop();
+buf.push('.\n            </p>\n            <h4>Confitura</h4>\n            <p>\n              Mimo zbliżającej się zimy, organizatorzy Confitury nie zapadną w sen zimowy.\n              W naszych głowach kotłują już się myśli związane z Confiturą 2015.\n              Przyszłoroczna edycja będzie jeszcze fajniejsza. Jak zwykle :)\n            </p>\n            <h4>Partnerzy</h4>\n            <p>Do grona naszych partenrów dołączył portal&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://www.nofluffjobs.com/', 'nofluffjobs.com');
+__indent.pop();
+buf.push('. Będzie on informował o nowych ofertach pracy i będzie je równiez na naszej grupie&nbsp');
+__indent.push('              ');
+externalLink_mixin('https://groups.google.com/forum/#!forum/oferty-pracy-java', 'oferty-pracy-java');
+__indent.pop();
+buf.push('. Wkrótce powinniście zauważyc tam większą aktywność.\n            </p>\n            <div class="row">\n              <div class="span12"><!--.pull-left<a href="#/newsletter/6">Następny</a>-->\n                <div class="pull-right"><a href="#/newsletter/4" class="float-right">Poprzedni</a></div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge) {
