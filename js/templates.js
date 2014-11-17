@@ -1601,7 +1601,7 @@ buf.push('.\n              W planach  mamy kolejne spotkanie z tą biblioteką (
 __indent.push('              ');
 externalLink_mixin('http://www.meetup.com/Warsaw-Groovy-User-Group/', 'http://www.meetup.com/Warsaw-Groovy-User-Group/');
 __indent.pop();
-buf.push('.\n            </p>\n            <h4>Confitura</h4>\n            <p>\n              Mimo zbliżającej się zimy, organizatorzy Confitury nie zapadną w sen zimowy.\n              W naszych głowach kotłują już się myśli związane z Confiturą 2015.\n              Przyszłoroczna edycja będzie jeszcze fajniejsza. Jak zwykle :)\n            </p>\n            <h4>Partnerzy</h4>\n            <p>Do grona naszych partenrów dołączył portal&nbsp');
+buf.push('.\n            </p>\n            <h4>Confitura</h4>\n            <p>\n              Mimo zbliżającej się zimy, organizatorzy Confitury nie zapadną w sen zimowy.\n              W naszych głowach kotłują już się myśli związane z Confiturą 2015.\n              Przyszłoroczna edycja będzie jeszcze fajniejsza. Jak zwykle :)\n            </p>\n            <h4>Partnerzy</h4>\n            <p>Do grona naszych partenerów dołączył portal&nbsp');
 __indent.push('              ');
 externalLink_mixin('https://www.nofluffjobs.com/', 'nofluffjobs.com');
 __indent.pop();
