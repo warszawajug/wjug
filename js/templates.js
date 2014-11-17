@@ -1543,7 +1543,7 @@ buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a>');
 };
 buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h2>Newsletter warszawskiego JUG #5</h2>\n            <p>');
 __indent.push('              ');
-externalLink_mixin('#/newsletter/5', '16.11.2014');
+externalLink_mixin('#/newsletter/5', '17.11.2014');
 __indent.pop();
 buf.push('\n            </p>\n            <p>Cześć WJUGowicze!</p>\n            <p>Sezon w pełni, a na naszej&nbsp');
 __indent.push('              ');
