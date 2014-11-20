@@ -1605,7 +1605,7 @@ buf.push('.\n            </p>\n            <h4>Confitura</h4>\n            <p>\n
 __indent.push('              ');
 externalLink_mixin('https://www.nofluffjobs.com/', 'nofluffjobs.com');
 __indent.pop();
-buf.push('. Będzie on informował o nowych ofertach pracy i będzie je równiez na naszej grupie&nbsp');
+buf.push('. Będzie on informował o nowych ofertach pracy i będzie je również zamieszczać na naszej grupie&nbsp');
 __indent.push('              ');
 externalLink_mixin('https://groups.google.com/forum/#!forum/oferty-pracy-java', 'oferty-pracy-java');
 __indent.pop();
