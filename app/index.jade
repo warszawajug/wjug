@@ -44,7 +44,7 @@ html(lang='en', ng-app='app')
                     - for (var meeting_id = 1; meeting_id <= 200; meeting_id++)
                        div(ng-switch-when="meeting" + meeting_id, ng-include!="'partials/meetings/".concat(meeting_id, ".html'"), ui-animate)
                     div(ng-switch-when="newsletter", ng-include=" 'partials/newsletter/5.html' ", ui-animate)
-                    - for (var newsletter_id = 1; newsletter_id <= 5; newsletter_id++)
+                    - for (var newsletter_id = 1; newsletter_id <= 6; newsletter_id++)
                       div(ng-switch-when="newsletter" + newsletter_id, ng-include!="'partials/newsletter/".concat(newsletter_id, ".html'"), ui-animate)
             .push
 
