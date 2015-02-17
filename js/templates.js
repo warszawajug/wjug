@@ -1704,7 +1704,7 @@ buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a>');
 };
 buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h2>Newsletter warszawskiego JUG #6</h2>\n            <p>');
 __indent.push('              ');
-externalLink_mixin('', '17.02.2015');
+externalLink_mixin('https://groups.google.com/d/msg/warszawa-jug/QQjjpYgl_0Q/OA77z-JXdHEJ', '17.02.2015');
 __indent.pop();
 buf.push('\n            </p>\n            <p>Cześć WJUGowicze!</p>\n            <p>Niedawno rozpoczeliśmy nowy sezon spotkań&nbsp<strong>Warszawskiego JUG</strong>. Mamy garść informacji od inicjatyw, które wspólnie organizujemy. Zaczniemy od małego podsumowania z walnego :-)</p>\n            <h4>Walne zgromadzenie</h4>\n            <p>W ostatnich dniach stycznia odbyło się walne zgromadzienie naszej społeczności, które sprawnie poprowadził&nbsp');
 __indent.push('              ');
