@@ -92,11 +92,10 @@ currentHashOnMaster=$(git rev-parse HEAD)
 
 # fire up nodejs and generate _public
 startPrintingYellow
-    echo "> Firing up nodejs. Ctrl+c when generations is finished."
-    echo "> (a pull request to automatize it would be welcome)"
+    echo "> Firing up nodejs which will generate static content for the website."
 stopColloringEcho
 
-./scripts/server.sh
+./scripts/build.sh
 
 # checkout gh-pages
 git checkout gh-pages
