@@ -1,0 +1,115 @@
+include ../mixins
+
+div
+  .section(page='1')
+    .centered
+      .container
+        .row
+          .span12
+            h2 Newsletter warszawskiego JUG #7
+            pw
+              +externalLink('', '26.04.2015')
+            p Cześć WJUGowicze!
+
+            p Mamy garść informacji od inicjatyw, które wspólnie organizujemy. Jednak na początek chcemy się pochwalić zmianami, jakie zapowiadaliśmy w poprzednim newsletterze
+            p WJUG i Jinkubator zaczęły korzystać z usług&nbsp
+              +externalLink('http://chillivision.com.pl/', 'zewnętrznej firmy')
+              | &nbspdo nagrywania i montażu wideo. Mamy nadzieję, że zauważyliście znaczne skrócenie czasu
+              | oczekiwania na pojawienie się nagrań. Pojawiły się również nagrania, które od wiosny 2014 oczekiwały na publikacje.
+              br
+              | Jeśli chcecie być na bieżąco z nagraniami subskrybujcie nasz kanał&nbsp
+              +externalLink('https://www.youtube.com/channel/UC2coGyxf5x_CzJ3l4F-N-Sw', 'YouTube')
+            p Ponieważ firma nie dała się przekonać, że “będzie miał Pan nas w portfolio” to wystarczająca zapłata(;-)),
+              | zajmujemy się również intensywnym poszukiwaniem sponsorów naszych spotkań. Za niewielką opłatą i Twoja
+              | firma może pokazać się szerszemu gronu programistów przed kolejnym spotkaniem WJUG-a, co powinno przełożyć
+              | się na rzekę interesujących CV wpadających na firmową skrzynkę.
+
+            p Przy okazji przypominamy o naszych profilach na&nbsp
+              +externalLink('https://twitter.com/WarszawaJUG', 'Facebooku')
+              | ,
+              | &nbsp
+              +externalLink('https://twitter.com/WarszawaJUG', 'Twitterze')
+              | &nbsp
+              | i
+              | &nbsp
+              +externalLink('https://plus.google.com/107616814384149131589','Google+')
+              | !
+
+            h4 WJUG - Spotkania cykliczne
+            p Spotkania cykliczne, próbując podołać ciężarowi nazwy, spotykają się regularnie co 2 tygodnie. Ostatnio
+              | gościliśmy między innymi&nbsp
+              +externalLink('#/meeting/158','Sławka Sobótkę')
+              |, którego nie trzeba nikomu przedstawiać. Już niedługo pojawią się kolejni znani i lubiani prelegenci:&nbsp
+              +externalLink('#/meeting/159', 'Kuba Marchwicki')
+              | &nbspz Trójmiasta, nasz lokalny&nbsp
+              +externalLink('#/meeting/160', 'Adam Warski')
+              | &nbsporaz Jarek Pałka z Krakowa. Mamy jeszcze jeden wolny termin w czerwcu, więc jeśli masz coś ciekawego do
+              | opowiedzenia, zapraszamy do&nbsp
+              +externalLink('https://docs.google.com/forms/d/1YUUJ68qFOiMJBhhL8Ll434vAopf_juynPb1KReVa3uE', 'zgłaszania tematów!')
+
+            h4 JInkubator
+            p Od ostatniego newslettera odbyło się kilka spotkań: o&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/24', 'metodykach zwinnych')
+              | ,&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/25', 'Spring Boocie')
+              | ,&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/26', 'Scali')
+              | ,&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/27', 'wzorcach projektowych')
+              | &nbspi&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/28', 'rekrutacji w naszej branży')
+              |. Już niedługo odbędą się następne o&nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/29', 'Java 8')
+              | &nbsp
+              | i
+              | &nbsp
+              +externalLink('http://jinkubator.pl/#/meeting/30', 'webservice`ach w Javie')
+              |.
+              br
+              | Cieszymy się bardzo dużą frekwencją, co motywuje nas do organizacji następnych spotkań.
+
+            h4 Warsaw Groovy User Group
+            p W kwietniu&nbsp
+              +externalLink('https://twitter.com/kszdev', 'Kamil Szymański')
+              | &nbspwygłosił prezentację ”A peek under Groovy's hood”, gdzie omówił praktycznie
+              | wszystkie kruczki i pułapki w Groovym: statyczne vs dynamiczne typowanie, AST, flow sensitive typing,
+              | wydajność Grooviego w stosunku do Javy, multimetody i ciekawe hacki.
+              br
+              | Kolejne spotkanie, jak tylko pojawi się chętny, do czego zapraszamy. Zgłaszać się bezpośrednio do organizatorów lub na meetupie:&nbsp
+              +externalLink('http://www.meetup.com/Warsaw-Groovy-User-Group','http://www.meetup.com/Warsaw-Groovy-User-Group')
+
+            h4 Spring Labs
+            p W ostatnim czasie udało nam się organizować spotkania na temat Spring Integration, obiektach proxy w Spring’u oraz Spring Social.
+              | Cały czas poszukujemy osób chętnych do podzielenia się swoją wiedzą na temat projektów ze stajni Spring’a
+              |- zgłoszenia przyjmujemy pod adresem&nbsp
+              +mailLink('wjug-spring@googlegroups.com')
+              |. W tym tygodniu część organizatorów Spring Labs poluje w Barcelonie podczas Spring I/O na potencjalnych speakerów :)
+
+            h4 Confitura
+            p Zostało otwarte C4P. Zgłoszenia wysyłajcie do 4 maja na&nbsp
+              +externalLink('http://c4p.confitura.pl/', 'http://c4p.confitura.pl/')
+              | . Potem wielkie głosowanie V4P i powstanie agenda Confitury 2015. Widzimy się 4 lipca, w Warszawie!
+
+            h4 Devoxx4Kids
+            p Prace nad Devoxx4Kids toczą się aktywnie od kilku miesięcy. W ostatnim czasie została zaktualizowana strona,
+              | gdzie pojawiły się formularze zgłoszeniowe dla prelegentów.
+              br
+              | Obecnie impreza planowana jest w 4 lokalizacjach:
+              ul
+                li Warszawa (30.V)
+                li Radomsko (06.VI)
+                li Poznań (13.VI)
+                li Gdańsk (wrzesień)
+            p Wszystkich zainteresowanych zapraszamy na stronę&nbsp
+              +externalLink('http://www.devoxx4kids.pl/','http://www.devoxx4kids.pl/')
+              |.
+              br
+              | Jednocześnie jeżeli znacie osoby zainteresowane sponsoringiem niniejszej imprezy, prosimy o kontakt na&nbsp
+              +mailLink('devoxx4kidspl@gmail.com','devoxx4kidspl@gmail.com')
+
+            .row
+              .span12
+                //.pull-left
+                  a(href='#/newsletter/8') Następny
+                .pull-right
+                  a.float-right(href='#/newsletter/6') Poprzedni
