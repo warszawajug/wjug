@@ -49,6 +49,7 @@ Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326
 
    ./scripts/deploy.sh
 
+
 * powinno działać
 
 # Co ja kodzę, czyli czego używamy tak naprawdę:
