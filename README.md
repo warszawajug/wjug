@@ -45,6 +45,12 @@ Bardzo łatwo ;p, przykładowy commit: [7edcf87aba4d7733f3c3f2362c0239ce28d37326
 
 * musisz mieć wszystkie zmiany wrzucone, pull i push do mastera
 
+* odpalasz skrypt :
+
+   ./scripts/server.sh
+   
+   aby przygotować wszystko do publikacji
+
 * odpalasz skrypt:
 
    ./scripts/deploy.sh
