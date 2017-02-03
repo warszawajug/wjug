@@ -181,3 +181,4 @@ Please be aware of the caveats regarding Angular JS and minification, take a loo
             _variables.less
 
 For more information on angular please check out <http://angularjs.org>
+
