@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width" initial-scale="2.0">
+    <meta name="description" content="Warsaw Java User Group">
+    <title ng-bind-template="Warsaw Java User Group"></title>
+    <link rel="stylesheet" href="css/app.css"><!--[if lte IE 7]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script><![endif]--><!--[if lte IE 8]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script>
+      window.brunch = window.brunch || {};
+      window.brunch['auto-reload'] = {
+          enabled: true
+      };
+    </script>
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-40251219-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body ng-controller="AppCtrl">
+    <div class="top-menu">
+      <div class="top-menu-inner"><a href="#/home" class="brand">wjug</a>
+        <div ng-include="'partials/nav.html'" class="nav"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="main-content">
+        <div ng-switch="subview" class="subview">
+          <div ng-switch-when="loading" ui-animate>
+            <p>loading...</p>
+          </div>
+          <div ng-switch-when="page1" ng-include=" 'partials/partial1.html' " ui-animate></div>
+          <div ng-switch-when="page2" ng-include=" 'partials/page2.html' " ui-animate></div>
+          <div ng-switch-when="by-you" ng-include=" 'partials/by-you.html' " ui-animate></div>
+          <div ng-switch-when="meeting1" ng-include="'partials/meetings/1.html'" ui-animate></div>
+          <div ng-switch-when="meeting2" ng-include="'partials/meetings/2.html'" ui-animate></div>
+          <div ng-switch-when="meeting3" ng-include="'partials/meetings/3.html'" ui-animate></div>
+          <div ng-switch-when="meeting4" ng-include="'partials/meetings/4.html'" ui-animate></div>
+          <div ng-switch-when="meeting5" ng-include="'partials/meetings/5.html'" ui-animate></div>
+          <div ng-switch-when="meeting6" ng-include="'partials/meetings/6.html'" ui-animate></div>
+          <div ng-switch-when="meeting7" ng-include="'partials/meetings/7.html'" ui-animate></div>
+          <div ng-switch-when="meeting8" ng-include="'partials/meetings/8.html'" ui-animate></div>
+          <div ng-switch-when="meeting9" ng-include="'partials/meetings/9.html'" ui-animate></div>
+          <div ng-switch-when="meeting10" ng-include="'partials/meetings/10.html'" ui-animate></div>
+          <div ng-switch-when="meeting11" ng-include="'partials/meetings/11.html'" ui-animate></div>
+          <div ng-switch-when="meeting12" ng-include="'partials/meetings/12.html'" ui-animate></div>
+          <div ng-switch-when="meeting13" ng-include="'partials/meetings/13.html'" ui-animate></div>
+          <div ng-switch-when="meeting14" ng-include="'partials/meetings/14.html'" ui-animate></div>
+          <div ng-switch-when="meeting15" ng-include="'partials/meetings/15.html'" ui-animate></div>
+          <div ng-switch-when="meeting16" ng-include="'partials/meetings/16.html'" ui-animate></div>
+          <div ng-switch-when="meeting17" ng-include="'partials/meetings/17.html'" ui-animate></div>
+          <div ng-switch-when="meeting18" ng-include="'partials/meetings/18.html'" ui-animate></div>
+          <div ng-switch-when="meeting19" ng-include="'partials/meetings/19.html'" ui-animate></div>
+          <div ng-switch-when="meeting20" ng-include="'partials/meetings/20.html'" ui-animate></div>
+          <div ng-switch-when="meeting21" ng-include="'partials/meetings/21.html'" ui-animate></div>
+          <div ng-switch-when="meeting22" ng-include="'partials/meetings/22.html'" ui-animate></div>
+          <div ng-switch-when="meeting23" ng-include="'partials/meetings/23.html'" ui-animate></div>
+          <div ng-switch-when="meeting24" ng-include="'partials/meetings/24.html'" ui-animate></div>
+          <div ng-switch-when="meeting25" ng-include="'partials/meetings/25.html'" ui-animate></div>
+          <div ng-switch-when="meeting26" ng-include="'partials/meetings/26.html'" ui-animate></div>
+          <div ng-switch-when="meeting27" ng-include="'partials/meetings/27.html'" ui-animate></div>
+          <div ng-switch-when="meeting28" ng-include="'partials/meetings/28.html'" ui-animate></div>
+          <div ng-switch-when="meeting29" ng-include="'partials/meetings/29.html'" ui-animate></div>
+          <div ng-switch-when="meeting30" ng-include="'partials/meetings/30.html'" ui-animate></div>
+          <div ng-switch-when="meeting31" ng-include="'partials/meetings/31.html'" ui-animate></div>
+          <div ng-switch-when="meeting32" ng-include="'partials/meetings/32.html'" ui-animate></div>
+          <div ng-switch-when="meeting33" ng-include="'partials/meetings/33.html'" ui-animate></div>
+          <div ng-switch-when="meeting34" ng-include="'partials/meetings/34.html'" ui-animate></div>
+          <div ng-switch-when="meeting35" ng-include="'partials/meetings/35.html'" ui-animate></div>
+          <div ng-switch-when="meeting36" ng-include="'partials/meetings/36.html'" ui-animate></div>
+          <div ng-switch-when="meeting37" ng-include="'partials/meetings/37.html'" ui-animate></div>
+          <div ng-switch-when="meeting38" ng-include="'partials/meetings/38.html'" ui-animate></div>
+          <div ng-switch-when="meeting39" ng-include="'partials/meetings/39.html'" ui-animate></div>
+          <div ng-switch-when="meeting40" ng-include="'partials/meetings/40.html'" ui-animate></div>
+          <div ng-switch-when="meeting41" ng-include="'partials/meetings/41.html'" ui-animate></div>
+          <div ng-switch-when="meeting42" ng-include="'partials/meetings/42.html'" ui-animate></div>
+          <div ng-switch-when="meeting43" ng-include="'partials/meetings/43.html'" ui-animate></div>
+          <div ng-switch-when="meeting44" ng-include="'partials/meetings/44.html'" ui-animate></div>
+          <div ng-switch-when="meeting45" ng-include="'partials/meetings/45.html'" ui-animate></div>
+          <div ng-switch-when="meeting46" ng-include="'partials/meetings/46.html'" ui-animate></div>
+          <div ng-switch-when="meeting47" ng-include="'partials/meetings/47.html'" ui-animate></div>
+          <div ng-switch-when="meeting48" ng-include="'partials/meetings/48.html'" ui-animate></div>
+          <div ng-switch-when="meeting49" ng-include="'partials/meetings/49.html'" ui-animate></div>
+          <div ng-switch-when="meeting50" ng-include="'partials/meetings/50.html'" ui-animate></div>
+          <div ng-switch-when="meeting51" ng-include="'partials/meetings/51.html'" ui-animate></div>
+          <div ng-switch-when="meeting52" ng-include="'partials/meetings/52.html'" ui-animate></div>
+          <div ng-switch-when="meeting53" ng-include="'partials/meetings/53.html'" ui-animate></div>
+          <div ng-switch-when="meeting54" ng-include="'partials/meetings/54.html'" ui-animate></div>
+          <div ng-switch-when="meeting55" ng-include="'partials/meetings/55.html'" ui-animate></div>
+          <div ng-switch-when="meeting56" ng-include="'partials/meetings/56.html'" ui-animate></div>
+          <div ng-switch-when="meeting57" ng-include="'partials/meetings/57.html'" ui-animate></div>
+          <div ng-switch-when="meeting58" ng-include="'partials/meetings/58.html'" ui-animate></div>
+          <div ng-switch-when="meeting59" ng-include="'partials/meetings/59.html'" ui-animate></div>
+          <div ng-switch-when="meeting60" ng-include="'partials/meetings/60.html'" ui-animate></div>
+          <div ng-switch-when="meeting61" ng-include="'partials/meetings/61.html'" ui-animate></div>
+          <div ng-switch-when="meeting62" ng-include="'partials/meetings/62.html'" ui-animate></div>
+          <div ng-switch-when="meeting63" ng-include="'partials/meetings/63.html'" ui-animate></div>
+          <div ng-switch-when="meeting64" ng-include="'partials/meetings/64.html'" ui-animate></div>
+          <div ng-switch-when="meeting65" ng-include="'partials/meetings/65.html'" ui-animate></div>
+          <div ng-switch-when="meeting66" ng-include="'partials/meetings/66.html'" ui-animate></div>
+          <div ng-switch-when="meeting67" ng-include="'partials/meetings/67.html'" ui-animate></div>
+          <div ng-switch-when="meeting68" ng-include="'partials/meetings/68.html'" ui-animate></div>
+          <div ng-switch-when="meeting69" ng-include="'partials/meetings/69.html'" ui-animate></div>
+          <div ng-switch-when="meeting70" ng-include="'partials/meetings/70.html'" ui-animate></div>
+          <div ng-switch-when="meeting71" ng-include="'partials/meetings/71.html'" ui-animate></div>
+          <div ng-switch-when="meeting72" ng-include="'partials/meetings/72.html'" ui-animate></div>
+          <div ng-switch-when="meeting73" ng-include="'partials/meetings/73.html'" ui-animate></div>
+          <div ng-switch-when="meeting74" ng-include="'partials/meetings/74.html'" ui-animate></div>
+          <div ng-switch-when="meeting75" ng-include="'partials/meetings/75.html'" ui-animate></div>
+          <div ng-switch-when="meeting76" ng-include="'partials/meetings/76.html'" ui-animate></div>
+          <div ng-switch-when="meeting77" ng-include="'partials/meetings/77.html'" ui-animate></div>
+          <div ng-switch-when="meeting78" ng-include="'partials/meetings/78.html'" ui-animate></div>
+          <div ng-switch-when="meeting79" ng-include="'partials/meetings/79.html'" ui-animate></div>
+          <div ng-switch-when="meeting80" ng-include="'partials/meetings/80.html'" ui-animate></div>
+          <div ng-switch-when="meeting81" ng-include="'partials/meetings/81.html'" ui-animate></div>
+          <div ng-switch-when="meeting82" ng-include="'partials/meetings/82.html'" ui-animate></div>
+          <div ng-switch-when="meeting83" ng-include="'partials/meetings/83.html'" ui-animate></div>
+          <div ng-switch-when="meeting84" ng-include="'partials/meetings/84.html'" ui-animate></div>
+          <div ng-switch-when="meeting85" ng-include="'partials/meetings/85.html'" ui-animate></div>
+          <div ng-switch-when="meeting86" ng-include="'partials/meetings/86.html'" ui-animate></div>
+          <div ng-switch-when="meeting87" ng-include="'partials/meetings/87.html'" ui-animate></div>
+          <div ng-switch-when="meeting88" ng-include="'partials/meetings/88.html'" ui-animate></div>
+          <div ng-switch-when="meeting89" ng-include="'partials/meetings/89.html'" ui-animate></div>
+          <div ng-switch-when="meeting90" ng-include="'partials/meetings/90.html'" ui-animate></div>
+          <div ng-switch-when="meeting91" ng-include="'partials/meetings/91.html'" ui-animate></div>
+          <div ng-switch-when="meeting92" ng-include="'partials/meetings/92.html'" ui-animate></div>
+          <div ng-switch-when="meeting93" ng-include="'partials/meetings/93.html'" ui-animate></div>
+          <div ng-switch-when="meeting94" ng-include="'partials/meetings/94.html'" ui-animate></div>
+          <div ng-switch-when="meeting95" ng-include="'partials/meetings/95.html'" ui-animate></div>
+          <div ng-switch-when="meeting96" ng-include="'partials/meetings/96.html'" ui-animate></div>
+          <div ng-switch-when="meeting97" ng-include="'partials/meetings/97.html'" ui-animate></div>
+          <div ng-switch-when="meeting98" ng-include="'partials/meetings/98.html'" ui-animate></div>
+          <div ng-switch-when="meeting99" ng-include="'partials/meetings/99.html'" ui-animate></div>
+          <div ng-switch-when="meeting100" ng-include="'partials/meetings/100.html'" ui-animate></div>
+          <div ng-switch-when="meeting101" ng-include="'partials/meetings/101.html'" ui-animate></div>
+          <div ng-switch-when="meeting102" ng-include="'partials/meetings/102.html'" ui-animate></div>
+          <div ng-switch-when="meeting103" ng-include="'partials/meetings/103.html'" ui-animate></div>
+          <div ng-switch-when="meeting104" ng-include="'partials/meetings/104.html'" ui-animate></div>
+          <div ng-switch-when="meeting105" ng-include="'partials/meetings/105.html'" ui-animate></div>
+          <div ng-switch-when="meeting106" ng-include="'partials/meetings/106.html'" ui-animate></div>
+          <div ng-switch-when="meeting107" ng-include="'partials/meetings/107.html'" ui-animate></div>
+          <div ng-switch-when="meeting108" ng-include="'partials/meetings/108.html'" ui-animate></div>
+          <div ng-switch-when="meeting109" ng-include="'partials/meetings/109.html'" ui-animate></div>
+          <div ng-switch-when="meeting110" ng-include="'partials/meetings/110.html'" ui-animate></div>
+          <div ng-switch-when="meeting111" ng-include="'partials/meetings/111.html'" ui-animate></div>
+          <div ng-switch-when="meeting112" ng-include="'partials/meetings/112.html'" ui-animate></div>
+          <div ng-switch-when="meeting113" ng-include="'partials/meetings/113.html'" ui-animate></div>
+          <div ng-switch-when="meeting114" ng-include="'partials/meetings/114.html'" ui-animate></div>
+          <div ng-switch-when="meeting115" ng-include="'partials/meetings/115.html'" ui-animate></div>
+          <div ng-switch-when="meeting116" ng-include="'partials/meetings/116.html'" ui-animate></div>
+          <div ng-switch-when="meeting117" ng-include="'partials/meetings/117.html'" ui-animate></div>
+          <div ng-switch-when="meeting118" ng-include="'partials/meetings/118.html'" ui-animate></div>
+          <div ng-switch-when="meeting119" ng-include="'partials/meetings/119.html'" ui-animate></div>
+          <div ng-switch-when="meeting120" ng-include="'partials/meetings/120.html'" ui-animate></div>
+          <div ng-switch-when="meeting121" ng-include="'partials/meetings/121.html'" ui-animate></div>
+          <div ng-switch-when="meeting122" ng-include="'partials/meetings/122.html'" ui-animate></div>
+          <div ng-switch-when="meeting123" ng-include="'partials/meetings/123.html'" ui-animate></div>
+          <div ng-switch-when="meeting124" ng-include="'partials/meetings/124.html'" ui-animate></div>
+          <div ng-switch-when="meeting125" ng-include="'partials/meetings/125.html'" ui-animate></div>
+          <div ng-switch-when="meeting126" ng-include="'partials/meetings/126.html'" ui-animate></div>
+          <div ng-switch-when="meeting127" ng-include="'partials/meetings/127.html'" ui-animate></div>
+          <div ng-switch-when="meeting128" ng-include="'partials/meetings/128.html'" ui-animate></div>
+          <div ng-switch-when="meeting129" ng-include="'partials/meetings/129.html'" ui-animate></div>
+          <div ng-switch-when="meeting130" ng-include="'partials/meetings/130.html'" ui-animate></div>
+          <div ng-switch-when="meeting131" ng-include="'partials/meetings/131.html'" ui-animate></div>
+          <div ng-switch-when="meeting132" ng-include="'partials/meetings/132.html'" ui-animate></div>
+          <div ng-switch-when="meeting133" ng-include="'partials/meetings/133.html'" ui-animate></div>
+          <div ng-switch-when="meeting134" ng-include="'partials/meetings/134.html'" ui-animate></div>
+          <div ng-switch-when="meeting135" ng-include="'partials/meetings/135.html'" ui-animate></div>
+          <div ng-switch-when="meeting136" ng-include="'partials/meetings/136.html'" ui-animate></div>
+          <div ng-switch-when="meeting137" ng-include="'partials/meetings/137.html'" ui-animate></div>
+          <div ng-switch-when="meeting138" ng-include="'partials/meetings/138.html'" ui-animate></div>
+          <div ng-switch-when="meeting139" ng-include="'partials/meetings/139.html'" ui-animate></div>
+          <div ng-switch-when="meeting140" ng-include="'partials/meetings/140.html'" ui-animate></div>
+          <div ng-switch-when="meeting141" ng-include="'partials/meetings/141.html'" ui-animate></div>
+          <div ng-switch-when="meeting142" ng-include="'partials/meetings/142.html'" ui-animate></div>
+          <div ng-switch-when="meeting143" ng-include="'partials/meetings/143.html'" ui-animate></div>
+          <div ng-switch-when="meeting144" ng-include="'partials/meetings/144.html'" ui-animate></div>
+          <div ng-switch-when="meeting145" ng-include="'partials/meetings/145.html'" ui-animate></div>
+          <div ng-switch-when="meeting146" ng-include="'partials/meetings/146.html'" ui-animate></div>
+          <div ng-switch-when="meeting147" ng-include="'partials/meetings/147.html'" ui-animate></div>
+          <div ng-switch-when="meeting148" ng-include="'partials/meetings/148.html'" ui-animate></div>
+          <div ng-switch-when="meeting149" ng-include="'partials/meetings/149.html'" ui-animate></div>
+          <div ng-switch-when="meeting150" ng-include="'partials/meetings/150.html'" ui-animate></div>
+          <div ng-switch-when="meeting151" ng-include="'partials/meetings/151.html'" ui-animate></div>
+          <div ng-switch-when="meeting152" ng-include="'partials/meetings/152.html'" ui-animate></div>
+          <div ng-switch-when="meeting153" ng-include="'partials/meetings/153.html'" ui-animate></div>
+          <div ng-switch-when="meeting154" ng-include="'partials/meetings/154.html'" ui-animate></div>
+          <div ng-switch-when="meeting155" ng-include="'partials/meetings/155.html'" ui-animate></div>
+          <div ng-switch-when="meeting156" ng-include="'partials/meetings/156.html'" ui-animate></div>
+          <div ng-switch-when="meeting157" ng-include="'partials/meetings/157.html'" ui-animate></div>
+          <div ng-switch-when="meeting158" ng-include="'partials/meetings/158.html'" ui-animate></div>
+          <div ng-switch-when="meeting159" ng-include="'partials/meetings/159.html'" ui-animate></div>
+          <div ng-switch-when="meeting160" ng-include="'partials/meetings/160.html'" ui-animate></div>
+          <div ng-switch-when="meeting161" ng-include="'partials/meetings/161.html'" ui-animate></div>
+          <div ng-switch-when="meeting162" ng-include="'partials/meetings/162.html'" ui-animate></div>
+          <div ng-switch-when="meeting163" ng-include="'partials/meetings/163.html'" ui-animate></div>
+          <div ng-switch-when="meeting164" ng-include="'partials/meetings/164.html'" ui-animate></div>
+          <div ng-switch-when="meeting165" ng-include="'partials/meetings/165.html'" ui-animate></div>
+          <div ng-switch-when="meeting166" ng-include="'partials/meetings/166.html'" ui-animate></div>
+          <div ng-switch-when="meeting167" ng-include="'partials/meetings/167.html'" ui-animate></div>
+          <div ng-switch-when="meeting168" ng-include="'partials/meetings/168.html'" ui-animate></div>
+          <div ng-switch-when="meeting169" ng-include="'partials/meetings/169.html'" ui-animate></div>
+          <div ng-switch-when="meeting170" ng-include="'partials/meetings/170.html'" ui-animate></div>
+          <div ng-switch-when="meeting171" ng-include="'partials/meetings/171.html'" ui-animate></div>
+          <div ng-switch-when="meeting172" ng-include="'partials/meetings/172.html'" ui-animate></div>
+          <div ng-switch-when="meeting173" ng-include="'partials/meetings/173.html'" ui-animate></div>
+          <div ng-switch-when="meeting174" ng-include="'partials/meetings/174.html'" ui-animate></div>
+          <div ng-switch-when="meeting175" ng-include="'partials/meetings/175.html'" ui-animate></div>
+          <div ng-switch-when="meeting176" ng-include="'partials/meetings/176.html'" ui-animate></div>
+          <div ng-switch-when="meeting177" ng-include="'partials/meetings/177.html'" ui-animate></div>
+          <div ng-switch-when="meeting178" ng-include="'partials/meetings/178.html'" ui-animate></div>
+          <div ng-switch-when="meeting179" ng-include="'partials/meetings/179.html'" ui-animate></div>
+          <div ng-switch-when="meeting180" ng-include="'partials/meetings/180.html'" ui-animate></div>
+          <div ng-switch-when="meeting181" ng-include="'partials/meetings/181.html'" ui-animate></div>
+          <div ng-switch-when="meeting182" ng-include="'partials/meetings/182.html'" ui-animate></div>
+          <div ng-switch-when="meeting183" ng-include="'partials/meetings/183.html'" ui-animate></div>
+          <div ng-switch-when="meeting184" ng-include="'partials/meetings/184.html'" ui-animate></div>
+          <div ng-switch-when="meeting185" ng-include="'partials/meetings/185.html'" ui-animate></div>
+          <div ng-switch-when="meeting186" ng-include="'partials/meetings/186.html'" ui-animate></div>
+          <div ng-switch-when="meeting187" ng-include="'partials/meetings/187.html'" ui-animate></div>
+          <div ng-switch-when="meeting188" ng-include="'partials/meetings/188.html'" ui-animate></div>
+          <div ng-switch-when="meeting189" ng-include="'partials/meetings/189.html'" ui-animate></div>
+          <div ng-switch-when="meeting190" ng-include="'partials/meetings/190.html'" ui-animate></div>
+          <div ng-switch-when="meeting191" ng-include="'partials/meetings/191.html'" ui-animate></div>
+          <div ng-switch-when="meeting192" ng-include="'partials/meetings/192.html'" ui-animate></div>
+          <div ng-switch-when="meeting193" ng-include="'partials/meetings/193.html'" ui-animate></div>
+          <div ng-switch-when="meeting194" ng-include="'partials/meetings/194.html'" ui-animate></div>
+          <div ng-switch-when="meeting195" ng-include="'partials/meetings/195.html'" ui-animate></div>
+          <div ng-switch-when="meeting196" ng-include="'partials/meetings/196.html'" ui-animate></div>
+          <div ng-switch-when="meeting197" ng-include="'partials/meetings/197.html'" ui-animate></div>
+          <div ng-switch-when="meeting198" ng-include="'partials/meetings/198.html'" ui-animate></div>
+          <div ng-switch-when="meeting199" ng-include="'partials/meetings/199.html'" ui-animate></div>
+          <div ng-switch-when="meeting200" ng-include="'partials/meetings/200.html'" ui-animate></div>
+          <div ng-switch-when="meeting201" ng-include="'partials/meetings/201.html'" ui-animate></div>
+          <div ng-switch-when="newsletter" ng-include=" 'partials/newsletter/8.html' " ui-animate></div>
+          <div ng-switch-when="newsletter1" ng-include="'partials/newsletter/1.html'" ui-animate></div>
+          <div ng-switch-when="newsletter2" ng-include="'partials/newsletter/2.html'" ui-animate></div>
+          <div ng-switch-when="newsletter3" ng-include="'partials/newsletter/3.html'" ui-animate></div>
+          <div ng-switch-when="newsletter4" ng-include="'partials/newsletter/4.html'" ui-animate></div>
+          <div ng-switch-when="newsletter5" ng-include="'partials/newsletter/5.html'" ui-animate></div>
+          <div ng-switch-when="newsletter6" ng-include="'partials/newsletter/6.html'" ui-animate></div>
+          <div ng-switch-when="newsletter7" ng-include="'partials/newsletter/7.html'" ui-animate></div>
+          <div ng-switch-when="newsletter8" ng-include="'partials/newsletter/8.html'" ui-animate></div>
+        </div>
+      </div>
+      <div class="push"></div>
+    </div>
+    <div class="footer">
+      <div ng-include=" 'partials/footer.html' " class="container"></div>
+    </div>
+  </body>
+</html>
