@@ -28,7 +28,7 @@ App.config([
       .when('/by-you', action: 'by-you')
       .when('/newsletter', action: 'newsletter8')
 
-    for num in [1..203]
+    for num in [1..204]
       $routeProvider.when("/meeting/#{num}", action: "meeting#{num}")
       $routeProvider.when("/meeting/#{num}", action: "meeting#{num}")
 
