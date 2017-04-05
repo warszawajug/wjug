@@ -24,7 +24,7 @@ App.config([
     }).when('/newsletter', {
       action: 'newsletter8'
     });
-    for (num = _i = 1; _i <= 204; num = ++_i) {
+    for (num = _i = 1; _i <= 205; num = ++_i) {
       $routeProvider.when("/meeting/" + num, {
         action: "meeting" + num
       });
