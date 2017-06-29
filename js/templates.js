@@ -1,5 +1,5 @@
 module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -23,7 +23,7 @@ buf.push('\n        </div>\n      </div>\n      <div class="push"></div>\n    </
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -33,7 +33,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -43,7 +43,7 @@ buf.push('\n<div class="footer-body">\n  <p class="pull-right"><span class="site
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -53,7 +53,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -63,7 +63,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -73,7 +73,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -83,7 +83,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -93,7 +93,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -103,7 +103,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -113,7 +113,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -123,7 +123,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -133,7 +133,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -143,7 +143,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -153,7 +153,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -163,7 +163,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -173,7 +173,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -183,7 +183,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -193,7 +193,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -203,7 +203,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -213,7 +213,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -223,7 +223,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -233,7 +233,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -243,7 +243,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -253,7 +253,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -263,7 +263,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -273,7 +273,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -283,7 +283,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -293,7 +293,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -303,7 +303,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -313,7 +313,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -323,7 +323,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -333,7 +333,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -343,7 +343,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -353,7 +353,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -363,7 +363,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -373,7 +373,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -383,7 +383,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -393,7 +393,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -403,7 +403,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -413,7 +413,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -423,7 +423,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -433,7 +433,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -443,7 +443,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -453,7 +453,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -463,7 +463,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -473,7 +473,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -483,7 +483,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -493,7 +493,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -503,7 +503,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -513,7 +513,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -523,7 +523,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -533,7 +533,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -543,7 +543,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -553,7 +553,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -563,7 +563,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -573,7 +573,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -583,7 +583,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -593,7 +593,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -603,7 +603,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -613,7 +613,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -623,7 +623,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -633,7 +633,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -643,7 +643,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -653,7 +653,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -663,7 +663,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -673,7 +673,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -683,7 +683,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -693,7 +693,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -703,7 +703,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -713,7 +713,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -723,7 +723,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -733,7 +733,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -743,7 +743,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -753,7 +753,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -763,7 +763,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -773,7 +773,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -783,7 +783,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -793,7 +793,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -803,7 +803,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -813,7 +813,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -823,7 +823,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -833,7 +833,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -843,7 +843,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -853,7 +853,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -863,7 +863,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -873,7 +873,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -883,7 +883,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -893,7 +893,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -903,7 +903,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -913,7 +913,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -923,7 +923,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -933,7 +933,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -943,7 +943,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -953,7 +953,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -963,7 +963,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -973,7 +973,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -983,7 +983,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -993,7 +993,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1003,7 +1003,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1013,7 +1013,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1023,7 +1023,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1033,7 +1033,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1043,7 +1043,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1053,7 +1053,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1063,7 +1063,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1073,7 +1073,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1083,7 +1083,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1093,7 +1093,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1103,7 +1103,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1113,7 +1113,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1123,7 +1123,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1133,7 +1133,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1143,7 +1143,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1153,7 +1153,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1163,7 +1163,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1173,7 +1173,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1183,7 +1183,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1193,7 +1193,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1203,7 +1203,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1213,7 +1213,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1223,7 +1223,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1233,7 +1233,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1243,7 +1243,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1253,7 +1253,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1263,7 +1263,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1273,7 +1273,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1283,7 +1283,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1293,7 +1293,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1303,7 +1303,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1313,7 +1313,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1323,7 +1323,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1333,7 +1333,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1343,7 +1343,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1353,7 +1353,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1363,7 +1363,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1373,7 +1373,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1383,7 +1383,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1393,7 +1393,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1403,7 +1403,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1413,7 +1413,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1423,7 +1423,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1433,7 +1433,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1443,7 +1443,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1453,7 +1453,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1463,7 +1463,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1473,7 +1473,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1483,7 +1483,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1493,7 +1493,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1503,7 +1503,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1513,7 +1513,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1523,7 +1523,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1533,7 +1533,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1543,7 +1543,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1553,7 +1553,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1563,7 +1563,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1573,7 +1573,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1583,7 +1583,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1593,7 +1593,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1603,7 +1603,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1613,7 +1613,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1623,7 +1623,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1633,7 +1633,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1643,7 +1643,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1653,7 +1653,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1663,7 +1663,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1673,7 +1673,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1683,7 +1683,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1693,7 +1693,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1703,7 +1703,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1713,7 +1713,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1723,7 +1723,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1733,7 +1733,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1743,7 +1743,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1753,7 +1753,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1763,7 +1763,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1773,7 +1773,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1783,7 +1783,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1793,7 +1793,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1803,7 +1803,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1813,7 +1813,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1823,7 +1823,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1833,7 +1833,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1843,7 +1843,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1853,7 +1853,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1863,7 +1863,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1873,7 +1873,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1883,7 +1883,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1893,7 +1893,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1903,7 +1903,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1913,7 +1913,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1923,7 +1923,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1933,7 +1933,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1943,7 +1943,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1953,7 +1953,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1963,7 +1963,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1973,7 +1973,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1983,7 +1983,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -1993,7 +1993,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2003,7 +2003,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2013,7 +2013,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2023,7 +2023,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2033,7 +2033,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2043,7 +2043,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2053,7 +2053,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2074,7 +2074,7 @@ buf.push('>' + escape((interp = text) == null ? '' : interp) + '</a>');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2132,7 +2132,7 @@ buf.push('\n</ul>\n<!--+menuEl(\'/dlaprelegenta\', \'Dla Prelegenta\')-->');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2142,7 +2142,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2152,7 +2152,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2162,7 +2162,7 @@ buf.push('\n<div>\n  <div page="1" class="section">\n    <div class="centered">\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2256,7 +2256,7 @@ buf.push('!\n            </p>\n            <div class="row">\n              <div
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2346,7 +2346,7 @@ buf.push('. Wkrótce powinniście zauważyc tam większą aktywność.\n        
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2460,7 +2460,7 @@ buf.push('&nbsp- znajdziecie tam nagrania z naszych spotkań.\n            </p>\
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2574,7 +2574,7 @@ buf.push('\n            </p>\n            <div class="row">\n              <div 
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
@@ -2608,17 +2608,17 @@ buf.push('. Zapraszamy do zgłaszania się i do zobaczenia wkrótce ;)\n        
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
 var interp;
 var __indent = [];
-buf.push('\n<div ng-controller="PageCtrl">\n  <div id="about" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section about_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span4">\n            <h1>spotkania</h1>\n            <p>Grupa spotyka się cyklicznie (zwykle co tydzień) we wtorki,<b> w sali 3180 budynku Wydziału MIMUW na ulicy Banacha 2 w Warszawie, w godzinach 18:15-20:00</b>. Prowadzimy tam wykłady, warsztaty i rozmawiamy o najciekawszych technologiach.</p>\n          </div>\n          <div class="span4">\n            <h1>on-line</h1>\n            <p><a href="https://groups.google.com/forum/?fromgroups#!forum/warszawa-jug" target="_blank"><img src="img/icons/google-groups.png" width="40"/></a><a href="https://jvm-poland.signup.team/" target="_blank"><img src="img/icons/slack-icon.png" width="40"/></a><a href="http://www.meetup.com/Warszawa-JUG/" target="_blank"><img src="img/icons/meetup.png" width="40"/></a><a href="http://www.youtube.com/channel/UC2coGyxf5x_CzJ3l4F-N-Sw" target="_blank"><img src="img/icons/youtube.png" width="40"/></a><a href="https://twitter.com/warszawajug" target="_blank"><img src="img/icons/twitter.png" width="40"/></a><a href="https://www.facebook.com/warsawjug" target="_blank"><img src="img/icons/facebook.png" width="40"/></a><a href="https://github.com/warszawajug" target="_blank"><img src="img/icons/github.png" width="40"/></a><a href="mailto:wjug-regular-meetings@googlegroups.com" target="_blank"><img src="img/icons/email.png" width="40"/></a>\n              <p>Dyskutujemy na<a href="mailto:warszawa-jug@googlegroups.com"> grupie dyskusyjnej</a>, którą możesz także śledzić przez<a href="https://groups.google.com/forum/?fromgroups#!forum/warszawa-jug" title="web" target="_blank"> weba</a> oraz na<a href="https://jvm-poland.signup.team/" title="Slack" target="_blank"> Slacku.</a></p>\n            </p>\n          </div>\n          <div class="span4">\n            <h1>konferencje</h1>\n            <p>Organizujemy dużą, cykliczną konferencję w Warszawie:<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitura</a>. Ponadto organizujemy i spotykamy się na hackathonach, barcampach i warsztatach.</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span6">\n            <h1>kim jesteśmy</h1>\n            <p>Warszawa JUG (albo po prostu WJUG) jest grupą pasjonatów technologii Java. Nasza fascynacja przekłada się na chęć poznawania technologii, frameworków, i metod tworzenia aplikacji na platformie JVM, oraz podnoszenia naszego rzemiosła programistycznego. W tym celu organizujemy cykliczne spotkania. Jest nas już ponad 1000 osób!</p>\n            <h1>dołącz do nas</h1>\n            <p>Po prostu przyjdź na spotkanie i/lub dopisz się do grupy dyskusyjnej. Grupa jest otwarta i wita zarówno początkujących jak i wymiataczy.</p>\n            <p>Jeśli chcesz poprowadzić wykład<a href="https://warszawajug.typeform.com/to/L5ydtp" target="_blank"> wypełnij formularz zgłoszeniowy</a> lub napisz do<a href="mailto:wjug-regular-meetings@googlegroups.com"> organizatorów</a>. To nic trudnego!<a href="#/by-you"> Z przyjemnością pomagamy początkującym prelegentom</a>.</p>\n          </div>\n          <div class="span6">\n            <h1>najbliższe spotkanie</h1>\n            <h3><a href="#/meeting/212">Optimized for what?</a></h3>\n            <p>prelegent: Alberto Brandolini</p>\n            <p>termin: 20.06.2017, 18:15</p>\n            <p>lokalizacja: Domaniewska 37A, siedziba Pragmatists</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span12">\n            <h3>nadal Ci mało? spotkajmy się też tutaj:</h3>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span3"><a href="https://2017.mobiconf.org/" target="_blank"><img src="img/partners/mobiconf.png" style="margin-top: 40px"/></a></div>\n          <div class="span3"><a href="http://www.jbcnconf.com/" target="_blank"><img src="img/partners/jbcnconf2017_summer_duke_2_33.jpg" style="margin-top: 40px"/></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="meetings" scroll-spy="scroll-spy" page="1" class="section simple_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>spotkania</h1>\n            <p>Jeżeli nosisz się z zamiarem dołączenia do grona naszych prelegentów zapoznaj się z<a href="#by-you"> poradnikiem prelegenta</a></p>\n            <p>Prezentację możesz zgłosić przez<a href="https://warszawajug.typeform.com/to/L5ydtp"> formularz,</a> napisać do nas e-mail lub zaproponować temat na grupie dyskusyjnej WJUG-a.</p>\n            <h3>Przed nami:</h3>\n            <p>20.06.2017<a href="#/meeting/212"> Optimized for what?</a> - Alberto Brandolini\n               | sponsor:<a href="http://pragmatists.pl/" target="_blank"> Pragmatists</a>\n            </p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span12">\n            <h3>Za nami:</h3>\n            <p>13.06.2017<a href="#/meeting/211"> Modularity and hexagonal architecture in real life</a> - Jakub Nabrdalik\n               | sponsor:<a href="https://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>30.05.2017<a href="#/meeting/210"> Event Sourcing z Domain-Driven Design</a> - Paweł Cesar Sanjuan Szklarz\n               | sponsor:<a href="https://www.7n.com/" target="_blank"> 7n</a>\n            </p>\n            <p>23.05.2017<a href="#/meeting/209"> Biblioteka PCJ - aplikacje równoległe w Javie</a> - Marek Nowicki</p>\n            <p>16.05.2017<a href="#/meeting/208"> Flash talks - TDD, Great enterpreneurship, JShell</a> - Michał Lewandowski, Michał Parkoła, Łukasz Gajowy\n               | sponsor:<a href="http://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>09.05.2017<a href="#/meeting/207"> 4 lata rewolucji mikrousługowej w Allegro</a> - Mateusz Gajewski\n               | sponsor:<a href="https://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>25.04.2017<a href="#/meeting/206"> Porty i adaptery</a> - Dominik Przybysz\n               | sponsor:<a href="https://touk.pl/" target="_blank"> TouK</a>\n            </p>\n            <p>11.04.2017<a href="#/meeting/205"> Ratel - distributed Spring</a> - Arek Masiakiewicz</p>\n            <p>04.04.2017<a href="#/meeting/204"> Event Sourcing - co to, po co to, jak to</a> - Marcin Haręza</p>\n            <p>28.03.2017<a href="#/meeting/203"> Budowanie własnego systemu operacyjnego z wykorzystaniem Androida</a> - Michał Górny</p>\n            <p>21.03.2017<a href="#/meeting/202"> It’s a Docker … It’s a Cloud … It’s a Docker Cloud!</a> - Karol Lotkowski</p>\n            <p>14.03.2017<a href="#/meeting/201"> Co back-end developer powinien wiedzieć o web security</a> - Robert Szarejko\n               | sponsor:<a href="http://www.decerto.pl" target="_blank"> Decerto</a>\n            </p>\n            <p>06.03.2017<a href="#/meeting/200"> WJUG #200 - Spotkanie Jubileuszowe</a> - Kevlin Henney, Jan Pustelnik, Tomasz Nurkiewicz, Maciej Aniserowicz\n               | sponsor:<a href="http://gft.com/" target="_blank"> GFT</a>\n            </p>\n            <p>28.02.2017<a href="#/meeting/199"> Concurrency in Java - Comprehensive</a> - Mateusz Kaczmarek</p>\n            <p>21.02.2017<a href="#/meeting/198"> Flash talks - Flash talks (RxJava, Spring REST Docs, Asciidoctor)</a> - Tomasz Kopczyński, Arek Masiakiewicz, Mateusz Sobczak\n               | sponsor:<a href="http://www.circlek.com/" target="_blank"> Circle K</a>\n            </p>\n            <p>07.02.2017<a href="#/meeting/197"> Tech interview - how to choose a good developer?</a> - Krzysztof Kozioł, Rafał Udziela\n               | sponsor:<a href="http://it.roche.pl" target="_blank"> Roche</a>\n            </p>\n            <p>31.01.2017<a href="#/meeting/196"> Javascript + Java = Typescript</a> - Tomasz Ducin\n               | sponsor:<a href="http://www.softwareplant.com/career/?utm_source=wjug&amp;utm_medium=meeting" target="_blank"> SoftwarePlant</a>\n            </p>\n            <p>17.01.2017<a href="#/meeting/195"> Modelowanie procesów biznesowych przy użyciu BPMN, CMMN, DMN i Javy</a> - Paweł Kozioł\n               | sponsor:<a href="http://www.sparkbit.pl/" target="_blank"> Sparkbit</a>\n            </p>\n            <p>10.01.2017<a href="#/meeting/194">Flash-talks - Backend z Kotlinem, Java(Script) na Androidzie, Spock, Java 9 Additions to Stream and Optional API</a> | sponsor:<a href="http://www.7n.com/" target="_blank"> 7N</a></p>\n            <p>13.12.2016 Warsztat "Wprowadzenie do negocjacji w biznesie" - Małgorzata Majewska</p>\n            <p>06.12.2016<a href="#/meeting/192">  Co nowego w Spring 5</a> - Robert Szarejko\n               | sponsor:<a href="http://www.finat.pl/body-leasing/" target="_blank"> PKO BP Finat</a>\n            </p>\n            <p>29.11.2016<a href="#/meeting/191"> RxJava in legacy projects</a> - Tomasz Nurkiewicz | sponsor:<a href="http://allegro.tech/" target="_blank"> Allegro</a></p>\n            <p>22.11.2016<a href="#/meeting/190"> Hibernate since 2001. Is time for Cyberpunk 2020?</a> - Tomasz Skowroński | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4FinanceIT</a></p>\n            <p>15.11.2016<a href="#/meeting/189"> Consumer Driven Contracts and Your Microservice Architecture</a> - Marcin Grzejszczak | sponsor:<a href="http://www.7n.com/" target="_blank">7N</a></p>\n            <p>25.10.2016<a href="#/meeting/188"> Pragmatyczne podejście do pisania i utrzymywania testów</a> - Marek Dominiak | sponsor:<a href="http://www.decerto.pl" target="_blank">Decerto</a></p>\n            <p>18.10.2016<a href="#/meeting/187"> Refaktoryzacja systemu e-Bankowości - przykład oddolnej zmiany w Nordea IT</a> - Michał Bartyzel i Łukasz Korczyński</p>\n            <p>11.10.2016 - WJUG Lajt dzień później (12 października)</p>\n            <p>04.10.2016 - brak spotkania, zapraszamy na<a href="http://www.meetup.com/Warsaw-Cloud-Native-Meetup/events/233760492/"> Messaging Microservices and Streaming Data with Spring Cloud with Dave Syer</a> w ramach Warsaw Cloud Meetup</p>\n            <p>27.09.2016<a href="#/meeting/185"> Javaslang - Functional Java Done Right</a> - Grzegorz Piwowarek | sponsor:<a href="https://touk.pl/" target="_blank"> TouK</a></p>\n            <p>20.09.2016<a href="#/meeting/184"> Peer-2-Peer Salary Review</a> - Jakub Nabrdalik</p>\n            <p>07.06.2016<a href="#/meeting/183"> Lambda Core - Hardcore</a> - Jarosław Ratajski</p>\n            <p>24.05.2016<a href="#/meeting/182">\n                 Microservices tracing with Spring Cloud and Zipkin\n                 - Marcin Grzejszczak</a></p>\n            <p>10.05.2016<a href="#/meeting/181"> Continuous Delivery - architektura i praktyka</a> - Łukasz Szydło | sponsor:<a href="https://sputnik.ci/" target="_blank"> Sputnik</a></p>\n            <p>19.04.2016<a href="#/meeting/180"> Machine Learning dla Developerów</a> - Mariusz Gil</p>\n            <p>05.04.2016<a href="#/meeting/179"> Cloud Foundry - continuous delivery platform</a> - Michał Kuratczyk | sponsor:<a href="http://pivotal.io/platform" target="_blank"> Pivotal</a></p>\n            <p>29.03.2016<a href="#/meeting/178"> Flash talks - ConfigSlurper, Big Data, wyjątki w Lambdach, web SSO oraz Guice</a> - Dominik Przybysz, Grzegorz Piwowarek, Piotr Guzik, Piotr Fus, Mateusz Sobczak | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>15.03.2016<a href="#/meeting/177"> Domain Driven Design w praktyce</a> - Krzysztof Muchewicz | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>01.03.2016<a href="#/meeting/176"> Jak nie zawalić projektu - czyli ryzyko i komunikacja</a> - Karol Drzymała | sponsor:<a href="http://www.bluesoft.net.pl/" target="_blank"> BlueSoft</a></p>\n            <p>16.02.2016<a href="#/meeting/175"> Applied Microservices</a> - Nakul Mishra | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>02.02.2016<a href="#/meeting/174"> Logowanie zdarzeń w architekturze opartej na mikroserwisach</a> - Paweł Grajewski, Łukasz Kamiński | sponsor:<a href="http://www.bms.com.pl/" target="_blank"> BMS</a></p>\n            <p>19.01.2016<a href="#/meeting/173"> Jakie problem rozwiązuje Reactive Streams?</a> - Pawel Cesar Sanjuan Szklarz</p>\n            <p>15.12.2015<a href="#/meeting/172"> Eclipse Collections By Example</a> - Christian Glencross | sponsor:<a href="http://www.goldmansachs.com/" target="_blank"> Goldman Sachs</a></p>\n            <p>01.12.2015<a href="#/meeting/171"> 5-10-15 lat w karierze developera</a> -<a href="https://twitter.com/wseliga" target="_blank"> Wojciech Seliga</a> | sponsor:<a href="https://spartez.com/careers" target="_blank"> Spartez</a></p>\n            <p>17.11.2015<a href="#/meeting/170"> Neo4j</a> -<a href="https://geekyprimitives.wordpress.com/" target="_blank"> Jarosław Pałka</a></p>\n            <p>03.11.2015<a href="#/meeting/169"> JSON taki albo owaki... czyli kontrolowanie struktur z JSON Schema</a> -<a href="http://ducin.it/" target="_blank"> Tomasz Ducin</a> | sponsor:<a href="http://www.cybercom.com/pl/Poland/" target="_blank"> Cybercom Poland</a></p>\n            <p>20.10.2015<a href="#/meeting/168"> Lazy Evaluations and its Impact on Efficiency</a> -<a href="http://www.agiledeveloper.com/" target="_blank"> Venkat Subramaniam</a> | sponsor:<a href="http://www.it.roche.pl/" target="_blank"> IT Roche Polska</a></p>\n            <p>06.10.2015<a href="#/meeting/167"> Garbage Collector w pigułce</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://www.porty-lotnicze.com.pl" target="_blank"> Porty Lotnicze</a></p>\n            <p>22.09.2015<a href="#/meeting/166"> On-heap cache vs Off-heap cache w Javie</a> - Radek Grębski | sponsor:<a href="http://www.itmo.pl/" target="_blank"> ITMO</a></p>\n            <p>08.09.2015<a href="#/meeting/165"> Microservices - enough with theory, let\'s code some</a> -<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a>,<a href="http://toomuchcoding.blogspot.com/" target="_blank"> Marcin Grzejszczak</a> | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=L7zrYHXSCKM" target="_blank"> nagranie ze spotkania</a></p>\n            <p>11.08.2015<a href="#/meeting/164"> Mhm, mikroserwisy. Już wiesz,że wtopiłeś...</a> - Marcin Matuszak\n               |<a href="https://www.youtube.com/watch?v=d_RwASXkPqE" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>04.07.2015<a href="http://2015.confitura.pl/" target="_blank"> Confitura 2015</a></p>\n            <p>29.06.2015 Walne spotkanie JUG</p>\n            <p>09.06.2015<a href="#/meeting/161"> Hystrix - Managing failures in distributed systems</a> -<a href="http://www.nurkiewicz.com/" target="_blank"> Tomek Nurkiewicz</a> | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=RpfQ8AHwEvg" target="_blank"> nagranie ze spotkania</a></p>\n            <p>26.05.2015<a href="#/meeting/160"> Suple(r): Aplikacje Hardkorowo!</a> -<a href="http://www.warski.org/blog/" target="_blank"> Adam Warski</a>,<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a> | sponsor:<a href="https://softwaremill.com/" target="_blank"> SoftwareMill</a> |<a href="https://www.youtube.com/watch?v=gBPDwfd_PyY" target="_blank"> nagranie ze spotkania</a></p>\n            <p>05.05.2015<a href="#/meeting/159"> Microservice everything</a> -<a href="https://twitter.com/kubem" target="_blank">Jakub Marchwicki</a><strong> (Uwaga zmiana terminu i miejsca)</strong> | sponsor:<a href="http://filttr.pl/" target="_blank"> FILTTR</a> |<a href="https://www.youtube.com/watch?v=JxOu1GZmrV8" target="_blank"> nagranie ze spotkania</a></p>\n            <p>28.04.2015<a href="#/meeting/158"> Jesteś ekspertem i co dalej?</a> -<a href="http://art-of-software.blogspot.com/" target="_blank"> Sławek Sobótka</a> | sponsor:<a href="https://softwaremill.com/" target="_blank"> SoftwareMill</a> |<a href="https://www.youtube.com/watch?v=mqXHTbpKZ88" target="_blank"> nagranie ze spotkania</a></p>\n            <p>14.04.2015<a href="#/meeting/157"> Dlaczego 99% firm, które tworzą API RESTowe kłamie?</a> -<a href="http://bandrzejczak.com" target="_blank"> Bartek Andrzejczak</a> | sponsor:<a href="http://www.bms.com.pl/" target="_blank"> BMS</a> |<a href="https://www.youtube.com/watch?v=XmNRZ-JJGBw" target="_blank"> nagranie ze spotkania</a></p>\n            <p>31.03.2015<a href="#/meeting/156"> Microservices architecture pitfalls</a> - Mateusz Gajewski\n               | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=yxZm0Fhn9Tk" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>17.03.2015<a href="#/meeting/155"> Beyond Futures And Actors</a> - Maciej Jaśkowski (Odwołane)</p>\n            <p>03.03.2015<a href="#/meeting/154"> Web components with Polymer</a> -<a href="https://twitter.com/apierzch" target="_blank"> Adam Pierzchała</a> | sponsor:<a href="http://www.pragmatists.pl/" target="_blank"> Pragmatists</a> |<a href="https://www.youtube.com/watch?v=kueTbongGkY" target="_blank"> nagranie ze spotkania</a></p>\n            <p>17.02.2015<a href="#/meeting/153"> Apache Solr - silnik wyszukiwania jako baza NoSQL</a> - Tomasz Sobczak |<a href="https://www.youtube.com/watch?v=-X3TzwfWDDA" target="_blank"> nagranie ze spotkania</a></p>\n            <p>28.01.2015 Walne spotkanie JUG</p>\n            <p>27.01.2015<a href="#/meeting/151"> Heap, off you go</a> -<a href="https://plumbr.eu/" target="_blank"> Nikita Salnikov-Tarnovski</a> |<a href="https://www.youtube.com/watch?v=Dt-DJnF3P_Q" target="_blank"> nagranie ze spotkania</a></p>\n            <p>20.01.2015<a href="#/meeting/150"> Vaadin 7 – thinking of U and I</a> - Maciej Przepiórka\n               |<a href="https://www.youtube.com/watch?v=mKYKhoo41K0" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>09.12.2014<a href="#/meeting/149"> Intro to Apache Spark</a> -<a href="http://www.rabbitonweb.com" target="_blank"> Paweł Szulc</a> |<a href="https://www.youtube.com/watch?v=S-ikFjK5faw" target="_blank"> nagranie ze spotkania</a></p>\n            <p>25.11.2014<a href="#/meeting/148"> Osobisty biznesplan. Jak Java developer może zaplanować swoją karierę</a> - Krzysztof Śliwiński i Sebastian Konkol</p>\n            <p>12.11.2014 (wyjątkowo środa)<a href="#/meeting/147"> yo coffee! czyli kamerdyner na wezwanie</a> -<a href="https://www.linkedin.com/pub/tomasz-ducin/4b/34a/822" target="_blank"> Tomasz Ducin</a> |<a href="https://www.youtube.com/watch?v=Jur_75wq4KA" target="_blank"> nagranie ze spotkania</a></p>\n            <p>06.11.2014<a href="#/meeting/146"> Czas Dockera - od zera do kontenera!</a> -<a href="http://slepykorzen.pl/" target="_blank"> Przemek Hejman</a>, Marcin Brański</p>\n            <p>28.10.2014<a href="#/meeting/145"> Warsjawa Hackaton czyli jak zrobić sobie hackathon z przygotowania do konferencji</a> -<a href="http://blog.klkl.pl/" target="_blank"> Michał Lewandowski</a>,<a href="http://netczuk.pl/" target="_blank"> Tomasz Netczuk</a>, Tomasz Pęksa |<a href="#/meeting/145"> Warjawa NFC Case Study</a> -<a href="https://twitter.com/mkiedys" target="_blank"> Michał Kiędyś</a>,<a href="http://wybcz.pl/" target="_blank"> Łukasz Szczęsny</a></p>\n            <p>14.10.2014<a href="#/meeting/144"> Thymeleaf - szablony, które bez przetworzenia zrozumie twoja przeglądarka</a> - Maciej Ziarko\n               | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a>\n            </p>\n            <p>26-27.09.2014<a href="http://warsjawa.pl/" target="_blank"> Warsjawa 2014</a></p>\n            <p>16.09.2014<a href="#/meeting/143"> DevOps BarCamp</a></p>\n            <p>02.09.2014<a href="#/meeting/142"> Walidacja w świecie obiektów domenowych - blaski i cienie JSR 303</a> - Robert Szarejko</p>\n            <p>09.08.2014<a href="http://microhackaton-2014-august-warsaw.github.io/2014/" target="_blank"> Microservice hackathon</a></p>\n            <p>05.07.2014<a href="http://2014.confitura.pl/" target="_blank"> Confitura 2014</a></p>\n            <p>01.07.2014 Walne spotkanie WJUG</p>\n            <p>17.06.2014<a href="#/meeting/140"> Microservices BarCamp</a></p>\n            <p>03.06.2014<a href="#/meeting/139"> Open source brag - spotkanie o projektach open source</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>20.05.2014<a href="#/meeting/138"> Designing API for mobile apps</a> -<a href="http://erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> |<a href="#/meeting/138"> RabbitMQ</a> -<a href="https://twitter.com/mkiedys" target="_blank"> Michał Kiędyś</a></p>\n            <p>06.05.2014<a href="#/meeting/137"> Kim jest software developer - panel dyskusyjny</a> | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a></p>\n            <p>22.04.2014<a href="#/meeting/136"> Java SE 8 & Java EE 7 flash-talks</a> | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a></p>\n            <p>08.04.2014<a href="#/meeting/135"> WildFly on the fly</a> -<a href="https://twitter.com/KrzysztofMiksa" target="_blank"> Krzysztof Miksa</a> (feat.<a href="http://wjbug.pl/" target="_blank"> Warsaw JBoss User Group</a>)</p>\n            <p>25.03.2014<a href="#/meeting/134"> OpenJDK hackathon</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>11.03.2014<a href="#/meeting/133"> Listen to the sounds of your application -</a><a href="http://maciej.inszy.org/" target="_blank"> Maciej Biłas</a>,<a href="http://abstractionextraction.wordpress.com/" target="_blank"> Krzysztof Ciesielski</a> |<a href="#/meeting/133"> Bringing lambdas to Java</a> -<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>25.02.2014<a href="#/meeting/132"> Unorthodox Enterprise Practices</a> -<a href="http://www.adam-bien.com/" target="_blank"> Adam Bien</a></p>\n            <p>11.02.2014<a href="#/meeting/131"> Adopt OpenJDK</a> -<a href="http://michalwarecki.blogspot.com/" target="_blank"> Michał Warecki</a> |<a href="#/meeting/131"> Specification by Example</a> -<a href="http://agile.waw.pl/" target="_blank"> Krzysztof Jelski</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>28.01.2014<a href="#/meeting/130"> Flash-talks</a></p>\n            <p>14.01.2014<a href="#/meeting/129"> Always Be Responsible for Any Code You Write, Even for Fun. NoException()</a> -<a href="http://www.harasymczuk.pl/" target="_blank"> Mateusz Harasymczuk</a></p>\n            <p>09.01.2014<a href="#/meeting/128"> Humanoidalny robot NAO (feat. Human Tech Art)</a> -<a href="http://www.aldebaran-robotics.com/en/" target="_blank"> Aldebaran Robotics</a></p>\n            <p>17.12.2013<a href="#/meeting/127"> Flashtalks: SmartParam, jFairy, Spring Boot</a> - Adam Dubiel,<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>, Dariusz Kaczyński</p>\n            <p>03.12.2013<a href="#/meeting/126"> CompletableFuture i RxJava - functional reactive programming w Javie</a> -<a href="http://nurkiewicz.blogspot.com/" target="_blank"> Tomasz Nurkiewicz</a></p>\n            <p>28.11.2013<a href="#/meeting/125"> Walne zgromadzenie</a></p>\n            <p>19.11.2013<a href="#/meeting/124"> Java EE Portal Anno Domini 2013</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>05.11.2013<a href="#/meeting/123"> Polecane dla Ciebie: rekomendacje i Mahout</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a></p>\n            <p>22.10.2013<a href="#/meeting/122"> Spring Data</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>12.10.2013<a href="http://2013.warsjawa.pl/" target="_blank"> Warsjawa 2013</a></p>\n            <p>08.10.2013<a href="#/meeting/121"> AngularJS 101</a> - Marek Lewandowski | sponsor:<a href="http://icompass.pl/" target="_blank"> iCompass</a></p>\n            <p>24.09.2013<a href="#/meeting/120"> Serwer w Javie</a> - Adam Lider</p>\n            <p>10.09.2013<a href="#/meeting/119"> Flash-talks: Tig, Fish shell, jOOX, Togglz</a> -<a href="https://twitter.com/mariusz_s" target="_blank"> Mariusz Smykuła</a>,<a href="https://twitter.com/mgrzechocinski" target="_blank"> Mateusz Grzechociński</a>,<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>,<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>06.07.2013<a href="http://2013.confitura.pl/" target="_blank"> Confitura 2013</a></p>\n            <p>18.06.2013<a href="#/meeting/118"> Java Memory Model</a> -<a href="http://michalwarecki.blogspot.com" target="_blank"> Michał Warecki</a></p>\n            <p>04.06.2013<a href="#/meeting/117"> Type Driven Development</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>25.05.2013<a href="#/meeting/116"> Test kata</a></p>\n            <p>21.05.2013<a href="#/meeting/115"> Moje pierwsze kroki w programowaniu funkcyjnym w Scali</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>07.05.2013<a href="#/meeting/114"> Redis, Riak, MongoDB - 3 smaki NoSQL</a> -<a href="http://blog.solidcraft.eu" target="_blank"> Jakub Nabrdalik</a>,<a href="http://softwaremathmodel.blogspot.com/" target="_blank"> Paweł Cesar Sanjuan Szklarz</a>, Paweł Sidoryk | sponsor:<a href="http://pl.adpilot.com/" target="_blank"> AdPilot</a></p>\n            <p>23.04.2013<a href="#/meeting/113"> HotSpot w low latency Java</a> - Wojciech Kudła | sponsor:<a href="http://appone.pl/" target="_blank"> AppOne</a></p>\n            <p>09.04.2013<a href="#/meeting/112"> Sześć smaków testowania - flashtalks</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>26.03.2013<a href="#/meeting/111"> Arquillian - Twój własny kombajn testowy</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>12.03.2013<a href="#/meeting/110"> Usability</a> - Mateusz Kaczmarek</p>\n            <p>26.02.2013<a href="#/meeting/109"> Rozmowy kwalifikacyjne</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>,<a href="http://blog.solidcraft.eu" target="_blank"> Jakub Nabrdalik</a>,<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a></p>\n            <p>05.02.2013<a href="#/meeting/108"> Praktyczne wprowadzenie do OSGi i Enterprise OSGi</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.atm-si.com.pl/" target="_blank"> ATM Systemy Informatyczne S.A.</a></p>\n            <p>22.01.2013<a href="#/meeting/107"> Byteman - "fault injection" w praktyce</a> - Paweł Sidoryk | sponsor:<a href="http://econsulting.pl/" target="_blank"> eConsulting</a></p>\n            <p>08.01.2013<a href="#/meeting/106"> Metaprogramowanie w Javie</a> - Maciej Jankowski,<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> | sponsor:<a href="http://polidea.pl/" target="_blank"> Polidea</a></p>\n            <p>18.12.2012 Walne spotkanie WJUG</p>\n            <p>11.12.2012<a href="#/meeting/104"> Apache Cassandra w praktyce</a> - Tomek Kuprowski | sponsor:<a href="http://foxcode.pl/" target="_blank"> FoxCode</a></p>\n            <p>27.11.2012<a href="#/meeting/103"> Apache Cassandra: scalability, performance and fault tolerance in distributed databases</a> -<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>13.11.2012<a href="#/meeting/102"> Microbenchmarki z zastosowaniem Calipera</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://econsulting.pl/" target="_blank"> eConsulting</a></p>\n            <p>30.10.2012<a href="#/meeting/101"> jQuery + Twitter Bootstrap</a> -<a href="http://bartekzdanowski.blogspot.com/" target="_blank"> Bartek Zdanowski</a></p>\n            <p>27.10.2012<a href="https://sites.google.com/site/warszawajug/warsjawa-2012" target="_blank"> Warsjawa 2012</a></p>\n            <p>16.10.2012<a href="#/meeting/99"> Qooxdoo - framework RIA, który warto polubić</a> - Tomek Kuprowski</p>\n            <p>02.10.2012<a href="#/meeting/98"> Zrob to sam: STM w Javie</a> - Adam Lider</p>\n            <p>30.06.2012<a href="http://2012.confitura.pl/" target="_blank"> Confitura 2012</a></p>\n            <p>19.06.2012<a href="#/meeting/97"> Java jada RAM. Ile pamięci zjada Java?</a> - Michał Kosmulski | sponsor:<a href="http://netsprint.eu/" target="_blank"> NetSprint</a></p>\n            <p>05.06.2012<a href="#/meeting/96"> Implementacja architektury usługowej - od specifikacji do kodu</a> -<a href="http://softwaremathmodel.blogspot.com" target="_blank"> Paweł Cesar Sanjuan Szklarz</a> | sponsor:<a href="http://outbox.pl/" target="_blank"> Outbox</a></p>\n            <p>22.05.2012<a href="#/meeting/95"> Budowanie aplikacji (Java EE 6) z Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>12.05.2012<a href="https://groups.google.com/forum/#!topic/warszawa-jug/c2UCF9z0V1Y" target="_blank"> Warsztaty z języka Scala</a> -<a href="http://www.grzegorzbalcerek.net/" target="_blank"> Grzegorz Balcerek</a></p>\n            <p>08.05.2012<a href="#/meeting/93"> Nie utknijcie na Maven2</a> -<a href="http://erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>17.04.2012<a href="#/meeting/92"> Inauguracja WHUG: Quick Start with Hadoop, czyli chciałbym, ale się boję</a> - Paweł Brach, Adam Kawa i Tomasz Uliński | sponsor:<a href="http://taptera.com/" target="_blank"> Taptera</a></p>\n            <p>03.04.2012<a href="#/meeting/91"> Guava Vs. LambdaJ - kolekcje na sterydach</a> -<a href="http://blog.tiger.com.pl/author/kyniek/" target="_blank"> Krzysztof Nielepkowicz</a></p>\n            <p>27.03.2012<a href="#/meeting/90"> Ameba: mobilny dewelopment na sterydach</a> - Jarek Potiuk</p>\n            <p>06.03.2012<a href="#/meeting/89"> Funkcyjny Clojure z Javą, Leiningen, Counterclockwise, Midje i Compojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>21.02.2012<a href="#/meeting/88"> Scala - co w tym fajnego i czy da się łączyć z Javą na co dzień?</a> - Maciej Jaśkowski |<a href="#/meeting/88"> Krótko i zwięźle o Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.smtsoftware.com/" target="_blank"> SMT Software S.A.</a></p>\n            <p>03.01.2012<a href="#/meeting/87"> Koncepcje Guice</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek Kuczyński</a> ,<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>13.12.2011<a href="#/meeting/86"> Koncepcje Spring Framework</a> -<a href="http://blog.solidcraft.eu/" target="_blank"> Jakub Nabrdalik</a> | sponsor:<a href="http://softwaremill.pl/" target="_blank"> SoftwareMill</a></p>\n            <p>29.11.2011<a href="#/meeting/85"> Zmiany JVM w Java 7</a> - Adam Michalik\n               |<a href="#/meeting/85"> java.util.concurrent.Phaser praktycznie</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a>\n            </p>\n            <p>08.11.2011<a href="#/meeting/84"> Eclipse DemoCamp</a> - Piotr Chmielewski,<a href="http://softwaremathmodel.blogspot.com" target="_blank"> Paweł Cesar Sanjuan Szklarz</a>,<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.mlife.pl/" target="_blank"> mLife</a></p>\n            <p>15.10.2011<a href="https://github.com/warszawajug/warsjawa2011/wiki/Konferencja-warsjawa-2011" target="_blank"> Warsjawa 2011</a></p>\n            <p>11.06.2011<a href="http://2011.confitura.pl/" target="_blank"> Confitura 2011</a></p>\n            <p>24.05.2011<a href="#/meeting/82"> Koziołek o Vaadin</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek Kuczyński</a></p>\n            <p>19.04.2011<a href="#/meeting/81"> JDK7 - czy na pewno nic nowego?</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>22.03.2011<a href="#/meeting/80"> Torquebox & CDI - czyli jak napisaliśmy JBisona</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a>,<a href="http://twitter.com/szimano" target="_blank"> Tomek Szymański</a></p>\n            <p>15.03.2011<a href="#/meeting/79"> Google z Facebookiem w Twojej aplikacji webowej, czyli co będę pisał sam integrację: THIS IS JAVA!!!! Spring security dla bardzo NIEzaawansowanych</a> -<a href="http://blog.solidcraft.eu/" target="_blank"> Jakub Nabrdalik</a></p>\n            <p>22.02.2011<a href="#/meeting/78"> Apache Hadoop i okolice</a> -<a href="http://mcl.jogger.pl/" target="_blank"> Marcin Cylke</a></p>\n            <p>25.01.2011<a href="#/meeting/76"> Tworzenie procesów biznesowych z Activiti i IBM WebSphere BPM (WPS/WID/WLE)</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciek Próchniak</a>, Jakub Krzemień i<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>11.01.2011<a href="#/meeting/75"> Activiti – BPMN 2.0 nadchodzi</a> -<a href="http://mproch.blogspot.com/" target="_blank">Maciek Próchniak</a></p>\n            <p>21.12.2010<a href="#/meeting/74"> Jak Clojure koloruje mapy</a> -<a href="http://plblog.danieljanus.pl/" target="_blank"> Daniel Janus</a></p>\n            <p>07.12.2010<a href="#/meeting/73"> O obiektach aktywnych, obcym wołaniu metod takich obiektów i problemie otwartym?</a> - Andrzej Salwicki</p>\n            <p>23.11.2010<a href="#/meeting/72"> Clojure praktyczniej: REPL, Eclipse CCW, Eclipse Mylyn, monady i defrecord</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>09.11.2010<a href="#/meeting/71"> Sztuczki w językach programowania</a> - Cezary Bartoszuk</p>\n            <p>23.10.2010<a href="https://github.com/warszawajug/warsjawa2010/wiki/Konferencja-Warsjawa-2010" target="_blank"> Warsjawa 2010</a></p>\n            <p>19.10.2010<a href="#/meeting/70"> Wstęp do programowania funkcyjnego z Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>15.06.2010<a href="#/meeting/69"> Spring Dynamic Modules, Blueprint, OSGi - deklaratywne</a> -<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>01.06.2010<a href="#/meeting/68"> Ruch Software Craftsmanship i co z tego wynika dla zwykłego programisty</a> -<a href="http://solidcraft.eu" target="_blank"> Jakub Nabrdalik</a></p>\n            <p>18.05.2010<a href="#/meeting/67"> Multimedia Home Platform, czyli Java na małym ekranie</a> - Damian Szczepanik</p>\n            <p>20.04.2010<a href="#/meeting/66"> Vaadin, czyli po co nam kolejny framework webowy?</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek "koziołek" Kuczyński</a></p>\n            <p>06.04.2010<a href="#/meeting/65"> Consumer-Driven Contracts i rozproszone serwisy w praktyce</a> - Adam Lider</p>\n            <p>23.03.2010<a href="#/meeting/64"> Wtyczka IBM Rational Team Concert dla NetBeans IDE, czyli ciekawy projekt integracyjny narzędzia komercyjnego z otwartym</a> - Adam Kędziora</p>\n            <p>09.03.2010<a href="#/meeting/63"> JGAP, czyli gen javy w każdym z nas</a> -<a href="http://www.szczukocki.pl/" target="_blank"> Jacek Szczukocki</a></p>\n            <p>23.02.2010<a href="#/meeting/62"> Mule ESB vs. Apache ServiceMix</a> -<a href="http://nurkiewicz.blogspot.com/" target="_blank"> Tomasz Nurkiewicz</a>,<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>09.02.2010<a href="#/meeting/61"> PlayFramework - produktywność szkieletów webowych a\'la Django, RoR, Grails</a> -<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> |<a href="#/meeting/61"> Google AppEngine - chmura na Ja(v)wie</a> -<a href="http://www.lenart.org.pl/" target="_blank"> Łukasz Lenart</a></p>\n            <p>26.01.2010<a href="#/meeting/60"> Hmm Java jawą, a co z iPhone?</a> -<a href="http://pietrowski.info/" target="_blank"> Sebastian Pietrowski (aka Pedro)</a>, Michał Karwański (aka Karwer)</p>\n            <p>12.01.2010<a href="#/meeting/59"> JavaFX bez ściemy</a> -<a href="http://poligloci.blogspot.com/" target="_blank"> Michał Margiel</a></p>\n            <p>15.12.2009<a href="#/meeting/58"> Performance Tuning with Cheap Drink and Poor Tools</a> -<a href="http://www.kodewerk.com/" target="_blank"> Kirk Pepperdine</a></p>\n            <p>08.12.2009<a href="#/meeting/57"> Własny mały guglik, czyli jak szybko i prosto wbudować silnik wyszukiwania w swoją aplikację z pomocą projektu Compass</a> -<a href="http://solidsoft.wordpress.com" target="_blank"> Marcin Zajączkowski</a></p>\n            <p>24.11.2009<a href="#/meeting/56"> Jesienny Eclipse DemoCamp 2009</a> - Michał Margiel, Łukasz Lenart, Jacek Laskowski, Sebastian Pietrowski, Tomasz Bujok</p>\n            <p>10.11.2009<a href="#/meeting/55"> Zastosowanie BPEL\'a w praktyce przy użyciu Apache ODE, Apache ServiceMix i SoapUI</a> - Rafał Rusin,<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>27.10.2009<a href="#/meeting/54"> Wyślij siebie na urlop, czyli o skutecznym zarządzaniu zespołem programistów</a> - Agnieszka Orlewicz</p>\n            <p>13.10.2009<a href="#/meeting/53"> Java w długopisie, zaskakująco użyteczne połączenie</a> -<a href="http://poligloci.blogspot.com/" target="_blank"> Michał Margiel</a></p>\n            <p>29.09.2009<a href="#/meeting/52"> Kickstart w tworzeniu aplikacji webowej z AppFuse i pomocnikami</a> -<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>15.09.2009<a href="#/meeting/51"> Ognisty Serwer, smaczny Klient. Openfire i Smack - tworzenie wtyczek i rozszerzeń serwera/klienta Jabbera</a> - Bartek Zdanowski (Zdanek)</p>\n            <p>23.06.2009<a href="#/meeting/50"> Spring Roo</a> - Andrzej Wisłowski</p>\n            <p>09.09.2009<a href="#/meeting/49"> Praktyki Zwinnego Programisty</a> -<a href="http://www.pawellipinski.com/" target="_blank"> Paweł Lipiński</a></p>\n            <p>26.05.2009<a href="#/meeting/48"> DWR wprowadzenie</a> - Filip Matuszewski</p>\n            <p>12.05.2009<a href="#/meeting/47"> Java dla pokolenia YouTube</a> -<a href="http://www.jakubiak.eu" target="_blank"> Antoni Jakubiak</a></p>\n            <p>27.04.2009<a href="#/meeting/46"> Extending Java and developing DSLs with JetBrains MPS open source language workbench</a> -<a href="http://solomatov.wordpress.com/" target="_blank"> Konstantin Solomatov</a></p>\n            <p>14.04.2009<a href="#/meeting/45"> JavaFX - Imperium kontratakuje</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek "Koziolek" Kuczyński</a></p>\n            <p>31.03.2009<a href="#/meeting/44"> Java dla dużych chłopców, czyli Lego Mindstorms i leJOS</a> -<a href="http://blog.kunicki.org/" target="_blank"> Jacek Kunicki</a></p>\n            <p>17.03.2009<a href="#/meeting/43"> Domain-Driven Design</a> -<a href="http://www.pawellipinski.com/" target="_blank"> Paweł Lipiński</a></p>\n            <p>03.03.2009<a href="#/meeting/42"> Zwinne i lekkie aplikacje webowe z Grails</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>17.02.2009<a href="#/meeting/41"> Envers</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a></p>\n            <p>03.02.2009<a href="#/meeting/40"> Liferay / WebSynergy - portal (miś) na miarę naszych możliwości</a> - Piotr Pietrzak</p>\n            <p>20.01.2009<a href="#/meeting/39"> Coś między ORM a JDBC, czyli iBATIS Data Mapper</a> -<a href="http://www.mariuszlipinski.pl/" target="_blank"> Mariusz Lipiński</a></p>\n            <p>06.01.2009<a href="#/meeting/38"> Spring Batch</a> -<a href="http://www.goldenline.pl/jacek-lis" target="_blank"> Jacek Lis</a></p>\n            <p>02.12.2008<a href="#/meeting/37"> Java Native Interface, czyli dlaczego Java jest zależna od platformy</a> - Damian Szczepanik</p>\n            <p>28.10.2008<a href="#/meeting/36"> JBoss Enterprise Service Bus - Connecting Systems</a> -<a href="http://www.linkedin.com/in/jaroslawkijanowski" target="_blank"> Jarosław Kijanowski</a></p>\n            <p>14.10.2008<a href="#/meeting/35"> Wstęp do Drools/JBoss Rules</a> - Bartek Jabłoński</p>\n            <p>30.09.2008<a href="#/meeting/34"> Podstawy języków formalnych, ANTLR i ANTLRWorks</a> -<a href="http://szimano.org/" target="_blank"> Tomek Szymański (aka szimano)</a></p>\n            <p>16.09.2008<a href="#/meeting/33"> LDAP - czyli kiedy relacyjna baza danych nie jest najlepszym rozwiązaniem</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>17.06.2008<a href="#/meeting/32"> 30 minut z...Eclipse RCP, BugDay - "poprawianie" Eclipse oraz Apache Geronimo - serwer Java EE 5 i projekt ASF</a> - Michał (migi) Grzejszczak,<a href="http://www.jaceklaskowski.pl" target="_blank"> Jacek Laskowski</a>,<a href="http://www.lenart.org.pl" target="_blank"> Łukasz Lenart</a></p>\n            <p>13.05.2008<a href="#/meeting/31"> Apache Wicket w przykładach</a> -<a href="http://www.jaceklaskowski.pl" target="_blank"> Jacek Laskowski</a></p>\n            <p>29.04.2008<a href="#/meeting/30"> Apache Struts2</a> -<a href="http://www.lenart.org.pl" target="_blank"> Łukasz Lenart</a></p>\n            <p>15.04.2008<a href="#/meeting/29"> Zastrzyk z soku, czyli Google Guice</a> - Tomasz Szymański (szimano)</p>\n            <p>01.04.2008<a href="#/meeting/28"> Java w zastosowaniach bazodanowych</a> - Piotr Pietrzak</p>\n            <p>18.03.2008<a href="#/meeting/27"> Programowanie Java Portlets (JSR 168/286/301)</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>04.03.2008<a href="#/meeting/26"> Automatyzacja testów webowych</a> - Tomek Kaczanowski</p>\n            <p>27.02.2008<a href="#/meeting/25"> Intellij IDEA and TeamCity - productivity and innovation today</a> - Vaclav Pech (JetBrains)</p>\n            <p>19.02.2008<a href="#/meeting/24"> Technologia Portali Java na przykładzie JBoss Portal</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>05.02.2008<a href="#/meeting/23"> Przetwarzanie zdarzeniowe (a także o Spring, Spring-DM, OSGi i aplikacjach real-time w Java)</a> - Waldemar Kot (Waldi)</p>\n            <p>22.01.2008<a href="#/meeting/22"> JavaFX</a> - Bartek "koziołek" Kuczyński /<a href="http://www.holewa.org" target="_blank"> Radosław Holewa</a></p>\n            <p>08.01.2008<a href="#/meeting/21"> Okiełznąć Mavena 2</a> - Piotr Tabor</p>\n            <p>18.12.2007<a href="#/meeting/20"> EJB 3.0 z JPA 1.0 w POPie (Pytania i Odpowiedzi z Przykładami) 2.0</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>04.12.2007<a href="#/meeting/19"> EJB 3.0 z JPA 1.0 w POPie (Pytania i Odpowiedzi z Przykładami)</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>30.10.2007<a href="#/meeting/18"> JSF - Pytania i Odpowiedzi przez Przykłady</a> -<a href="http://blog.mocna-kawa.com" target="_blank"> Wiktor Gworek</a>,<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>16.10.2007<a href="#/meeting/17"> Jak to zrobić w Seamie?</a> - Paweł Wrzeszcz</p>\n            <p>02.10.2007<a href="#/meeting/16"> Integracja JSF + Facelets + Spring + JPA + Tomahawk</a> -<a href="http://blog.mocna-kawa.com" target="_blank"> Wiktor Gworek</a></p>\n            <p>18.09.2007<a href="#/meeting/15"> Wykorzystanie siły Aspect-Oriented Programming (AOP) w projektach komercyjnych</a> - Bartosz Szkudlarek</p>\n            <p>31.07.2007<a href="#/meeting/14"> Testy jednostkowe - techniki i wyzwania</a> - Tomasz Kaczanowski</p>\n            <p>17.07.2007<a href="#/meeting/13"> Java Persistence 1.0 (JPA) i środowisko do praktycznego poznawania specyfikacji</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>03.07.2007<a href="#/meeting/12"> Open Terracotta - klastrowanie dla Javy</a> - Michał Grzejszczak</p>\n            <p>05.06.2007<a href="#/meeting/11"> Tworzenie aplikacji graficznych z SWT i JFace</a> -<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>22.05.2007<a href="#/meeting/10"> Języki skryptowe w Javie 1.6 (JSR 223) w praktyce</a> - Jakub Kaniewski</p>\n            <p>08.05.2007<a href="#/meeting/9"> JBoss Ajax4jsf czyli zAJAXuj swoją aplikację</a> - Tomasz Szymański</p>\n            <p>03.04.2007<a href="#/meeting/8"> Dlaczego warto (po)znać Apache Cocoon 2.2</a> - Grzegorz Kossakowski</p>\n            <p>20.03.2007<a href="#/meeting/7"> Miesięczna ewaluacja Google Web Toolkit (GWT) - i co, fajne?</a> -<a href="http://www.margiel.com/" target="_blank"> Michał Margiel</a></p>\n            <p>06.03.2007<a href="#/meeting/6"> Rich Internet Applications (RIA) na przykładzie technologii Adobe Flex z Java EE w tle</a> - Bartek Soin</p>\n            <p>20.02.2007<a href="#/meeting/5"> Wprowadzenie do JBoss Seam</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>06.02.2007<a href="#/meeting/4"> Ruby on Rails - (godzinna) demonstracja możliwości</a> - Sebastian Pietrowski</p>\n            <p>09.01.2007<a href="#/meeting/3"> Co nowego i dobrego w Enterprise JavaBeans 3.0</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>05.12.2006<a href="#/meeting/2"> Tworzenie aplikacji Java EE 5 z wykorzystaniem Apache Maven 2</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>07.11.2006<a href="#/meeting/1"> Apache Geronimo</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="liders" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section liders_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>liderzy</h1>\n            <p>Jak we wszystkich dobrych projektach Open Source, w organizację eventów grupy zaangażowane jest sporo osób. Poniżej lista z namiarami i zakresami odpowiedzialności</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="/#/meetings" title="Spotkania cykliczne WJUG">spotkania cykliczne</a></h3>\n            <p>kontakt:<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a></p>\n            <p>Odpowiadają za organizację cyklicznych spotkań WJUG, agendę spotkań, prelegentów, sponsorów i masę innych rzeczy</p>\n            <p><a href="http://bandrzejczak.com" target="_blank">Bartek Andrzejczak</a></p>\n            <p>Damian Leszczyński</p>\n            <p><a href="http://tomaszdziurko.pl" target="_blank">Tomasz Dziurko</a></p>\n            <p>Mateusz Waś</p>\n          </div>\n          <div class="span4">\n            <h3>kapituła<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitury</a></h3>\n            <p>kontakt:<a href="mailto:confitura@confitura.pl"> confitura@confitura.pl</a></p>\n            <p>Odpowiada za organizację największej, bezpłatnej konferencji w Polsce, sponsorów, prelegentów, i masę innych rzeczy</p>\n            <p><a href="https://www.linkedin.com/in/arturowczarek/" target="_blank">Artur Owczarek</a></p>\n            <p><a href="https://www.linkedin.com/in/dominik-wiernicki-18222430/" target="_blank">Dominik Wiernicki</a></p>\n            <p><a href="http://bartekzdanowski.blogspot.com/" target="_blank">Bartek Zdanowski</a></p>\n            <p><a href="https://www.linkedin.com/in/krzysiekkoziol/" target="_blank">Krzysztof Kozioł</a></p>\n            <p><a href="http://www.lenart.org.pl/" target="_blank">Łukasz Lenart</a></p>\n            <p><a href="http://poligloci.blogspot.com/" target="_blank">Michał Margiel</a></p>\n            <p><a href="https://www.linkedin.com/in/ida-bzowska-385901119/" target="_blank">Ida Bzowska</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://jinkubator.pl" title="Jinkubator" target="_blank">Jinkubator</a></h3>\n            <p>kontakt:<a href="mailto:jinkubator-admin@googlegroups.com"> jinkubator-admin@googlegroups.com</a></p>\n            <p>Odpowiadają za spotkania Jinkubator, ich program, zapraszanie/akceptowanie prelegentów, obsługę/szukanie sponsorów</p>\n            <p>Artur Owczarek</p>\n            <p><a href="https://twitter.com/alien11689" target="_blank">Dominik Przybysz</a></p>\n            <p>Karol Żmuda</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="http://wjbug.pl/" target="_blank">Warsaw JBoss User Group</a></h3>\n            <p>Odpowiadają za organizację prezentacji i warsztatów dotyczących technologii oraz produktów marki JBoss / Red Hat</p>\n            <p><a href="https://twitter.com/andiPansa" target="_blank">Andrzej Goławski</a></p>\n            <p><a href="http://bdawidowicz.blogspot.com/" target="_blank">Bolesław Dawidowicz</a></p>\n            <p><a href="https://twitter.com/KrzysztofMiksa" target="_blank">Krzysztof Miksa</a></p>\n            <p>Marek Kapowicki</p>\n            <p><a href="http://www.harasymczuk.pl/" target="_blank">Matt Harasymczuk</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://www.meetup.com/Warsaw-Spring-Labs" title="Spring Labs" target="_blank">Spring Labs</a></h3>\n            <p>kontakt:<a href="http://www.meetup.com/Warsaw-Spring-Labs" target="_blank"> meetup Spring Labs</a></p>\n            <p>Odpowiadają za organizację warsztatów ze Springa</p>\n            <p>Adam Chudzik</p>\n            <p><a href="https://twitter.com/dkaczynski" target="_blank">Dariusz Kaczyński</a></p>\n            <p><a href="https://twitter.com/mihn" target="_blank">Michał Niczyporuk</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://koduj.com/" title="Koduj.com" target="_blank">Koduj.com (dawniej Devoxx4Kids)</a></h3>\n            <p>Odpowiadają za organizację warsztatów programistycznych dla dzieci</p>\n            <p>Damian Leszczyński</p>\n            <p><a href="https://twitter.com/mkiedys" target="_blank">Michał Kiędyś</a></p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="http://www.meetup.com/Warsaw-Groovy-User-Group/" target="_blank">Warsaw Groovy User Group</a></h3>\n            <p>Odpowiadają za organizację prezentacji i warsztatów dotyczących technologii związanych z językiem Groovy</p>\n            <p><a href="http://solidcraft.eu" target="_blank">Jakub Nabrdalik</a></p>\n            <p><a href="http://www.marcin.grzejszczak.pl/" target="_blank">Marcin Grzejszczak</a></p>\n            <p><a href="http://szimano.org/" target="_blank">Tomasz Szymański</a></p>\n          </div>\n          <div class="span4">\n            <h3>sponsoring/partnerzy</h3>\n            <p>Odpowiadają za kontakt z firmami i instytucjami zainteresowanymi wsparciem oraz współpracą z naszym JUG-iem</p>\n            <p><a href="http://blog.piotrturski.net/" target="_blank">Piotr Turski</a></p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3>sale</h3>\n            <p>Odpowiada za rezerwację sal</p>\n            <p><a href="http://tomaszdziurko.pl" target="_blank">Tomasz Dziurko</a></p>\n          </div>\n          <div class="span4">\n            <h3>zasłużeni dla WJUG</h3>\n            <p>Chcąc upamiętnić osoby, które włożyły masę pracy i pozytywnych wibracji w rozwój grupy, grupa odznaczyła następujące osoby tytułem<b> honorowego lidera</b></p>\n            <p><a href="http://pawel.wrzesz.cz/" target="_blank">Paweł Wrzeszcz</a></p>\n            <p><a href="http://szimano.org/" target="_blank">Tomasz Szymański</a></p>\n            <p><a href="http://jaceklaskowski.pl/" target="_blank">Jacek Laskowski</a></p>\n            <p><a href="http://www.lenart.org.pl/" target="_blank">Łukasz Lenart</a></p>\n            <p><a href="http://erbetowski.pl/" target="_blank">Wojtek Erbetowski</a></p>\n            <p>Agnieszka Skiba</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="cooperation" scroll-spy="scroll-spy" page="1" class="section simple_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>Współpraca z firmami</h1>\n            <p>Prowadząc wiele inicjatyw związanych z organizacją konferencji (<a href="http://confitura.pl" title="Confitura" target="_blank">Confitura</a>), cyklicznych spotkań dla programistów (<a href="/#/meetings" title="Spotkania cykliczne WJUG">spotkania WJUG</a>,<a href="http://jinkubator.pl" title="Jinkubator" target="_blank"> Jinkubator</a>, Scalania,<a href="http://www.meetup.com/Warsaw-Spring-Labs" title="Spring Labs" target="_blank"> Spring Labs</a>) oraz warsztatów i projektów tematycznych (<a href="http://devoxx4kids.pl/" title="Devoxx4Kids" target="_blank">Devoxx4Kids</a>) oferujemy firmom zainteresowanym współpracą z WJUG szereg możliwości.</p>\n          </div>\n          <div class="span6">\n            <h1>sponsorowanie spotkania</h1>\n            <p>Najprostszą formą współpracy jest sponsorowanie jednego ze spotkań. Wystarczy skontaktować się z<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a>, by uzyskać szczegółowe informacje.</p>\n            <p>Sponsoring może przybierać rożne formy. Najmniej wymagającą jest wpłata określonej kwoty (wystawiamy fakturę VAT), ale gorąco zachęcamy do fundowania biletów na konferencję (np. do rozlosowania pośród uczestników czy w ramach konkursu), materiałów do nauki (książek, kursów, szkoleń) oraz przydatnych narzędzi (np. licencji na środowiska deweloperskie).</p>\n            <p>W zamian udostępniamy dla sponsora rozpoczęcie spotkania, umożliwiamy rozstawienie materiałów promocyjnych, zamieszczamy informację o współpracy i logo sponsora na stronie spotkania oraz rozgłaszamy je we wszystkich kanałach społecznościowych. Istnieje również możliwość rozdania ulotek firmowych sponsora.</p>\n            <p>Na prezentację podczas otwarcia spotkania przeznaczamy 10 minut. Sądzimy, że krótkie wprowadzenie o obszarach działalności firmy i jej oczekiwaniach rynkowych oraz ofert pracy znacząco zwiększa możliwości pozyskania wartościowych pracowników z szeregów naszej grupy i później, po opublikowaniu nagrania ze spotkania.</p>\n            <p>Zwracamy uwagę na tzw. "gęstość informacji". Z przyjemnością poświęcimy kilkanaście minut, żeby dowiedzieć się, czy w danej firmie warto pracować. Ważne są technologie, tematy projektów, stawki, nadgodziny, czy w okolicy jest dobre jedzenie, czy w godzinach pracy mogę pójść do lekarza lub odebrać dziecko z przedszkola, narzędzia i metodologia pracy, czy mogę pracować z domu, ścieżka kariery, i tym podobne.</p>\n            <p>Zachęcamy do delegowania na nasze spotkania osób technicznych.</p>\n          </div>\n          <div class="span6">\n            <h1>sponsorowanie konferencji</h1>\n            <p>Kolejną formą współpracy jest sponsorowanie konferencji<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitura</a>, która odbywa się zwyczajowo w lipcu.\n               Szczegółowe warunki współpracy można ustalić poprzez skontaktowanie się z kapitułą Confitury:<a href="mailto:confitura@confitura.pl"> confitura@confitura.pl</a>.\n            </p>\n            <h1>oferty-pracy-java</h1>\n            <p>Jeszcze inną formą dotarcia do członków grupy jest ogłoszenie na ogólnopolskiej liście<a href="https://groups.google.com/forum/?fromgroups#!forum/oferty-pracy-java" title="oferty-pracy-java" target="_blank"> oferty-pracy-java</a>. Po wysłaniu na powyższy adres ogłoszenie podlega moderacji (wymagania odnośnie ogłoszenia w paragrafie poniżej). Moderacja może zająć do kilku dni. W razie wątpliwości pytania można kierować mailowo na<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a>.</p>\n            <p>Każdy mail z ofertą pracy powinien zawierać w tytule [OFERTA] z podaniem nazwy stanowiska, miastem oraz widełkami płacowymi - przykładowe oferty można podejrzeć w archiwum<a href="https://groups.google.com/forum/?fromgroups#!forum/oferty-pracy-java" title="oferty-pracy-java" target="_blank"> oferty-pracy-java</a>. Wiadomość podlega moderacji.</p>\n            <p>Wszelkie odstępstwa od tej reguły wiążą się z usunięciem nadawcy z grupy.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="partners" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section partners_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span6 text-center">\n            <h1>miejsce do spotkań mamy dzięki</h1>\n            <p><a href="http://www.mimuw.edu.pl/" target="_blank"><img src="img/partners/mimuw-logo.png" width="200" class="margin-small"/></a></p>\n          </div>\n          <div class="span6 text-center">\n            <h1>wejściówki na warsztat sponsoruje</h1>\n            <p><a href="http://www.stacja.it/" target="_blank"><img src="img/sponsors/stacja-it-inv.png" width="230"/></a></p>\n          </div>\n        </div>\n        <div class="row margin-medium">\n          <div class="span6 text-center">\n            <h1>licencje sponsoruje</h1>\n            <p><a href="http://www.jetbrains.com/idea" target="_blank" class="margin-side"><img src="img/partners/jetbrains.png" width="160"/></a><a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank" class="margin-side"><img src="img/partners/jprofiler.png" width="250"/></a></p>\n          </div>\n          <div class="span6 text-center">\n            <h1>książki sponsoruje</h1>\n            <p><a href="http://www.decerto.pl/" target="_blank"><img src="img/sponsors/decerto-inv.png" width="280" class="margin-large"/></a></p>\n          </div>\n        </div>\n        <div class="row margin-medium">\n          <div class="span12 text-center">\n            <h1>oferty pracy dostarcza</h1>\n            <p><a href="https://nofluffjobs.com" target="_blank" title="nofluffjobs - oferty pracy dla specjalistow IT"><img src="img/partners/no-fluff-jobs-inv.png" width="380" alt="nofluffjobs - oferty praca dla informatykow" class="margin-small"/></a></p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
+buf.push('\n<div ng-controller="PageCtrl">\n  <div id="about" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section about_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span4">\n            <h1>spotkania</h1>\n            <p>Grupa spotyka się cyklicznie (zwykle co tydzień) we wtorki,<b> w sali 3180 budynku Wydziału MIMUW na ulicy Banacha 2 w Warszawie, w godzinach 18:15-20:00</b>. Prowadzimy tam wykłady, warsztaty i rozmawiamy o najciekawszych technologiach.</p>\n          </div>\n          <div class="span4">\n            <h1>on-line</h1>\n            <p><a href="https://groups.google.com/forum/?fromgroups#!forum/warszawa-jug" target="_blank"><img src="img/icons/google-groups.png" width="40"/></a><a href="https://jvm-poland.signup.team/" target="_blank"><img src="img/icons/slack-icon.png" width="40"/></a><a href="http://www.meetup.com/Warszawa-JUG/" target="_blank"><img src="img/icons/meetup.png" width="40"/></a><a href="http://www.youtube.com/channel/UC2coGyxf5x_CzJ3l4F-N-Sw" target="_blank"><img src="img/icons/youtube.png" width="40"/></a><a href="https://twitter.com/warszawajug" target="_blank"><img src="img/icons/twitter.png" width="40"/></a><a href="https://www.facebook.com/warsawjug" target="_blank"><img src="img/icons/facebook.png" width="40"/></a><a href="https://github.com/warszawajug" target="_blank"><img src="img/icons/github.png" width="40"/></a><a href="mailto:wjug-regular-meetings@googlegroups.com" target="_blank"><img src="img/icons/email.png" width="40"/></a>\n              <p>Dyskutujemy na<a href="mailto:warszawa-jug@googlegroups.com"> grupie dyskusyjnej</a>, którą możesz także śledzić przez<a href="https://groups.google.com/forum/?fromgroups#!forum/warszawa-jug" title="web" target="_blank"> weba</a> oraz na<a href="https://jvm-poland.signup.team/" title="Slack" target="_blank"> Slacku.</a></p>\n            </p>\n          </div>\n          <div class="span4">\n            <h1>konferencje</h1>\n            <p>Organizujemy dużą, cykliczną konferencję w Warszawie:<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitura</a>. Ponadto organizujemy i spotykamy się na hackathonach, barcampach i warsztatach.</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span6">\n            <h1>kim jesteśmy</h1>\n            <p>Warszawa JUG (albo po prostu WJUG) jest grupą pasjonatów technologii Java. Nasza fascynacja przekłada się na chęć poznawania technologii, frameworków, i metod tworzenia aplikacji na platformie JVM, oraz podnoszenia naszego rzemiosła programistycznego. W tym celu organizujemy cykliczne spotkania. Jest nas już ponad 1000 osób!</p>\n            <h1>dołącz do nas</h1>\n            <p>Po prostu przyjdź na spotkanie i/lub dopisz się do grupy dyskusyjnej. Grupa jest otwarta i wita zarówno początkujących jak i wymiataczy.</p>\n            <p>Jeśli chcesz poprowadzić wykład<a href="https://warszawajug.typeform.com/to/L5ydtp" target="_blank"> wypełnij formularz zgłoszeniowy</a> lub napisz do<a href="mailto:wjug-regular-meetings@googlegroups.com"> organizatorów</a>. To nic trudnego!<a href="#/by-you"> Z przyjemnością pomagamy początkującym prelegentom</a>.</p>\n          </div>\n          <div class="span6">\n            <h1>najbliższe spotkanie</h1>\n            <h3>Walne spotkanie JUG</h3>\n            <p>termin: 04.07.2017 , 18:00</p>\n            <p>lokalizacja: MIMUW, sala 4050</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span12">\n            <h3>nadal Ci mało? spotkajmy się też tutaj:</h3>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span3"><a href="https://2017.mobiconf.org/" target="_blank"><img src="img/partners/mobiconf.png" style="margin-top: 40px"/></a></div>\n          <div class="span3"><a href="http://www.jbcnconf.com/" target="_blank"><img src="img/partners/jbcnconf2017_summer_duke_2_33.jpg" style="margin-top: 40px"/></a></div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="meetings" scroll-spy="scroll-spy" page="1" class="section simple_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>spotkania</h1>\n            <p>Jeżeli nosisz się z zamiarem dołączenia do grona naszych prelegentów zapoznaj się z<a href="#by-you"> poradnikiem prelegenta</a></p>\n            <p>Prezentację możesz zgłosić przez<a href="https://warszawajug.typeform.com/to/L5ydtp"> formularz,</a> napisać do nas e-mail lub zaproponować temat na grupie dyskusyjnej WJUG-a.</p>\n            <h3>Przed nami:</h3>\n            <p>04.07.2017 Walne spotkanie JUG</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span12">\n            <h3>Za nami:</h3>\n            <p>20.06.2017<a href="#/meeting/212"> Optimized for what?</a> - Alberto Brandolini\n               | sponsor:<a href="http://pragmatists.pl/" target="_blank"> Pragmatists</a>\n            </p>\n            <p>13.06.2017<a href="#/meeting/211"> Modularity and hexagonal architecture in real life</a> - Jakub Nabrdalik\n               | sponsor:<a href="https://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>30.05.2017<a href="#/meeting/210"> Event Sourcing z Domain-Driven Design</a> - Paweł Cesar Sanjuan Szklarz\n               | sponsor:<a href="https://www.7n.com/" target="_blank"> 7n</a>\n            </p>\n            <p>23.05.2017<a href="#/meeting/209"> Biblioteka PCJ - aplikacje równoległe w Javie</a> - Marek Nowicki</p>\n            <p>16.05.2017<a href="#/meeting/208"> Flash talks - TDD, Great enterpreneurship, JShell</a> - Michał Lewandowski, Michał Parkoła, Łukasz Gajowy\n               | sponsor:<a href="http://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>09.05.2017<a href="#/meeting/207"> 4 lata rewolucji mikrousługowej w Allegro</a> - Mateusz Gajewski\n               | sponsor:<a href="https://allegro.tech/" target="_blank"> Allegro</a>\n            </p>\n            <p>25.04.2017<a href="#/meeting/206"> Porty i adaptery</a> - Dominik Przybysz\n               | sponsor:<a href="https://touk.pl/" target="_blank"> TouK</a>\n            </p>\n            <p>11.04.2017<a href="#/meeting/205"> Ratel - distributed Spring</a> - Arek Masiakiewicz</p>\n            <p>04.04.2017<a href="#/meeting/204"> Event Sourcing - co to, po co to, jak to</a> - Marcin Haręza</p>\n            <p>28.03.2017<a href="#/meeting/203"> Budowanie własnego systemu operacyjnego z wykorzystaniem Androida</a> - Michał Górny</p>\n            <p>21.03.2017<a href="#/meeting/202"> It’s a Docker … It’s a Cloud … It’s a Docker Cloud!</a> - Karol Lotkowski</p>\n            <p>14.03.2017<a href="#/meeting/201"> Co back-end developer powinien wiedzieć o web security</a> - Robert Szarejko\n               | sponsor:<a href="http://www.decerto.pl" target="_blank"> Decerto</a>\n            </p>\n            <p>06.03.2017<a href="#/meeting/200"> WJUG #200 - Spotkanie Jubileuszowe</a> - Kevlin Henney, Jan Pustelnik, Tomasz Nurkiewicz, Maciej Aniserowicz\n               | sponsor:<a href="http://gft.com/" target="_blank"> GFT</a>\n            </p>\n            <p>28.02.2017<a href="#/meeting/199"> Concurrency in Java - Comprehensive</a> - Mateusz Kaczmarek</p>\n            <p>21.02.2017<a href="#/meeting/198"> Flash talks - Flash talks (RxJava, Spring REST Docs, Asciidoctor)</a> - Tomasz Kopczyński, Arek Masiakiewicz, Mateusz Sobczak\n               | sponsor:<a href="http://www.circlek.com/" target="_blank"> Circle K</a>\n            </p>\n            <p>07.02.2017<a href="#/meeting/197"> Tech interview - how to choose a good developer?</a> - Krzysztof Kozioł, Rafał Udziela\n               | sponsor:<a href="http://it.roche.pl" target="_blank"> Roche</a>\n            </p>\n            <p>31.01.2017<a href="#/meeting/196"> Javascript + Java = Typescript</a> - Tomasz Ducin\n               | sponsor:<a href="http://www.softwareplant.com/career/?utm_source=wjug&amp;utm_medium=meeting" target="_blank"> SoftwarePlant</a>\n            </p>\n            <p>17.01.2017<a href="#/meeting/195"> Modelowanie procesów biznesowych przy użyciu BPMN, CMMN, DMN i Javy</a> - Paweł Kozioł\n               | sponsor:<a href="http://www.sparkbit.pl/" target="_blank"> Sparkbit</a>\n            </p>\n            <p>10.01.2017<a href="#/meeting/194">Flash-talks - Backend z Kotlinem, Java(Script) na Androidzie, Spock, Java 9 Additions to Stream and Optional API</a> | sponsor:<a href="http://www.7n.com/" target="_blank"> 7N</a></p>\n            <p>13.12.2016 Warsztat "Wprowadzenie do negocjacji w biznesie" - Małgorzata Majewska</p>\n            <p>06.12.2016<a href="#/meeting/192">  Co nowego w Spring 5</a> - Robert Szarejko\n               | sponsor:<a href="http://www.finat.pl/body-leasing/" target="_blank"> PKO BP Finat</a>\n            </p>\n            <p>29.11.2016<a href="#/meeting/191"> RxJava in legacy projects</a> - Tomasz Nurkiewicz | sponsor:<a href="http://allegro.tech/" target="_blank"> Allegro</a></p>\n            <p>22.11.2016<a href="#/meeting/190"> Hibernate since 2001. Is time for Cyberpunk 2020?</a> - Tomasz Skowroński | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4FinanceIT</a></p>\n            <p>15.11.2016<a href="#/meeting/189"> Consumer Driven Contracts and Your Microservice Architecture</a> - Marcin Grzejszczak | sponsor:<a href="http://www.7n.com/" target="_blank">7N</a></p>\n            <p>25.10.2016<a href="#/meeting/188"> Pragmatyczne podejście do pisania i utrzymywania testów</a> - Marek Dominiak | sponsor:<a href="http://www.decerto.pl" target="_blank">Decerto</a></p>\n            <p>18.10.2016<a href="#/meeting/187"> Refaktoryzacja systemu e-Bankowości - przykład oddolnej zmiany w Nordea IT</a> - Michał Bartyzel i Łukasz Korczyński</p>\n            <p>11.10.2016 - WJUG Lajt dzień później (12 października)</p>\n            <p>04.10.2016 - brak spotkania, zapraszamy na<a href="http://www.meetup.com/Warsaw-Cloud-Native-Meetup/events/233760492/"> Messaging Microservices and Streaming Data with Spring Cloud with Dave Syer</a> w ramach Warsaw Cloud Meetup</p>\n            <p>27.09.2016<a href="#/meeting/185"> Javaslang - Functional Java Done Right</a> - Grzegorz Piwowarek | sponsor:<a href="https://touk.pl/" target="_blank"> TouK</a></p>\n            <p>20.09.2016<a href="#/meeting/184"> Peer-2-Peer Salary Review</a> - Jakub Nabrdalik</p>\n            <p>07.06.2016<a href="#/meeting/183"> Lambda Core - Hardcore</a> - Jarosław Ratajski</p>\n            <p>24.05.2016<a href="#/meeting/182">\n                 Microservices tracing with Spring Cloud and Zipkin\n                 - Marcin Grzejszczak</a></p>\n            <p>10.05.2016<a href="#/meeting/181"> Continuous Delivery - architektura i praktyka</a> - Łukasz Szydło | sponsor:<a href="https://sputnik.ci/" target="_blank"> Sputnik</a></p>\n            <p>19.04.2016<a href="#/meeting/180"> Machine Learning dla Developerów</a> - Mariusz Gil</p>\n            <p>05.04.2016<a href="#/meeting/179"> Cloud Foundry - continuous delivery platform</a> - Michał Kuratczyk | sponsor:<a href="http://pivotal.io/platform" target="_blank"> Pivotal</a></p>\n            <p>29.03.2016<a href="#/meeting/178"> Flash talks - ConfigSlurper, Big Data, wyjątki w Lambdach, web SSO oraz Guice</a> - Dominik Przybysz, Grzegorz Piwowarek, Piotr Guzik, Piotr Fus, Mateusz Sobczak | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>15.03.2016<a href="#/meeting/177"> Domain Driven Design w praktyce</a> - Krzysztof Muchewicz | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>01.03.2016<a href="#/meeting/176"> Jak nie zawalić projektu - czyli ryzyko i komunikacja</a> - Karol Drzymała | sponsor:<a href="http://www.bluesoft.net.pl/" target="_blank"> BlueSoft</a></p>\n            <p>16.02.2016<a href="#/meeting/175"> Applied Microservices</a> - Nakul Mishra | sponsor:<a href="http://www.softwareplant.eu/" target="_blank"> SoftwarePlant</a></p>\n            <p>02.02.2016<a href="#/meeting/174"> Logowanie zdarzeń w architekturze opartej na mikroserwisach</a> - Paweł Grajewski, Łukasz Kamiński | sponsor:<a href="http://www.bms.com.pl/" target="_blank"> BMS</a></p>\n            <p>19.01.2016<a href="#/meeting/173"> Jakie problem rozwiązuje Reactive Streams?</a> - Pawel Cesar Sanjuan Szklarz</p>\n            <p>15.12.2015<a href="#/meeting/172"> Eclipse Collections By Example</a> - Christian Glencross | sponsor:<a href="http://www.goldmansachs.com/" target="_blank"> Goldman Sachs</a></p>\n            <p>01.12.2015<a href="#/meeting/171"> 5-10-15 lat w karierze developera</a> -<a href="https://twitter.com/wseliga" target="_blank"> Wojciech Seliga</a> | sponsor:<a href="https://spartez.com/careers" target="_blank"> Spartez</a></p>\n            <p>17.11.2015<a href="#/meeting/170"> Neo4j</a> -<a href="https://geekyprimitives.wordpress.com/" target="_blank"> Jarosław Pałka</a></p>\n            <p>03.11.2015<a href="#/meeting/169"> JSON taki albo owaki... czyli kontrolowanie struktur z JSON Schema</a> -<a href="http://ducin.it/" target="_blank"> Tomasz Ducin</a> | sponsor:<a href="http://www.cybercom.com/pl/Poland/" target="_blank"> Cybercom Poland</a></p>\n            <p>20.10.2015<a href="#/meeting/168"> Lazy Evaluations and its Impact on Efficiency</a> -<a href="http://www.agiledeveloper.com/" target="_blank"> Venkat Subramaniam</a> | sponsor:<a href="http://www.it.roche.pl/" target="_blank"> IT Roche Polska</a></p>\n            <p>06.10.2015<a href="#/meeting/167"> Garbage Collector w pigułce</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://www.porty-lotnicze.com.pl" target="_blank"> Porty Lotnicze</a></p>\n            <p>22.09.2015<a href="#/meeting/166"> On-heap cache vs Off-heap cache w Javie</a> - Radek Grębski | sponsor:<a href="http://www.itmo.pl/" target="_blank"> ITMO</a></p>\n            <p>08.09.2015<a href="#/meeting/165"> Microservices - enough with theory, let\'s code some</a> -<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a>,<a href="http://toomuchcoding.blogspot.com/" target="_blank"> Marcin Grzejszczak</a> | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=L7zrYHXSCKM" target="_blank"> nagranie ze spotkania</a></p>\n            <p>11.08.2015<a href="#/meeting/164"> Mhm, mikroserwisy. Już wiesz,że wtopiłeś...</a> - Marcin Matuszak\n               |<a href="https://www.youtube.com/watch?v=d_RwASXkPqE" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>04.07.2015<a href="http://2015.confitura.pl/" target="_blank"> Confitura 2015</a></p>\n            <p>29.06.2015 Walne spotkanie JUG</p>\n            <p>09.06.2015<a href="#/meeting/161"> Hystrix - Managing failures in distributed systems</a> -<a href="http://www.nurkiewicz.com/" target="_blank"> Tomek Nurkiewicz</a> | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=RpfQ8AHwEvg" target="_blank"> nagranie ze spotkania</a></p>\n            <p>26.05.2015<a href="#/meeting/160"> Suple(r): Aplikacje Hardkorowo!</a> -<a href="http://www.warski.org/blog/" target="_blank"> Adam Warski</a>,<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a> | sponsor:<a href="https://softwaremill.com/" target="_blank"> SoftwareMill</a> |<a href="https://www.youtube.com/watch?v=gBPDwfd_PyY" target="_blank"> nagranie ze spotkania</a></p>\n            <p>05.05.2015<a href="#/meeting/159"> Microservice everything</a> -<a href="https://twitter.com/kubem" target="_blank">Jakub Marchwicki</a><strong> (Uwaga zmiana terminu i miejsca)</strong> | sponsor:<a href="http://filttr.pl/" target="_blank"> FILTTR</a> |<a href="https://www.youtube.com/watch?v=JxOu1GZmrV8" target="_blank"> nagranie ze spotkania</a></p>\n            <p>28.04.2015<a href="#/meeting/158"> Jesteś ekspertem i co dalej?</a> -<a href="http://art-of-software.blogspot.com/" target="_blank"> Sławek Sobótka</a> | sponsor:<a href="https://softwaremill.com/" target="_blank"> SoftwareMill</a> |<a href="https://www.youtube.com/watch?v=mqXHTbpKZ88" target="_blank"> nagranie ze spotkania</a></p>\n            <p>14.04.2015<a href="#/meeting/157"> Dlaczego 99% firm, które tworzą API RESTowe kłamie?</a> -<a href="http://bandrzejczak.com" target="_blank"> Bartek Andrzejczak</a> | sponsor:<a href="http://www.bms.com.pl/" target="_blank"> BMS</a> |<a href="https://www.youtube.com/watch?v=XmNRZ-JJGBw" target="_blank"> nagranie ze spotkania</a></p>\n            <p>31.03.2015<a href="#/meeting/156"> Microservices architecture pitfalls</a> - Mateusz Gajewski\n               | sponsor:<a href="http://www.4financeit.com/" target="_blank"> 4Finance</a> |<a href="https://www.youtube.com/watch?v=yxZm0Fhn9Tk" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>17.03.2015<a href="#/meeting/155"> Beyond Futures And Actors</a> - Maciej Jaśkowski (Odwołane)</p>\n            <p>03.03.2015<a href="#/meeting/154"> Web components with Polymer</a> -<a href="https://twitter.com/apierzch" target="_blank"> Adam Pierzchała</a> | sponsor:<a href="http://www.pragmatists.pl/" target="_blank"> Pragmatists</a> |<a href="https://www.youtube.com/watch?v=kueTbongGkY" target="_blank"> nagranie ze spotkania</a></p>\n            <p>17.02.2015<a href="#/meeting/153"> Apache Solr - silnik wyszukiwania jako baza NoSQL</a> - Tomasz Sobczak |<a href="https://www.youtube.com/watch?v=-X3TzwfWDDA" target="_blank"> nagranie ze spotkania</a></p>\n            <p>28.01.2015 Walne spotkanie JUG</p>\n            <p>27.01.2015<a href="#/meeting/151"> Heap, off you go</a> -<a href="https://plumbr.eu/" target="_blank"> Nikita Salnikov-Tarnovski</a> |<a href="https://www.youtube.com/watch?v=Dt-DJnF3P_Q" target="_blank"> nagranie ze spotkania</a></p>\n            <p>20.01.2015<a href="#/meeting/150"> Vaadin 7 – thinking of U and I</a> - Maciej Przepiórka\n               |<a href="https://www.youtube.com/watch?v=mKYKhoo41K0" target="_blank"> nagranie ze spotkania</a>\n            </p>\n            <p>09.12.2014<a href="#/meeting/149"> Intro to Apache Spark</a> -<a href="http://www.rabbitonweb.com" target="_blank"> Paweł Szulc</a> |<a href="https://www.youtube.com/watch?v=S-ikFjK5faw" target="_blank"> nagranie ze spotkania</a></p>\n            <p>25.11.2014<a href="#/meeting/148"> Osobisty biznesplan. Jak Java developer może zaplanować swoją karierę</a> - Krzysztof Śliwiński i Sebastian Konkol</p>\n            <p>12.11.2014 (wyjątkowo środa)<a href="#/meeting/147"> yo coffee! czyli kamerdyner na wezwanie</a> -<a href="https://www.linkedin.com/pub/tomasz-ducin/4b/34a/822" target="_blank"> Tomasz Ducin</a> |<a href="https://www.youtube.com/watch?v=Jur_75wq4KA" target="_blank"> nagranie ze spotkania</a></p>\n            <p>06.11.2014<a href="#/meeting/146"> Czas Dockera - od zera do kontenera!</a> -<a href="http://slepykorzen.pl/" target="_blank"> Przemek Hejman</a>, Marcin Brański</p>\n            <p>28.10.2014<a href="#/meeting/145"> Warsjawa Hackaton czyli jak zrobić sobie hackathon z przygotowania do konferencji</a> -<a href="http://blog.klkl.pl/" target="_blank"> Michał Lewandowski</a>,<a href="http://netczuk.pl/" target="_blank"> Tomasz Netczuk</a>, Tomasz Pęksa |<a href="#/meeting/145"> Warjawa NFC Case Study</a> -<a href="https://twitter.com/mkiedys" target="_blank"> Michał Kiędyś</a>,<a href="http://wybcz.pl/" target="_blank"> Łukasz Szczęsny</a></p>\n            <p>14.10.2014<a href="#/meeting/144"> Thymeleaf - szablony, które bez przetworzenia zrozumie twoja przeglądarka</a> - Maciej Ziarko\n               | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a>\n            </p>\n            <p>26-27.09.2014<a href="http://warsjawa.pl/" target="_blank"> Warsjawa 2014</a></p>\n            <p>16.09.2014<a href="#/meeting/143"> DevOps BarCamp</a></p>\n            <p>02.09.2014<a href="#/meeting/142"> Walidacja w świecie obiektów domenowych - blaski i cienie JSR 303</a> - Robert Szarejko</p>\n            <p>09.08.2014<a href="http://microhackaton-2014-august-warsaw.github.io/2014/" target="_blank"> Microservice hackathon</a></p>\n            <p>05.07.2014<a href="http://2014.confitura.pl/" target="_blank"> Confitura 2014</a></p>\n            <p>01.07.2014 Walne spotkanie WJUG</p>\n            <p>17.06.2014<a href="#/meeting/140"> Microservices BarCamp</a></p>\n            <p>03.06.2014<a href="#/meeting/139"> Open source brag - spotkanie o projektach open source</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>20.05.2014<a href="#/meeting/138"> Designing API for mobile apps</a> -<a href="http://erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> |<a href="#/meeting/138"> RabbitMQ</a> -<a href="https://twitter.com/mkiedys" target="_blank"> Michał Kiędyś</a></p>\n            <p>06.05.2014<a href="#/meeting/137"> Kim jest software developer - panel dyskusyjny</a> | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a></p>\n            <p>22.04.2014<a href="#/meeting/136"> Java SE 8 & Java EE 7 flash-talks</a> | sponsor:<a href="http://4finance.com/" target="_blank"> 4finance</a></p>\n            <p>08.04.2014<a href="#/meeting/135"> WildFly on the fly</a> -<a href="https://twitter.com/KrzysztofMiksa" target="_blank"> Krzysztof Miksa</a> (feat.<a href="http://wjbug.pl/" target="_blank"> Warsaw JBoss User Group</a>)</p>\n            <p>25.03.2014<a href="#/meeting/134"> OpenJDK hackathon</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>11.03.2014<a href="#/meeting/133"> Listen to the sounds of your application -</a><a href="http://maciej.inszy.org/" target="_blank"> Maciej Biłas</a>,<a href="http://abstractionextraction.wordpress.com/" target="_blank"> Krzysztof Ciesielski</a> |<a href="#/meeting/133"> Bringing lambdas to Java</a> -<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>25.02.2014<a href="#/meeting/132"> Unorthodox Enterprise Practices</a> -<a href="http://www.adam-bien.com/" target="_blank"> Adam Bien</a></p>\n            <p>11.02.2014<a href="#/meeting/131"> Adopt OpenJDK</a> -<a href="http://michalwarecki.blogspot.com/" target="_blank"> Michał Warecki</a> |<a href="#/meeting/131"> Specification by Example</a> -<a href="http://agile.waw.pl/" target="_blank"> Krzysztof Jelski</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>28.01.2014<a href="#/meeting/130"> Flash-talks</a></p>\n            <p>14.01.2014<a href="#/meeting/129"> Always Be Responsible for Any Code You Write, Even for Fun. NoException()</a> -<a href="http://www.harasymczuk.pl/" target="_blank"> Mateusz Harasymczuk</a></p>\n            <p>09.01.2014<a href="#/meeting/128"> Humanoidalny robot NAO (feat. Human Tech Art)</a> -<a href="http://www.aldebaran-robotics.com/en/" target="_blank"> Aldebaran Robotics</a></p>\n            <p>17.12.2013<a href="#/meeting/127"> Flashtalks: SmartParam, jFairy, Spring Boot</a> - Adam Dubiel,<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>, Dariusz Kaczyński</p>\n            <p>03.12.2013<a href="#/meeting/126"> CompletableFuture i RxJava - functional reactive programming w Javie</a> -<a href="http://nurkiewicz.blogspot.com/" target="_blank"> Tomasz Nurkiewicz</a></p>\n            <p>28.11.2013<a href="#/meeting/125"> Walne zgromadzenie</a></p>\n            <p>19.11.2013<a href="#/meeting/124"> Java EE Portal Anno Domini 2013</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>05.11.2013<a href="#/meeting/123"> Polecane dla Ciebie: rekomendacje i Mahout</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a></p>\n            <p>22.10.2013<a href="#/meeting/122"> Spring Data</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>12.10.2013<a href="http://2013.warsjawa.pl/" target="_blank"> Warsjawa 2013</a></p>\n            <p>08.10.2013<a href="#/meeting/121"> AngularJS 101</a> - Marek Lewandowski | sponsor:<a href="http://icompass.pl/" target="_blank"> iCompass</a></p>\n            <p>24.09.2013<a href="#/meeting/120"> Serwer w Javie</a> - Adam Lider</p>\n            <p>10.09.2013<a href="#/meeting/119"> Flash-talks: Tig, Fish shell, jOOX, Togglz</a> -<a href="https://twitter.com/mariusz_s" target="_blank"> Mariusz Smykuła</a>,<a href="https://twitter.com/mgrzechocinski" target="_blank"> Mateusz Grzechociński</a>,<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>,<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>06.07.2013<a href="http://2013.confitura.pl/" target="_blank"> Confitura 2013</a></p>\n            <p>18.06.2013<a href="#/meeting/118"> Java Memory Model</a> -<a href="http://michalwarecki.blogspot.com" target="_blank"> Michał Warecki</a></p>\n            <p>04.06.2013<a href="#/meeting/117"> Type Driven Development</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>25.05.2013<a href="#/meeting/116"> Test kata</a></p>\n            <p>21.05.2013<a href="#/meeting/115"> Moje pierwsze kroki w programowaniu funkcyjnym w Scali</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>07.05.2013<a href="#/meeting/114"> Redis, Riak, MongoDB - 3 smaki NoSQL</a> -<a href="http://blog.solidcraft.eu" target="_blank"> Jakub Nabrdalik</a>,<a href="http://softwaremathmodel.blogspot.com/" target="_blank"> Paweł Cesar Sanjuan Szklarz</a>, Paweł Sidoryk | sponsor:<a href="http://pl.adpilot.com/" target="_blank"> AdPilot</a></p>\n            <p>23.04.2013<a href="#/meeting/113"> HotSpot w low latency Java</a> - Wojciech Kudła | sponsor:<a href="http://appone.pl/" target="_blank"> AppOne</a></p>\n            <p>09.04.2013<a href="#/meeting/112"> Sześć smaków testowania - flashtalks</a> | sponsor:<a href="http://www.decerto.pl/" target="_blank"> Decerto</a></p>\n            <p>26.03.2013<a href="#/meeting/111"> Arquillian - Twój własny kombajn testowy</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://kariera.allegro.pl/" target="_blank"> Grupa Allegro</a></p>\n            <p>12.03.2013<a href="#/meeting/110"> Usability</a> - Mateusz Kaczmarek</p>\n            <p>26.02.2013<a href="#/meeting/109"> Rozmowy kwalifikacyjne</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a>,<a href="http://blog.solidcraft.eu" target="_blank"> Jakub Nabrdalik</a>,<a href="http://szimano.org/" target="_blank"> Tomasz Szymański</a></p>\n            <p>05.02.2013<a href="#/meeting/108"> Praktyczne wprowadzenie do OSGi i Enterprise OSGi</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.atm-si.com.pl/" target="_blank"> ATM Systemy Informatyczne S.A.</a></p>\n            <p>22.01.2013<a href="#/meeting/107"> Byteman - "fault injection" w praktyce</a> - Paweł Sidoryk | sponsor:<a href="http://econsulting.pl/" target="_blank"> eConsulting</a></p>\n            <p>08.01.2013<a href="#/meeting/106"> Metaprogramowanie w Javie</a> - Maciej Jankowski,<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> | sponsor:<a href="http://polidea.pl/" target="_blank"> Polidea</a></p>\n            <p>18.12.2012 Walne spotkanie WJUG</p>\n            <p>11.12.2012<a href="#/meeting/104"> Apache Cassandra w praktyce</a> - Tomek Kuprowski | sponsor:<a href="http://foxcode.pl/" target="_blank"> FoxCode</a></p>\n            <p>27.11.2012<a href="#/meeting/103"> Apache Cassandra: scalability, performance and fault tolerance in distributed databases</a> -<a href="https://twitter.com/kszdev" target="_blank"> Kamil Szymański</a></p>\n            <p>13.11.2012<a href="#/meeting/102"> Microbenchmarki z zastosowaniem Calipera</a> -<a href="http://www.kubrynski.com" target="_blank"> Jakub Kubryński</a> | sponsor:<a href="http://econsulting.pl/" target="_blank"> eConsulting</a></p>\n            <p>30.10.2012<a href="#/meeting/101"> jQuery + Twitter Bootstrap</a> -<a href="http://bartekzdanowski.blogspot.com/" target="_blank"> Bartek Zdanowski</a></p>\n            <p>27.10.2012<a href="https://sites.google.com/site/warszawajug/warsjawa-2012" target="_blank"> Warsjawa 2012</a></p>\n            <p>16.10.2012<a href="#/meeting/99"> Qooxdoo - framework RIA, który warto polubić</a> - Tomek Kuprowski</p>\n            <p>02.10.2012<a href="#/meeting/98"> Zrob to sam: STM w Javie</a> - Adam Lider</p>\n            <p>30.06.2012<a href="http://2012.confitura.pl/" target="_blank"> Confitura 2012</a></p>\n            <p>19.06.2012<a href="#/meeting/97"> Java jada RAM. Ile pamięci zjada Java?</a> - Michał Kosmulski | sponsor:<a href="http://netsprint.eu/" target="_blank"> NetSprint</a></p>\n            <p>05.06.2012<a href="#/meeting/96"> Implementacja architektury usługowej - od specifikacji do kodu</a> -<a href="http://softwaremathmodel.blogspot.com" target="_blank"> Paweł Cesar Sanjuan Szklarz</a> | sponsor:<a href="http://outbox.pl/" target="_blank"> Outbox</a></p>\n            <p>22.05.2012<a href="#/meeting/95"> Budowanie aplikacji (Java EE 6) z Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>12.05.2012<a href="https://groups.google.com/forum/#!topic/warszawa-jug/c2UCF9z0V1Y" target="_blank"> Warsztaty z języka Scala</a> -<a href="http://www.grzegorzbalcerek.net/" target="_blank"> Grzegorz Balcerek</a></p>\n            <p>08.05.2012<a href="#/meeting/93"> Nie utknijcie na Maven2</a> -<a href="http://erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>17.04.2012<a href="#/meeting/92"> Inauguracja WHUG: Quick Start with Hadoop, czyli chciałbym, ale się boję</a> - Paweł Brach, Adam Kawa i Tomasz Uliński | sponsor:<a href="http://taptera.com/" target="_blank"> Taptera</a></p>\n            <p>03.04.2012<a href="#/meeting/91"> Guava Vs. LambdaJ - kolekcje na sterydach</a> -<a href="http://blog.tiger.com.pl/author/kyniek/" target="_blank"> Krzysztof Nielepkowicz</a></p>\n            <p>27.03.2012<a href="#/meeting/90"> Ameba: mobilny dewelopment na sterydach</a> - Jarek Potiuk</p>\n            <p>06.03.2012<a href="#/meeting/89"> Funkcyjny Clojure z Javą, Leiningen, Counterclockwise, Midje i Compojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>21.02.2012<a href="#/meeting/88"> Scala - co w tym fajnego i czy da się łączyć z Javą na co dzień?</a> - Maciej Jaśkowski |<a href="#/meeting/88"> Krótko i zwięźle o Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.smtsoftware.com/" target="_blank"> SMT Software S.A.</a></p>\n            <p>03.01.2012<a href="#/meeting/87"> Koncepcje Guice</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek Kuczyński</a> ,<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>13.12.2011<a href="#/meeting/86"> Koncepcje Spring Framework</a> -<a href="http://blog.solidcraft.eu/" target="_blank"> Jakub Nabrdalik</a> | sponsor:<a href="http://softwaremill.pl/" target="_blank"> SoftwareMill</a></p>\n            <p>29.11.2011<a href="#/meeting/85"> Zmiany JVM w Java 7</a> - Adam Michalik\n               |<a href="#/meeting/85"> java.util.concurrent.Phaser praktycznie</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a>\n            </p>\n            <p>08.11.2011<a href="#/meeting/84"> Eclipse DemoCamp</a> - Piotr Chmielewski,<a href="http://softwaremathmodel.blogspot.com" target="_blank"> Paweł Cesar Sanjuan Szklarz</a>,<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a> | sponsor:<a href="http://www.mlife.pl/" target="_blank"> mLife</a></p>\n            <p>15.10.2011<a href="https://github.com/warszawajug/warsjawa2011/wiki/Konferencja-warsjawa-2011" target="_blank"> Warsjawa 2011</a></p>\n            <p>11.06.2011<a href="http://2011.confitura.pl/" target="_blank"> Confitura 2011</a></p>\n            <p>24.05.2011<a href="#/meeting/82"> Koziołek o Vaadin</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek Kuczyński</a></p>\n            <p>19.04.2011<a href="#/meeting/81"> JDK7 - czy na pewno nic nowego?</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>22.03.2011<a href="#/meeting/80"> Torquebox & CDI - czyli jak napisaliśmy JBisona</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a>,<a href="http://twitter.com/szimano" target="_blank"> Tomek Szymański</a></p>\n            <p>15.03.2011<a href="#/meeting/79"> Google z Facebookiem w Twojej aplikacji webowej, czyli co będę pisał sam integrację: THIS IS JAVA!!!! Spring security dla bardzo NIEzaawansowanych</a> -<a href="http://blog.solidcraft.eu/" target="_blank"> Jakub Nabrdalik</a></p>\n            <p>22.02.2011<a href="#/meeting/78"> Apache Hadoop i okolice</a> -<a href="http://mcl.jogger.pl/" target="_blank"> Marcin Cylke</a></p>\n            <p>25.01.2011<a href="#/meeting/76"> Tworzenie procesów biznesowych z Activiti i IBM WebSphere BPM (WPS/WID/WLE)</a> -<a href="http://mproch.blogspot.com/" target="_blank"> Maciek Próchniak</a>, Jakub Krzemień i<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>11.01.2011<a href="#/meeting/75"> Activiti – BPMN 2.0 nadchodzi</a> -<a href="http://mproch.blogspot.com/" target="_blank">Maciek Próchniak</a></p>\n            <p>21.12.2010<a href="#/meeting/74"> Jak Clojure koloruje mapy</a> -<a href="http://plblog.danieljanus.pl/" target="_blank"> Daniel Janus</a></p>\n            <p>07.12.2010<a href="#/meeting/73"> O obiektach aktywnych, obcym wołaniu metod takich obiektów i problemie otwartym?</a> - Andrzej Salwicki</p>\n            <p>23.11.2010<a href="#/meeting/72"> Clojure praktyczniej: REPL, Eclipse CCW, Eclipse Mylyn, monady i defrecord</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>09.11.2010<a href="#/meeting/71"> Sztuczki w językach programowania</a> - Cezary Bartoszuk</p>\n            <p>23.10.2010<a href="https://github.com/warszawajug/warsjawa2010/wiki/Konferencja-Warsjawa-2010" target="_blank"> Warsjawa 2010</a></p>\n            <p>19.10.2010<a href="#/meeting/70"> Wstęp do programowania funkcyjnego z Clojure</a> -<a href="http://jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>15.06.2010<a href="#/meeting/69"> Spring Dynamic Modules, Blueprint, OSGi - deklaratywne</a> -<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>01.06.2010<a href="#/meeting/68"> Ruch Software Craftsmanship i co z tego wynika dla zwykłego programisty</a> -<a href="http://solidcraft.eu" target="_blank"> Jakub Nabrdalik</a></p>\n            <p>18.05.2010<a href="#/meeting/67"> Multimedia Home Platform, czyli Java na małym ekranie</a> - Damian Szczepanik</p>\n            <p>20.04.2010<a href="#/meeting/66"> Vaadin, czyli po co nam kolejny framework webowy?</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek "koziołek" Kuczyński</a></p>\n            <p>06.04.2010<a href="#/meeting/65"> Consumer-Driven Contracts i rozproszone serwisy w praktyce</a> - Adam Lider</p>\n            <p>23.03.2010<a href="#/meeting/64"> Wtyczka IBM Rational Team Concert dla NetBeans IDE, czyli ciekawy projekt integracyjny narzędzia komercyjnego z otwartym</a> - Adam Kędziora</p>\n            <p>09.03.2010<a href="#/meeting/63"> JGAP, czyli gen javy w każdym z nas</a> -<a href="http://www.szczukocki.pl/" target="_blank"> Jacek Szczukocki</a></p>\n            <p>23.02.2010<a href="#/meeting/62"> Mule ESB vs. Apache ServiceMix</a> -<a href="http://nurkiewicz.blogspot.com/" target="_blank"> Tomasz Nurkiewicz</a>,<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>09.02.2010<a href="#/meeting/61"> PlayFramework - produktywność szkieletów webowych a\'la Django, RoR, Grails</a> -<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a> |<a href="#/meeting/61"> Google AppEngine - chmura na Ja(v)wie</a> -<a href="http://www.lenart.org.pl/" target="_blank"> Łukasz Lenart</a></p>\n            <p>26.01.2010<a href="#/meeting/60"> Hmm Java jawą, a co z iPhone?</a> -<a href="http://pietrowski.info/" target="_blank"> Sebastian Pietrowski (aka Pedro)</a>, Michał Karwański (aka Karwer)</p>\n            <p>12.01.2010<a href="#/meeting/59"> JavaFX bez ściemy</a> -<a href="http://poligloci.blogspot.com/" target="_blank"> Michał Margiel</a></p>\n            <p>15.12.2009<a href="#/meeting/58"> Performance Tuning with Cheap Drink and Poor Tools</a> -<a href="http://www.kodewerk.com/" target="_blank"> Kirk Pepperdine</a></p>\n            <p>08.12.2009<a href="#/meeting/57"> Własny mały guglik, czyli jak szybko i prosto wbudować silnik wyszukiwania w swoją aplikację z pomocą projektu Compass</a> -<a href="http://solidsoft.wordpress.com" target="_blank"> Marcin Zajączkowski</a></p>\n            <p>24.11.2009<a href="#/meeting/56"> Jesienny Eclipse DemoCamp 2009</a> - Michał Margiel, Łukasz Lenart, Jacek Laskowski, Sebastian Pietrowski, Tomasz Bujok</p>\n            <p>10.11.2009<a href="#/meeting/55"> Zastosowanie BPEL\'a w praktyce przy użyciu Apache ODE, Apache ServiceMix i SoapUI</a> - Rafał Rusin,<a href="http://mproch.blogspot.com/" target="_blank"> Maciej Próchniak</a></p>\n            <p>27.10.2009<a href="#/meeting/54"> Wyślij siebie na urlop, czyli o skutecznym zarządzaniu zespołem programistów</a> - Agnieszka Orlewicz</p>\n            <p>13.10.2009<a href="#/meeting/53"> Java w długopisie, zaskakująco użyteczne połączenie</a> -<a href="http://poligloci.blogspot.com/" target="_blank"> Michał Margiel</a></p>\n            <p>29.09.2009<a href="#/meeting/52"> Kickstart w tworzeniu aplikacji webowej z AppFuse i pomocnikami</a> -<a href="http://blog.erbetowski.pl/" target="_blank"> Wojtek Erbetowski</a></p>\n            <p>15.09.2009<a href="#/meeting/51"> Ognisty Serwer, smaczny Klient. Openfire i Smack - tworzenie wtyczek i rozszerzeń serwera/klienta Jabbera</a> - Bartek Zdanowski (Zdanek)</p>\n            <p>23.06.2009<a href="#/meeting/50"> Spring Roo</a> - Andrzej Wisłowski</p>\n            <p>09.09.2009<a href="#/meeting/49"> Praktyki Zwinnego Programisty</a> -<a href="http://www.pawellipinski.com/" target="_blank"> Paweł Lipiński</a></p>\n            <p>26.05.2009<a href="#/meeting/48"> DWR wprowadzenie</a> - Filip Matuszewski</p>\n            <p>12.05.2009<a href="#/meeting/47"> Java dla pokolenia YouTube</a> -<a href="http://www.jakubiak.eu" target="_blank"> Antoni Jakubiak</a></p>\n            <p>27.04.2009<a href="#/meeting/46"> Extending Java and developing DSLs with JetBrains MPS open source language workbench</a> -<a href="http://solomatov.wordpress.com/" target="_blank"> Konstantin Solomatov</a></p>\n            <p>14.04.2009<a href="#/meeting/45"> JavaFX - Imperium kontratakuje</a> -<a href="http://koziolekweb.pl/" target="_blank"> Bartek "Koziolek" Kuczyński</a></p>\n            <p>31.03.2009<a href="#/meeting/44"> Java dla dużych chłopców, czyli Lego Mindstorms i leJOS</a> -<a href="http://blog.kunicki.org/" target="_blank"> Jacek Kunicki</a></p>\n            <p>17.03.2009<a href="#/meeting/43"> Domain-Driven Design</a> -<a href="http://www.pawellipinski.com/" target="_blank"> Paweł Lipiński</a></p>\n            <p>03.03.2009<a href="#/meeting/42"> Zwinne i lekkie aplikacje webowe z Grails</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>17.02.2009<a href="#/meeting/41"> Envers</a> -<a href="http://www.warski.org/" target="_blank"> Adam Warski</a></p>\n            <p>03.02.2009<a href="#/meeting/40"> Liferay / WebSynergy - portal (miś) na miarę naszych możliwości</a> - Piotr Pietrzak</p>\n            <p>20.01.2009<a href="#/meeting/39"> Coś między ORM a JDBC, czyli iBATIS Data Mapper</a> -<a href="http://www.mariuszlipinski.pl/" target="_blank"> Mariusz Lipiński</a></p>\n            <p>06.01.2009<a href="#/meeting/38"> Spring Batch</a> -<a href="http://www.goldenline.pl/jacek-lis" target="_blank"> Jacek Lis</a></p>\n            <p>02.12.2008<a href="#/meeting/37"> Java Native Interface, czyli dlaczego Java jest zależna od platformy</a> - Damian Szczepanik</p>\n            <p>28.10.2008<a href="#/meeting/36"> JBoss Enterprise Service Bus - Connecting Systems</a> -<a href="http://www.linkedin.com/in/jaroslawkijanowski" target="_blank"> Jarosław Kijanowski</a></p>\n            <p>14.10.2008<a href="#/meeting/35"> Wstęp do Drools/JBoss Rules</a> - Bartek Jabłoński</p>\n            <p>30.09.2008<a href="#/meeting/34"> Podstawy języków formalnych, ANTLR i ANTLRWorks</a> -<a href="http://szimano.org/" target="_blank"> Tomek Szymański (aka szimano)</a></p>\n            <p>16.09.2008<a href="#/meeting/33"> LDAP - czyli kiedy relacyjna baza danych nie jest najlepszym rozwiązaniem</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>17.06.2008<a href="#/meeting/32"> 30 minut z...Eclipse RCP, BugDay - "poprawianie" Eclipse oraz Apache Geronimo - serwer Java EE 5 i projekt ASF</a> - Michał (migi) Grzejszczak,<a href="http://www.jaceklaskowski.pl" target="_blank"> Jacek Laskowski</a>,<a href="http://www.lenart.org.pl" target="_blank"> Łukasz Lenart</a></p>\n            <p>13.05.2008<a href="#/meeting/31"> Apache Wicket w przykładach</a> -<a href="http://www.jaceklaskowski.pl" target="_blank"> Jacek Laskowski</a></p>\n            <p>29.04.2008<a href="#/meeting/30"> Apache Struts2</a> -<a href="http://www.lenart.org.pl" target="_blank"> Łukasz Lenart</a></p>\n            <p>15.04.2008<a href="#/meeting/29"> Zastrzyk z soku, czyli Google Guice</a> - Tomasz Szymański (szimano)</p>\n            <p>01.04.2008<a href="#/meeting/28"> Java w zastosowaniach bazodanowych</a> - Piotr Pietrzak</p>\n            <p>18.03.2008<a href="#/meeting/27"> Programowanie Java Portlets (JSR 168/286/301)</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>04.03.2008<a href="#/meeting/26"> Automatyzacja testów webowych</a> - Tomek Kaczanowski</p>\n            <p>27.02.2008<a href="#/meeting/25"> Intellij IDEA and TeamCity - productivity and innovation today</a> - Vaclav Pech (JetBrains)</p>\n            <p>19.02.2008<a href="#/meeting/24"> Technologia Portali Java na przykładzie JBoss Portal</a> -<a href="http://bdawidowicz.blogspot.com" target="_blank"> Bolesław Dawidowicz</a></p>\n            <p>05.02.2008<a href="#/meeting/23"> Przetwarzanie zdarzeniowe (a także o Spring, Spring-DM, OSGi i aplikacjach real-time w Java)</a> - Waldemar Kot (Waldi)</p>\n            <p>22.01.2008<a href="#/meeting/22"> JavaFX</a> - Bartek "koziołek" Kuczyński /<a href="http://www.holewa.org" target="_blank"> Radosław Holewa</a></p>\n            <p>08.01.2008<a href="#/meeting/21"> Okiełznąć Mavena 2</a> - Piotr Tabor</p>\n            <p>18.12.2007<a href="#/meeting/20"> EJB 3.0 z JPA 1.0 w POPie (Pytania i Odpowiedzi z Przykładami) 2.0</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>04.12.2007<a href="#/meeting/19"> EJB 3.0 z JPA 1.0 w POPie (Pytania i Odpowiedzi z Przykładami)</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>30.10.2007<a href="#/meeting/18"> JSF - Pytania i Odpowiedzi przez Przykłady</a> -<a href="http://blog.mocna-kawa.com" target="_blank"> Wiktor Gworek</a>,<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>16.10.2007<a href="#/meeting/17"> Jak to zrobić w Seamie?</a> - Paweł Wrzeszcz</p>\n            <p>02.10.2007<a href="#/meeting/16"> Integracja JSF + Facelets + Spring + JPA + Tomahawk</a> -<a href="http://blog.mocna-kawa.com" target="_blank"> Wiktor Gworek</a></p>\n            <p>18.09.2007<a href="#/meeting/15"> Wykorzystanie siły Aspect-Oriented Programming (AOP) w projektach komercyjnych</a> - Bartosz Szkudlarek</p>\n            <p>31.07.2007<a href="#/meeting/14"> Testy jednostkowe - techniki i wyzwania</a> - Tomasz Kaczanowski</p>\n            <p>17.07.2007<a href="#/meeting/13"> Java Persistence 1.0 (JPA) i środowisko do praktycznego poznawania specyfikacji</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>03.07.2007<a href="#/meeting/12"> Open Terracotta - klastrowanie dla Javy</a> - Michał Grzejszczak</p>\n            <p>05.06.2007<a href="#/meeting/11"> Tworzenie aplikacji graficznych z SWT i JFace</a> -<a href="http://blog.dywicki.pl/" target="_blank"> Łukasz Dywicki</a></p>\n            <p>22.05.2007<a href="#/meeting/10"> Języki skryptowe w Javie 1.6 (JSR 223) w praktyce</a> - Jakub Kaniewski</p>\n            <p>08.05.2007<a href="#/meeting/9"> JBoss Ajax4jsf czyli zAJAXuj swoją aplikację</a> - Tomasz Szymański</p>\n            <p>03.04.2007<a href="#/meeting/8"> Dlaczego warto (po)znać Apache Cocoon 2.2</a> - Grzegorz Kossakowski</p>\n            <p>20.03.2007<a href="#/meeting/7"> Miesięczna ewaluacja Google Web Toolkit (GWT) - i co, fajne?</a> -<a href="http://www.margiel.com/" target="_blank"> Michał Margiel</a></p>\n            <p>06.03.2007<a href="#/meeting/6"> Rich Internet Applications (RIA) na przykładzie technologii Adobe Flex z Java EE w tle</a> - Bartek Soin</p>\n            <p>20.02.2007<a href="#/meeting/5"> Wprowadzenie do JBoss Seam</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>06.02.2007<a href="#/meeting/4"> Ruby on Rails - (godzinna) demonstracja możliwości</a> - Sebastian Pietrowski</p>\n            <p>09.01.2007<a href="#/meeting/3"> Co nowego i dobrego w Enterprise JavaBeans 3.0</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>05.12.2006<a href="#/meeting/2"> Tworzenie aplikacji Java EE 5 z wykorzystaniem Apache Maven 2</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n            <p>07.11.2006<a href="#/meeting/1"> Apache Geronimo</a> -<a href="http://www.jaceklaskowski.pl/" target="_blank"> Jacek Laskowski</a></p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="liders" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section liders_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>liderzy</h1>\n            <p>Jak we wszystkich dobrych projektach Open Source, w organizację eventów grupy zaangażowane jest sporo osób. Poniżej lista z namiarami i zakresami odpowiedzialności</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="/#/meetings" title="Spotkania cykliczne WJUG">spotkania cykliczne</a></h3>\n            <p>kontakt:<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a></p>\n            <p>Odpowiadają za organizację cyklicznych spotkań WJUG, agendę spotkań, prelegentów, sponsorów i masę innych rzeczy</p>\n            <p><a href="http://bandrzejczak.com" target="_blank">Bartek Andrzejczak</a></p>\n            <p>Damian Leszczyński</p>\n            <p><a href="http://tomaszdziurko.pl" target="_blank">Tomasz Dziurko</a></p>\n            <p>Mateusz Waś</p>\n          </div>\n          <div class="span4">\n            <h3>kapituła<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitury</a></h3>\n            <p>kontakt:<a href="mailto:confitura@confitura.pl"> confitura@confitura.pl</a></p>\n            <p>Odpowiada za organizację największej, bezpłatnej konferencji w Polsce, sponsorów, prelegentów, i masę innych rzeczy</p>\n            <p><a href="https://www.linkedin.com/in/arturowczarek/" target="_blank">Artur Owczarek</a></p>\n            <p><a href="https://www.linkedin.com/in/dominik-wiernicki-18222430/" target="_blank">Dominik Wiernicki</a></p>\n            <p><a href="http://bartekzdanowski.blogspot.com/" target="_blank">Bartek Zdanowski</a></p>\n            <p><a href="https://www.linkedin.com/in/krzysiekkoziol/" target="_blank">Krzysztof Kozioł</a></p>\n            <p><a href="http://www.lenart.org.pl/" target="_blank">Łukasz Lenart</a></p>\n            <p><a href="http://poligloci.blogspot.com/" target="_blank">Michał Margiel</a></p>\n            <p><a href="https://www.linkedin.com/in/ida-bzowska-385901119/" target="_blank">Ida Bzowska</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://jinkubator.pl" title="Jinkubator" target="_blank">Jinkubator</a></h3>\n            <p>kontakt:<a href="mailto:jinkubator-admin@googlegroups.com"> jinkubator-admin@googlegroups.com</a></p>\n            <p>Odpowiadają za spotkania Jinkubator, ich program, zapraszanie/akceptowanie prelegentów, obsługę/szukanie sponsorów</p>\n            <p>Artur Owczarek</p>\n            <p><a href="https://twitter.com/alien11689" target="_blank">Dominik Przybysz</a></p>\n            <p>Karol Żmuda</p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="http://wjbug.pl/" target="_blank">Warsaw JBoss User Group</a></h3>\n            <p>Odpowiadają za organizację prezentacji i warsztatów dotyczących technologii oraz produktów marki JBoss / Red Hat</p>\n            <p><a href="https://twitter.com/andiPansa" target="_blank">Andrzej Goławski</a></p>\n            <p><a href="http://bdawidowicz.blogspot.com/" target="_blank">Bolesław Dawidowicz</a></p>\n            <p><a href="https://twitter.com/KrzysztofMiksa" target="_blank">Krzysztof Miksa</a></p>\n            <p>Marek Kapowicki</p>\n            <p><a href="http://www.harasymczuk.pl/" target="_blank">Matt Harasymczuk</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://www.meetup.com/Warsaw-Spring-Labs" title="Spring Labs" target="_blank">Spring Labs</a></h3>\n            <p>kontakt:<a href="http://www.meetup.com/Warsaw-Spring-Labs" target="_blank"> meetup Spring Labs</a></p>\n            <p>Odpowiadają za organizację warsztatów ze Springa</p>\n            <p>Adam Chudzik</p>\n            <p><a href="https://twitter.com/dkaczynski" target="_blank">Dariusz Kaczyński</a></p>\n            <p><a href="https://twitter.com/mihn" target="_blank">Michał Niczyporuk</a></p>\n          </div>\n          <div class="span4">\n            <h3><a href="http://koduj.com/" title="Koduj.com" target="_blank">Koduj.com (dawniej Devoxx4Kids)</a></h3>\n            <p>Odpowiadają za organizację warsztatów programistycznych dla dzieci</p>\n            <p>Damian Leszczyński</p>\n            <p><a href="https://twitter.com/mkiedys" target="_blank">Michał Kiędyś</a></p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3><a href="http://www.meetup.com/Warsaw-Groovy-User-Group/" target="_blank">Warsaw Groovy User Group</a></h3>\n            <p>Odpowiadają za organizację prezentacji i warsztatów dotyczących technologii związanych z językiem Groovy</p>\n            <p><a href="http://solidcraft.eu" target="_blank">Jakub Nabrdalik</a></p>\n            <p><a href="http://www.marcin.grzejszczak.pl/" target="_blank">Marcin Grzejszczak</a></p>\n            <p><a href="http://szimano.org/" target="_blank">Tomasz Szymański</a></p>\n          </div>\n          <div class="span4">\n            <h3>sponsoring/partnerzy</h3>\n            <p>Odpowiadają za kontakt z firmami i instytucjami zainteresowanymi wsparciem oraz współpracą z naszym JUG-iem</p>\n            <p><a href="http://blog.piotrturski.net/" target="_blank">Piotr Turski</a></p>\n          </div>\n        </div>\n        <div class="row">\n          <div class="span4">\n            <h3>sale</h3>\n            <p>Odpowiada za rezerwację sal</p>\n            <p><a href="http://tomaszdziurko.pl" target="_blank">Tomasz Dziurko</a></p>\n          </div>\n          <div class="span4">\n            <h3>zasłużeni dla WJUG</h3>\n            <p>Chcąc upamiętnić osoby, które włożyły masę pracy i pozytywnych wibracji w rozwój grupy, grupa odznaczyła następujące osoby tytułem<b> honorowego lidera</b></p>\n            <p><a href="http://pawel.wrzesz.cz/" target="_blank">Paweł Wrzeszcz</a></p>\n            <p><a href="http://szimano.org/" target="_blank">Tomasz Szymański</a></p>\n            <p><a href="http://jaceklaskowski.pl/" target="_blank">Jacek Laskowski</a></p>\n            <p><a href="http://www.lenart.org.pl/" target="_blank">Łukasz Lenart</a></p>\n            <p><a href="http://erbetowski.pl/" target="_blank">Wojtek Erbetowski</a></p>\n            <p>Agnieszka Skiba</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="cooperation" scroll-spy="scroll-spy" page="1" class="section simple_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span12">\n            <h1>Współpraca z firmami</h1>\n            <p>Prowadząc wiele inicjatyw związanych z organizacją konferencji (<a href="http://confitura.pl" title="Confitura" target="_blank">Confitura</a>), cyklicznych spotkań dla programistów (<a href="/#/meetings" title="Spotkania cykliczne WJUG">spotkania WJUG</a>,<a href="http://jinkubator.pl" title="Jinkubator" target="_blank"> Jinkubator</a>, Scalania,<a href="http://www.meetup.com/Warsaw-Spring-Labs" title="Spring Labs" target="_blank"> Spring Labs</a>) oraz warsztatów i projektów tematycznych (<a href="http://devoxx4kids.pl/" title="Devoxx4Kids" target="_blank">Devoxx4Kids</a>) oferujemy firmom zainteresowanym współpracą z WJUG szereg możliwości.</p>\n          </div>\n          <div class="span6">\n            <h1>sponsorowanie spotkania</h1>\n            <p>Najprostszą formą współpracy jest sponsorowanie jednego ze spotkań. Wystarczy skontaktować się z<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a>, by uzyskać szczegółowe informacje.</p>\n            <p>Sponsoring może przybierać rożne formy. Najmniej wymagającą jest wpłata określonej kwoty (wystawiamy fakturę VAT), ale gorąco zachęcamy do fundowania biletów na konferencję (np. do rozlosowania pośród uczestników czy w ramach konkursu), materiałów do nauki (książek, kursów, szkoleń) oraz przydatnych narzędzi (np. licencji na środowiska deweloperskie).</p>\n            <p>W zamian udostępniamy dla sponsora rozpoczęcie spotkania, umożliwiamy rozstawienie materiałów promocyjnych, zamieszczamy informację o współpracy i logo sponsora na stronie spotkania oraz rozgłaszamy je we wszystkich kanałach społecznościowych. Istnieje również możliwość rozdania ulotek firmowych sponsora.</p>\n            <p>Na prezentację podczas otwarcia spotkania przeznaczamy 10 minut. Sądzimy, że krótkie wprowadzenie o obszarach działalności firmy i jej oczekiwaniach rynkowych oraz ofert pracy znacząco zwiększa możliwości pozyskania wartościowych pracowników z szeregów naszej grupy i później, po opublikowaniu nagrania ze spotkania.</p>\n            <p>Zwracamy uwagę na tzw. "gęstość informacji". Z przyjemnością poświęcimy kilkanaście minut, żeby dowiedzieć się, czy w danej firmie warto pracować. Ważne są technologie, tematy projektów, stawki, nadgodziny, czy w okolicy jest dobre jedzenie, czy w godzinach pracy mogę pójść do lekarza lub odebrać dziecko z przedszkola, narzędzia i metodologia pracy, czy mogę pracować z domu, ścieżka kariery, i tym podobne.</p>\n            <p>Zachęcamy do delegowania na nasze spotkania osób technicznych.</p>\n          </div>\n          <div class="span6">\n            <h1>sponsorowanie konferencji</h1>\n            <p>Kolejną formą współpracy jest sponsorowanie konferencji<a href="http://confitura.pl" title="Confitura" target="_blank"> Confitura</a>, która odbywa się zwyczajowo w lipcu.\n               Szczegółowe warunki współpracy można ustalić poprzez skontaktowanie się z kapitułą Confitury:<a href="mailto:confitura@confitura.pl"> confitura@confitura.pl</a>.\n            </p>\n            <h1>oferty-pracy-java</h1>\n            <p>Jeszcze inną formą dotarcia do członków grupy jest ogłoszenie na ogólnopolskiej liście<a href="https://groups.google.com/forum/?fromgroups#!forum/oferty-pracy-java" title="oferty-pracy-java" target="_blank"> oferty-pracy-java</a>. Po wysłaniu na powyższy adres ogłoszenie podlega moderacji (wymagania odnośnie ogłoszenia w paragrafie poniżej). Moderacja może zająć do kilku dni. W razie wątpliwości pytania można kierować mailowo na<a href="mailto:wjug-regular-meetings@googlegroups.com"> wjug-regular-meetings@googlegroups.com</a>.</p>\n            <p>Każdy mail z ofertą pracy powinien zawierać w tytule [OFERTA] z podaniem nazwy stanowiska, miastem oraz widełkami płacowymi - przykładowe oferty można podejrzeć w archiwum<a href="https://groups.google.com/forum/?fromgroups#!forum/oferty-pracy-java" title="oferty-pracy-java" target="_blank"> oferty-pracy-java</a>. Wiadomość podlega moderacji.</p>\n            <p>Wszelkie odstępstwa od tej reguły wiążą się z usunięciem nadawcy z grupy.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div id="partners" scroll-spy="scroll-spy" parallax="0.3" page="1" class="section partners_background">\n    <div class="centered">\n      <div class="container">\n        <div class="row">\n          <div class="span6 text-center">\n            <h1>miejsce do spotkań mamy dzięki</h1>\n            <p><a href="http://www.mimuw.edu.pl/" target="_blank"><img src="img/partners/mimuw-logo.png" width="200" class="margin-small"/></a></p>\n          </div>\n          <div class="span6 text-center">\n            <h1>wejściówki na warsztat sponsoruje</h1>\n            <p><a href="http://www.stacja.it/" target="_blank"><img src="img/sponsors/stacja-it-inv.png" width="230"/></a></p>\n          </div>\n        </div>\n        <div class="row margin-medium">\n          <div class="span6 text-center">\n            <h1>licencje sponsoruje</h1>\n            <p><a href="http://www.jetbrains.com/idea" target="_blank" class="margin-side"><img src="img/partners/jetbrains.png" width="160"/></a><a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank" class="margin-side"><img src="img/partners/jprofiler.png" width="250"/></a></p>\n          </div>\n          <div class="span6 text-center">\n            <h1>książki sponsoruje</h1>\n            <p><a href="http://www.decerto.pl/" target="_blank"><img src="img/sponsors/decerto-inv.png" width="280" class="margin-large"/></a></p>\n          </div>\n        </div>\n        <div class="row margin-medium">\n          <div class="span12 text-center">\n            <h1>oferty pracy dostarcza</h1>\n            <p><a href="https://nofluffjobs.com" target="_blank" title="nofluffjobs - oferty pracy dla specjalistow IT"><img src="img/partners/no-fluff-jobs-inv.png" width="380" alt="nofluffjobs - oferty praca dla informatykow" class="margin-small"/></a></p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>');
 }
 return buf.join("");
 };module.exports = function anonymous(locals, attrs, escape, rethrow, merge
-/*``*/) {
+/**/) {
 attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
 var buf = [];
 with (locals || {}) {
